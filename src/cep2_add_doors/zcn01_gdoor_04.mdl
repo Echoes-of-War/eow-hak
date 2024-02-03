@@ -1,0 +1,1215 @@
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel zcn01_gdoor_04
+setsupermodel zcn01_gdoor_04 null
+setanimationscale 1
+classification DOOR
+#MAXGEOM ASCII
+beginmodelgeom zcn01_gdoor_04
+node dummy zcn01_gdoor_04
+  parent NULL
+endnode
+node dummy tin01_b13_09
+  parent zcn01_gdoor_04
+  position -0.6 0 -1.46485e-006
+  wirecolor 0.223529 0.0313726 0.533333
+  orientation 0 0 0 0
+endnode
+node trimesh box55
+  parent tin01_b13_09
+  position 0.6 2.14527e-006 1.46485e-006
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  transparencyhint 0
+  center 0 -6.98566e-005 119.709
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 31
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap tps01_pipe02
+  orientation 0 0 0 0
+  shadow 0
+  verts 18
+    -0.6 0.0599973 2.39417
+    -0.6 -0.0599972 2.39417
+    0.00647652 -0.0599993 2.39417
+    0.00647652 0.0599988 2.39417
+    0.6 -0.0600012 2.39417
+    0.6 0.0599998 2.39417
+    0.6 0.0599998 1.13587
+    0.6 -0.0600012 1.13587
+    -0.6 -0.0599948 1.12259
+    -0.6 0.0599997 1.12259
+    -0.6 0.0599973 0
+    -0.6 -0.0599977 0
+    2.97547e-007 -0.0600006 1.11983
+    0.00647622 -0.0599996 0
+    0.6 -0.0600012 0
+    0.6 0.0599998 0
+    0.00647622 0.0599965 0
+    3.0899e-007 0.0599975 1.11983
+  faces 28
+    0 1 2 1 17 18 19 1
+    2 3 0 1 19 20 17 1
+    2 4 5 1 19 21 4 1
+    5 3 2 1 4 20 19 1
+    6 5 7 2 6 22 7 4
+    4 7 5 2 1 7 22 4
+    8 9 10 2 23 8 24 3
+    10 11 8 2 24 25 23 3
+    8 1 0 2 23 26 27 3
+    9 8 0 2 8 23 27 3
+    2 12 13 4 2 12 13 5
+    13 14 7 4 13 21 28 5
+    7 4 2 4 28 4 2 5
+    13 7 2 4 13 28 2 5
+    3 5 6 4 3 5 29 5
+    6 15 16 4 29 30 15 5
+    16 17 3 4 31 12 32 5
+    6 16 3 4 29 15 3 5
+    15 6 14 2 14 6 11 4
+    7 14 6 2 7 11 6 4
+    11 13 12 4 11 13 12 5
+    12 8 11 4 12 8 11 5
+    8 12 1 4 8 12 1 5
+    2 1 12 4 2 1 12 5
+    9 17 10 4 9 16 10 5
+    16 10 17 4 15 10 16 5
+    3 17 0 4 3 16 0 5
+    9 0 17 4 9 0 16 5
+  tverts 33
+    0.00429786 1.00433 0
+    0.00394529 1.00433 0
+    0.227236 1.00433 0
+    0.227588 1.00433 0
+    0.445757 1.00433 0
+    0.44611 1.00433 0
+    0.0472055 0.502926 0
+    0.00394538 0.502926 0
+    0.00394529 0.498228 0
+    0.00429786 0.498228 0
+    0.00429786 0.00533046 0
+    0.00394529 0.00533046 0
+    0.224851 0.497249 0
+    0.227235 0.00533046 0
+    0.0472057 0.00533046 0
+    0.227588 0.00533046 0
+    0.225204 0.497249 0
+    0.00394529 1.00431 0
+    0.00394529 0.00536611 0
+    0.227236 0.00534742 0
+    0.227236 1.00432 0
+    0.445757 0.00533046 0
+    0.0472058 1.00433 0
+    0.054428 0.498228 0
+    0.00395402 0.00533046 0
+    0.0544386 0.00533046 0
+    0.0544368 1.00433 0
+    0.00395423 1.00433 0
+    0.445757 0.502926 0
+    0.44611 0.502926 0
+    0.44611 0.00533046 0
+    0.222467 0.00533046 0
+    0.222467 1.00433 0
+endnode
+node trimesh box08
+  parent box55
+  position 0.416798 -0.0768138 1.51142
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  transparencyhint 0
+  center 0 -0.880685 -4.48225
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 31
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap tps01_pipe02
+  orientation 0 0 0 0
+  verts 8
+    -0.0252972 0.0158393 0
+    -0.0252972 -0.033453 0
+    0.0252972 0.0158393 0
+    0.0252972 -0.033453 0
+    0.0252972 -0.033453 -0.0896451
+    -0.0252972 -0.033453 -0.0896451
+    0.0252972 0.0158393 -0.0896451
+    -0.0252972 0.0158393 -0.0896451
+  faces 10
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    3 1 4 2 3 1 2 5
+    5 4 1 2 0 2 1 5
+    2 3 6 4 3 1 2 4
+    4 6 3 4 0 2 1 4
+    0 2 7 2 3 1 2 6
+    6 7 2 2 0 2 1 6
+    1 0 5 4 3 1 2 3
+    7 5 0 4 0 2 1 3
+  tverts 4
+    0.0590372 0.648124 0
+    0.0590372 0.827464 0
+    0.210747 0.648124 0
+    0.210747 0.827464 0
+endnode
+node trimesh box48
+  parent box55
+  position 0.416798 0.0944423 1.51142
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  transparencyhint 0
+  center 0 -0.88189 -4.48225
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 31
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap tps01_pipe02
+  orientation 0 0 0 0
+  verts 8
+    -0.0252972 0.0158273 0
+    -0.0252972 -0.0334651 0
+    0.0252972 -0.0334651 0
+    0.0252972 0.0158273 0
+    0.0252972 0.0158273 -0.0896451
+    -0.0252972 0.0158273 -0.0896451
+    0.0252972 -0.0334651 -0.0896451
+    -0.0252972 -0.0334651 -0.0896451
+  faces 10
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    0 3 4 2 0 3 2 5
+    4 5 0 2 2 1 0 5
+    3 2 6 4 0 3 2 4
+    6 4 3 4 2 1 0 4
+    2 1 7 2 0 3 2 6
+    7 6 2 2 2 1 0 6
+    1 0 5 4 0 3 2 3
+    5 7 1 4 2 1 0 3
+  tverts 4
+    0.0590372 0.827464 0
+    0.0590372 0.648124 0
+    0.210747 0.648124 0
+    0.210747 0.827464 0
+endnode
+node trimesh torus01
+  parent box55
+  position 0.419 -0.0856742 1.35033
+  orientation 0.57735 -0.57735 0.57735 -4.18879
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  transparencyhint 0
+  center 0 0 0
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap zkc01_fwood12
+  ambient 1 1 1
+  diffuse 1 1 1
+  verts 18
+    0 0.155851 0
+    0.10001 0.057741 0.0233068
+    0.134971 0.077925 0
+    0 0.115482 0.0233068
+    0.10001 0.057741 -0.0233068
+    0 0.115482 -0.0233068
+    0.10001 -0.057741 0.0233068
+    0.134971 -0.077925 0
+    0.10001 -0.057741 -0.0233068
+    0 -0.115482 0.0233068
+    0 -0.155851 0
+    0 -0.115482 -0.0233068
+    -0.10001 -0.0577409 0.0233068
+    -0.134971 -0.077925 0
+    -0.10001 -0.0577409 -0.0233068
+    -0.10001 0.057741 0.0233068
+    -0.134971 0.077925 0
+    -0.10001 0.057741 -0.0233068
+  faces 34
+    0 1 2 1 0 1 2 1
+    0 3 1 1 0 3 1 1
+    3 4 1 1 3 4 1 1
+    3 5 4 1 3 5 4 1
+    5 2 4 1 5 6 4 1
+    5 0 2 1 5 7 6 1
+    2 6 7 1 2 8 9 1
+    2 1 6 1 2 1 8 1
+    4 7 8 1 4 10 11 1
+    4 2 7 1 4 6 10 1
+    7 9 10 1 9 12 13 1
+    7 6 9 1 9 8 12 1
+    6 11 9 1 8 14 12 1
+    6 8 11 1 8 11 14 1
+    8 10 11 1 11 15 14 1
+    8 7 10 1 11 10 15 1
+    10 12 13 1 13 16 17 1
+    10 9 12 1 13 12 16 1
+    9 14 12 1 12 18 16 1
+    9 11 14 1 12 14 18 1
+    11 13 14 1 14 19 18 1
+    11 10 13 1 14 15 19 1
+    13 15 16 1 17 20 21 1
+    13 12 15 1 17 16 20 1
+    12 17 15 1 16 22 20 1
+    12 14 17 1 16 18 22 1
+    14 16 17 1 18 23 22 1
+    14 13 16 1 18 19 23 1
+    16 3 0 1 21 24 25 1
+    16 15 3 1 21 20 24 1
+    15 5 3 1 20 26 24 1
+    15 17 5 1 20 22 26 1
+    17 0 5 1 22 27 26 1
+    17 16 0 1 22 23 27 1
+  tverts 28
+    0.896455 0.427914 0
+    0.944596 0.225835 0
+    0.897564 0.226656 0
+    0.943488 0.427093 0
+    0.896913 0.226668 0
+    0.895804 0.427926 0
+    0.943945 0.225847 0
+    0.942836 0.427105 0
+    0.94346 0.425494 0
+    0.896427 0.426315 0
+    0.942808 0.425505 0
+    0.895776 0.426326 0
+    0.944568 0.224236 0
+    0.897536 0.225057 0
+    0.896885 0.225068 0
+    0.943917 0.224247 0
+    0.943432 0.423895 0
+    0.896399 0.424716 0
+    0.895748 0.424727 0
+    0.94278 0.423906 0
+    0.944541 0.222637 0
+    0.897508 0.223458 0
+    0.896857 0.223469 0
+    0.943889 0.222648 0
+    0.943404 0.422296 0
+    0.896372 0.423117 0
+    0.89572 0.423128 0
+    0.942752 0.422307 0
+endnode
+node trimesh torus02
+  parent box55
+  position 0.419 0.0855819 1.35033
+  orientation 0.57735 -0.57735 0.57735 -4.18879
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  transparencyhint 0
+  center 0 0 -0.00952995
+  specular 0 0 0
+  shininess 11
+  selfillumcolor 0 0 0
+  alpha 1
+  bitmap zkc01_fwood12
+  ambient 1 1 1
+  diffuse 1 1 1
+  verts 18
+    0.10001 0.057741 -0.0234021
+    0 0.155851 -9.52753e-005
+    0.134971 0.077925 -9.52726e-005
+    0 0.115482 -0.0234021
+    0.10001 0.057741 0.0232115
+    0 0.115482 0.0232115
+    0.10001 -0.057741 -0.0234021
+    0.134971 -0.077925 -9.52717e-005
+    0.10001 -0.057741 0.0232115
+    0 -0.115482 -0.0234021
+    0 -0.155851 -9.52734e-005
+    0 -0.115482 0.0232115
+    -0.10001 -0.0577409 -0.0234021
+    -0.134971 -0.077925 -9.52761e-005
+    -0.10001 -0.0577409 0.0232115
+    -0.10001 0.057741 -0.0234021
+    -0.134971 0.077925 -9.52771e-005
+    -0.10001 0.057741 0.0232115
+  faces 34
+    0 1 2 1 0 1 2 1
+    3 1 0 1 3 1 0 1
+    4 3 0 1 4 3 0 1
+    5 3 4 1 5 3 4 1
+    2 5 4 1 6 5 4 1
+    1 5 2 1 7 5 6 1
+    6 2 7 1 8 2 9 1
+    0 2 6 1 0 2 8 1
+    7 4 8 1 10 4 11 1
+    2 4 7 1 6 4 10 1
+    9 7 10 1 12 9 13 1
+    6 7 9 1 8 9 12 1
+    11 6 9 1 14 8 12 1
+    8 6 11 1 11 8 14 1
+    10 8 11 1 15 11 14 1
+    7 8 10 1 10 11 15 1
+    12 10 13 1 16 13 17 1
+    9 10 12 1 12 13 16 1
+    14 9 12 1 18 12 16 1
+    11 9 14 1 14 12 18 1
+    13 11 14 1 19 14 18 1
+    10 11 13 1 15 14 19 1
+    15 13 16 1 20 17 21 1
+    12 13 15 1 16 17 20 1
+    17 12 15 1 22 16 20 1
+    14 12 17 1 18 16 22 1
+    16 14 17 1 23 18 22 1
+    13 14 16 1 19 18 23 1
+    3 16 1 1 24 21 25 1
+    15 16 3 1 20 21 24 1
+    5 15 3 1 26 20 24 1
+    17 15 5 1 22 20 26 1
+    1 17 5 1 27 22 26 1
+    16 17 1 1 23 22 27 1
+  tverts 28
+    0.944596 0.225835 0
+    0.896455 0.427914 0
+    0.897564 0.226656 0
+    0.943488 0.427093 0
+    0.896913 0.226668 0
+    0.895804 0.427926 0
+    0.943945 0.225847 0
+    0.942836 0.427105 0
+    0.94346 0.425494 0
+    0.896427 0.426315 0
+    0.942808 0.425505 0
+    0.895776 0.426326 0
+    0.944568 0.224236 0
+    0.897536 0.225057 0
+    0.896885 0.225068 0
+    0.943917 0.224247 0
+    0.943432 0.423895 0
+    0.896399 0.424716 0
+    0.895748 0.424727 0
+    0.94278 0.423906 0
+    0.944541 0.222637 0
+    0.897508 0.223458 0
+    0.896857 0.223469 0
+    0.943889 0.222648 0
+    0.943404 0.422296 0
+    0.896372 0.423117 0
+    0.89572 0.423128 0
+    0.942752 0.422307 0
+endnode
+node trimesh sam
+  parent zcn01_gdoor_04
+  position -0.6 -0.0083617 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  transparencyhint 0
+  center 0.797015 -60.3739 89.0999
+  specular 0 0 0
+  shininess 6
+  selfillumcolor 0 0 1
+  alpha 0
+  bitmap NULL
+  ambient 1 1 1
+  diffuse 1 1 1
+  verts 8
+    -0.0069039 -0.00373746 -1.09863e-006
+    -0.0069039 -1.20374 -1.09863e-006
+    -0.0069039 -1.20374 1.782
+    -0.0069039 -0.00373746 1.782
+    0.0228442 -1.20374 -1.09863e-006
+    0.0228442 -0.00373746 -1.09863e-006
+    0.0228442 -1.20374 1.782
+    0.0228442 -0.00373746 1.782
+  faces 4
+    0 1 2 1 0 1 2 18
+    2 3 0 1 2 3 0 18
+    4 5 6 1 1 0 2 18
+    7 6 5 1 3 2 0 18
+  tverts 4
+    0.000499517 0.000499666 0
+    0.49427 0.000499547 0
+    0.494271 0.876312 0
+    0.000499815 0.876312 0
+endnode
+node emitter fire!15
+  parent zcn01_gdoor_04
+  position -0.000977052 -0.00637758 0.557343
+  orientation 1 0 0 -3.14159
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype 0
+  iconSize 100
+  xsize 100
+  ysize 99
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  colorStart 0.47451 0.439216 0.364706
+  colorEnd 0.819608 0.796079 0.709804
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  opacity 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy zcn01_gdoor_04head
+  parent zcn01_gdoor_04
+  position 0 0 1.50038
+  wirecolor 0.337255 0.337255 0.337255
+  orientation 0 0 0 0
+endnode
+node dummy zcn01_gdoor_04hhit
+  parent zcn01_gdoor_04
+  position 0 0 1.30504
+  wirecolor 0.341176 0.878431 0.776471
+  orientation 0 0 0 0
+endnode
+node dummy zcn01_gdoor_04impc
+  parent zcn01_gdoor_04
+  position 0 0 0.981888
+  wirecolor 0.341176 0.878431 0.776471
+  orientation 0 0 0 0
+endnode
+node dummy zcn01_gdoor_04grnd
+  parent zcn01_gdoor_04
+  position 0 0 0
+  wirecolor 0.341176 0.878431 0.776471
+  orientation 0 0 0 0
+endnode
+endmodelgeom zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim closed zcn01_gdoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim closed zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim closing1 zcn01_gdoor_04
+  length 0.666667
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    orientationkey
+      0 0 0 1 -1.33518
+      0.0333333 0 0 1 -1.33518
+      0.166667 0 0 1 -1.26422
+      0.366667 0 0 1 -0.967843
+      0.5 0 0 1 -0.06952
+      0.566667 0 0 0 0
+      0.666667 0 0 0 0
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim closing1 zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim closing2 zcn01_gdoor_04
+  length 0.633333
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    positionkey
+      0 -0.6 0 -1.46485e-006
+      0.633333 -0.6 0 -1.46485e-006
+    endlist
+    orientationkey
+      0 0 0 -1 -1.33517
+      0.0333333 0 0 -1 -1.33517
+      0.166667 0 0 -1 -1.26421
+      0.366667 0 0 -1 -0.96783
+      0.5 0 0 -1 -0.0695101
+      0.633333 0 0 0 0
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim closing2 zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim dead zcn01_gdoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    positionkey
+      0 0.15773 0.651888 -1.69987
+      0.0333333 0.15773 0.651888 -1.69987
+    endlist
+    orientationkey
+      0 0.0518315 0.988987 0.138629 -0.722881
+      0.0333333 0.0518315 0.988987 0.138629 -0.722881
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim dead zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim die zcn01_gdoor_04
+  length 0.666667
+  transtime 0.25
+  event 0.0333333 detonate
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    positionkey
+      0 -0.6 0 -1.46485e-006
+      0.1 -0.537269 0 -0.342091
+      0.133333 -0.537269 0 -0.491466
+      0.366667 -0.432719 0 -0.540628
+      0.666667 0.15773 0.651888 -1.69987
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.133333 -0.735087 -0.0940417 0.671418 -0.204282
+      0.266667 -0.339267 0.674878 0.655315 -0.134367
+      0.333333 -0.483181 0.785363 0.386964 -0.161781
+      0.666667 0.0518315 0.988987 0.138629 -0.722881
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim die zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim opened1 zcn01_gdoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    orientationkey
+      0 0 0 1 -1.33518
+      0.0333333 0 0 1 -1.33518
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim opened1 zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim opened2 zcn01_gdoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    orientationkey
+      0 0 0 -1 -1.33517
+      0.0333333 0 0 -1 -1.33517
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim opened2 zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim opening1 zcn01_gdoor_04
+  length 1
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+      0.333333 0 0 0 0
+      0.433333 0 0 1 -0.0978099
+      0.533333 0 0 1 -0.13272
+      0.766667 0 0 1 -1.05555
+      0.866667 0 0 1 -1.26079
+      1 0 0 1 -1.33518
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim opening1 zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim opening2 zcn01_gdoor_04
+  length 1
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+      0.333333 0 0 0 0
+      0.433333 0 0 -1 -0.0978
+      0.533333 0 0 -1 -0.13271
+      0.766667 0 0 -1 -1.05555
+      0.866667 0 0 -1 -1.26077
+      1 0 0 -1 -1.33517
+    endlist
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim opening2 zcn01_gdoor_04
+
+#MAXANIM ASCII
+newanim trans zcn01_gdoor_04
+  length 0.0333333
+  transtime 0.25
+  animroot zcn01_gdoor_04
+  node dummy zcn01_gdoor_04
+    parent NULL
+  endnode
+  node dummy tin01_b13_09
+    parent zcn01_gdoor_04
+  endnode
+  node dummy box55
+    parent tin01_b13_09
+  endnode
+  node dummy box08
+    parent box55
+  endnode
+  node dummy box48
+    parent box55
+  endnode
+  node dummy torus01
+    parent box55
+  endnode
+  node dummy torus02
+    parent box55
+  endnode
+  node dummy sam
+    parent zcn01_gdoor_04
+  endnode
+  node emitter fire!15
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04head
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04hhit
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04impc
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04grnd
+    parent zcn01_gdoor_04
+  endnode
+  node dummy zcn01_gdoor_04_dwk
+    parent zcn01_gdoor_04
+  endnode
+  node dummy 04_dwk_wg_closed
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open1
+    parent zcn01_gdoor_04_dwk
+  endnode
+  node dummy 04_dwk_wg_open2
+    parent zcn01_gdoor_04_dwk
+  endnode
+doneanim trans zcn01_gdoor_04
+donemodel zcn01_gdoor_04
