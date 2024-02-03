@@ -1,0 +1,246 @@
+2DA V2.0
+
+          LABEL                                              MODEL               ENVMAP      
+0         None                                               ****                ****        
+1         Lizard                                             c_tailliz           default     
+2         Bone                                               c_tailbone          ****        
+3         Devil                                              c_taildevil         default     
+4         "Dragon, Brass"                                    c_tail_brs          default     
+5         "Dragon, Bronze"                                   c_tail_brz          default     
+6         "Dragon, Copper"                                   c_tail_cop          default     
+7         "Dragon, Silver"                                   c_tail_sil          default     
+8         "Dragon, Gold"                                     c_tail_gol          default     
+9         "Dragon, Black"                                    c_tail_blk          ****        
+10        "Dragon, Blue"                                     c_tail_blu          ****        
+11        "Dragon, Green"                                    c_tail_grn          ****        
+12        "Dragon, Red"                                      c_tail_red          ****        
+13        "Dragon, White"                                    c_tail_whi          ****        
+14        NullTail                                           c_nulltail          default     
+15        "Horse, Walnut"                                    c_horse1            default     
+16        "Horse, Walnut, saddle"                            c_horse1a           default     
+17        "Horse, Walnut, saddle, packs"                     c_horse1b           default     
+18        "Horse, Walnut, leather barding"                   c_horse1c1          default     
+19        "Horse, Walnut, scale mail barding"                c_horse1c2          default     
+20        "Horse, Walnut, chain barding"                     c_horse1c3          default     
+21        "Horse, Walnut, purple barding"                    c_horse1c4          default     
+22        "Horse, Walnut, red barding"                       c_horse1c5          default     
+23        "Horse, Walnut, leather barding, packs"            c_horse1d1          default     
+24        "Horse, Walnut, scale mail barding, packs"         c_horse1d2          default     
+25        "Horse, Walnut, chain barding, packs"              c_horse1d3          default     
+26        "Horse, Walnut, purple barding, packs"             c_horse1d4          default     
+27        "Horse, Walnut, red barding, packs"                c_horse1d5          default     
+28        "Horse, Gunpowder"                                 c_horse2            default     
+29        "Horse, Gunpowder, saddle"                         c_horse2a           default     
+30        "Horse, Gunpowder, saddle, packs"                  c_horse2b           default     
+31        "Horse, Gunpowder, leather barding"                c_horse2c1          default     
+32        "Horse, Gunpowder, scale mail barding"             c_horse2c2          default     
+33        "Horse, Gunpowder, chain barding"                  c_horse2c3          default     
+34        "Horse, Gunpowder, purple barding"                 c_horse2c4          default     
+35        "Horse, Gunpowder, red barding"                    c_horse2c5          default     
+36        "Horse, Gunpowder, leather barding, packs"         c_horse2d1          default     
+37        "Horse, Gunpowder, scale mail barding, packs"      c_horse2d2          default     
+38        "Horse, Gunpowder, chain barding, packs"           c_horse2d3          default     
+39        "Horse, Gunpowder, purple barding, packs"          c_horse2d4          default     
+40        "Horse, Gunpowder, red barding, packs"             c_horse2d5          default     
+41        "Horse, Spotted"                                   c_horse3            default     
+42        "Horse, Spotted, saddle"                           c_horse3a           default     
+43        "Horse, Spotted, saddle, packs"                    c_horse3b           default     
+44        "Horse, Spotted, leather barding"                  c_horse3c1          default     
+45        "Horse, Spotted, scale mail barding"               c_horse3c2          default     
+46        "Horse, Spotted, chain barding"                    c_horse3c3          default     
+47        "Horse, Spotted, purple barding"                   c_horse3c4          default     
+48        "Horse, Spotted, red barding"                      c_horse3c5          default     
+49        "Horse, Spotted, leather barding, packs"           c_horse3d1          default     
+50        "Horse, Spotted, scale mail barding, packs"        c_horse3d2          default     
+51        "Horse, Spotted, chain barding, packs"             c_horse3d3          default     
+52        "Horse, Spotted, purple barding, packs"            c_horse3d4          default     
+53        "Horse, Spotted, red barding, packs"               c_horse3d5          default     
+54        "Horse, Black"                                     c_horse4            default     
+55        "Horse, Black, saddle"                             c_horse4a           default     
+56        "Horse, Black, saddle, packs"                      c_horse4b           default     
+57        "Horse, Black, leather barding"                    c_horse4c1          default     
+58        "Horse, Black, scale mail barding"                 c_horse4c2          default     
+59        "Horse, Black, chain barding"                      c_horse4c3          default     
+60        "Horse, Black, purple barding"                     c_horse4c4          default     
+61        "Horse, Black, red barding"                        c_horse4c5          default     
+62        "Horse, Black, leather barding, packs"             c_horse4d1          default     
+63        "Horse, Black, scale mail barding, packs"          c_horse4d2          default     
+64        "Horse, Black, chain barding, packs"               c_horse4d3          default     
+65        "Horse, Black, purple barding, packs"              c_horse4d4          default     
+66        "Horse, Black, red barding, packs"                 c_horse4d5          default     
+67        "Nightmare, barding"                               c_horse5            default     
+68        "Nightmare, saddle"                                c_horse5a           default     
+69        Nightmare                                          c_horse5b           default     
+70        "Horse, Jousting, Purple cloth"                    c_horse_j1          default     
+71        "Horse, Jousting, Blue and gold cloth"             c_horse_j2          default     
+72        "Horse, Jousting, Black and white cloth"           c_horse_j3          default     
+73        "Horse, Jousting, Red and yellow cloth"            c_horse_j4          default     
+74        "Horse, Jousting, Red and black Striped cloth"     c_horse_j5          default     
+75        "Horse, Jousting, Green cloth"                     c_horse_j6          default     
+76        "Horse, Jousting, Blue and pink cloth"             c_horse_j7          default     
+77        "Horse, Jousting, Red and gold brick cloth"        c_horse_j8          default     
+78        "Horse, Jousting, Black cloth"                     c_horse_j9          default     
+79        "Horse, Jousting, Cyan and white cloth"            c_horse_j10         default     
+80        "Horse, Jousting, White cloth"                     c_horse_j11         default     
+81    "Unicorn, White"                               c_unicorn2        default
+82    "Unicorn, White, saddle"                       c_unicorn2a       default
+83    "Unicorn, White, saddle, packs"                c_unicorn2b       default
+84    "Unicorn, White, leather barding"              c_unicorn2c1      default
+85    "Unicorn, White, scale mail barding"           c_unicorn2c2      default
+86    "Unicorn, White, chain barding"                c_unicorn2c3      default
+87    "Unicorn, White, purple barding"               c_unicorn2c4      default
+88    "Unicorn, White, red barding"                  c_unicorn2c5      default
+89    "Unicorn, White, leather barding, packs"       c_unicorn2d1      default
+90    "Unicorn, White, scale mail barding, packs"    c_unicorn2d2      default
+91    "Unicorn, White, chain barding, packs"         c_unicorn2d3      default
+92    "Unicorn, White, purple barding, packs"        c_unicorn2d4      default
+93    "Unicorn, White, red barding, packs"           c_unicorn2d5      default
+94    "Unicorn, Black"                               c_unicorn3        default
+95    "Unicorn, Black, saddle"                       c_unicorn3a       default
+96    "Unicorn, Black, saddle, packs"                c_unicorn3b       default
+97    "Unicorn, Black, leather barding"              c_unicorn3c1      default
+98    "Unicorn, Black, scale mail barding"           c_unicorn3c2      default
+99    "Unicorn, Black, chain barding"                c_unicorn3c3      default
+100   "Unicorn, Black, purple barding"               c_unicorn3c4      default
+101   "Unicorn, Black, red barding"                  c_unicorn3c5      default
+102   "Unicorn, Black, leather barding, packs"       c_unicorn3d1      default
+103   "Unicorn, Black, scale mail barding, packs"    c_unicorn3d2      default
+104   "Unicorn, Black, chain barding, packs"         c_unicorn3d3      default
+105   "Unicorn, Black, purple barding, packs"        c_unicorn3d4      default
+106   "Unicorn, Black, red barding, packs"           c_unicorn3d5      default
+107   "Unicorn, White, Mare"                         c_unicorn2m       default
+108   "Unicorn, White,Mare,Mare, saddle"             c_unicorn2am      default
+109   "Unicorn, White,Mare, saddle, packs"           c_unicorn2bm      default
+110   "Unicorn, White,Mare, leather barding"         c_unicorn2c1m     default
+111   "Unicorn, White,Mare, scale mail barding"      c_unicorn2c2m     default
+112   "Unicorn, White,Mare, chain barding"           c_unicorn2c3m     default
+113   "Unicorn, White,Mare, purple barding"          c_unicorn2c4m     default
+114   "Unicorn, White,Mare, red barding"             c_unicorn2c5m     default
+115   "Unicorn, White,Mare, leather barding, packs"     c_unicorn2d1m      default
+116   "Unicorn, White,Mare, scale mail barding, packs"  c_unicorn2d2m      default
+117   "Unicorn, White,Mare, chain barding, packs"     c_unicorn2d3m     default
+118   "Unicorn, White,Mare, purple barding, packs"    c_unicorn2d4m     default
+119   "Unicorn, White,Mare, red barding, packs"       c_unicorn2d5m     default
+120   "Unicorn, Black, Mare"                          c_unicorn3m       default
+121   "Unicorn, White, Mare, saddle"                  c_unicorn3am      default
+122   "Unicorn, White, Mare, saddle, packs"           c_unicorn3bm      default
+123   "Unicorn, White, Mare, leather barding"         c_unicorn3c1m     default
+124   "Unicorn, White, Mare, scale mail barding"      c_unicorn3c2m     default
+125   "Unicorn, White, Mare, chain barding"           c_unicorn3c3m     default
+126   "Unicorn, White, Mare, purple barding"          c_unicorn3c4m     default
+127   "Unicorn, White, Mare, red barding"             c_unicorn3c5m     default
+128   "Unicorn, White, Mare, leather barding, packs"       c_unicorn3d1m     default
+129   "Unicorn, White, Mare, scale mail barding, packs"    c_unicorn3d2m     default
+130   "Unicorn, White, Mare, chain barding, packs"    c_unicorn3d3m     default
+131   "Unicorn, White, Mare, purple barding, packs"   c_unicorn3d4m     default
+132   "Unicorn, White, Mare, red barding, packs"      c_unicorn3d5m     default
+133       ****                                               ****                ****        
+134       ****                                               ****                ****        
+135       ****                                               ****                ****        
+136       ****                                               ****                ****        
+137       ****                                               ****                ****        
+138       ****                                               ****                ****        
+139       ****                                               ****                ****        
+140       ****                                               ****                ****        
+141       ****                                               ****                ****        
+142       ****                                               ****                ****        
+143       ****                                               ****                ****        
+144       ****                                               ****                ****        
+145       ****                                               ****                ****        
+146       ****                                               ****                ****        
+147       ****                                               ****                ****        
+148       ****                                               ****                ****        
+149       ****                                               ****                ****        
+150       "Ice"                                              c_tailice           ****        
+151       "Fire"                                             c_tailfire          ****        
+152       "Black"                                            c_tailblack         ****        
+153       "Red"                                              c_tailred           ****        
+154       "Blue"                                             c_tailblue          ****        
+155       "Green"                                            c_tailgreen         ****        
+156       ****                                               CEP_reserved        ****        
+157       "Lizard: Mage2"                                    c_tailomge          ****        
+158       "Lizard: War"                                      c_tailowar          ****        
+159       "Lizard: Red"                                      c_taillizr          ****        
+160       "Spike: Gray"                                      c_tailspike         ****        
+161       "Spike: White"                                     c_tailspike1        ****        
+162       "Spike: Black"                                     c_tailspike2        ****        
+163       "Spike: Red"                                       c_tailspike3        ****        
+164       "Spike: Blue"                                      c_tailspike4        ****        
+165       "Spike: Green"                                     c_tailspike5        ****        
+166       "Lizard: Black"                                    c_taillizbk         ****        
+167       "Lizard: Blue"                                     c_taillizbl         ****        
+168       "Lizard; White"                                    c_taillizwh         ****        
+169       "Lizard: Prism"                                    c_taillizprz        ****        
+170       "Lizard: Shadow"                                   c_taillizsh         ****        
+171       "Lizard: Brass"                                    c_taillizbs         default     
+172       "Lizard: Bronze"                                   c_taillizbz         default     
+173       "Lizard: Copper"                                   c_taillizcp         default     
+174       "Lizard: Gold"                                     c_taillizgd         default     
+175       "Lizard: Silver"                                   c_taillizsl         default     
+176       Cat                                                zep_tailcat         ****        
+177       Gargoyle                                           c_tailgarg          ****        
+178       Minotaur                                           c_tailmino          ****        
+179       "Whip"                                             c_tailwhip          ****        
+180       ****                                               CEP_reserved        ****        
+181       ****                                               CEP_reserved        ****        
+182       Bulette                                            c_tailbulette       ****        
+183       Raven                                              c_tailraven         ****        
+184       Falcon                                             c_tailfalcon        ****        
+185       Manticore                                          c_tailmanticore     ****        
+186       Scorpion                                           c_tailscorpion      ****        
+187       "Scorpion: Red"                                    c_tailscorpionr     ****        
+188       "Scorpion: Green"                                  c_tailscorpiong     ****        
+189       Leopard                                            c_tailfeline_a      ****        
+190       "Leopard: Snow"                                    c_tailfeline_b      ****        
+191       Tiger                                              c_tailfeline_c      ****        
+192       "Tiger: White"                                     c_tailfeline_d      ****        
+193       Fox                                                c_tailfluffy_a      ****        
+194       Wolf                                               c_tailfluffy_b      ****        
+195       "Wolf: Shaggy"                                     c_tailfluffy_c      ****        
+196       "Half-Dragon: Gold"                                c_tailglddrg        ****        
+197       "Half-Dragon: Silver"                              c_tailslvhdrg       ****        
+198       "Lizard: SkinColors"                               c_t_liz_plt         ****        
+199       "Devil: SkinColors"                                c_t_devil_plt       ****        
+200       "Demon: Blue Translucent"                          c_demtailblu        ****        
+201       "Demon: Red Translucent"                           c_demtailred        ****        
+202       "Parrot: Gold"                                     c_tailparrot1       ****        
+203       "Parrot: Blue"                                     c_tailparrot2       ****        
+204       "Feathers"                                         c_tailfeathers1     ****        
+205       None                                               ****                ****        
+206       "Dust"                                             rockexpld           ****        
+207       "Smoke: Ghost"                                     vdr_ghostsmoke      ****        
+208       "Big Red Hand"                                     vff_rayhand         ****        
+209       "Whipfire"                                         wwhip_fxfire        ****        
+210       "LavaSpurt"                                        fx_lavaspurt        ****        
+211       "Spark: Fire"                                      fx_ref_fire         ****        
+212       "Trace: Ribbon"                                    fx_ribbon           ****        
+213       "Backpack"                                         plc_b09             ****        
+214       "Fire(Azer)"                                       vcm_hitfire         ****        
+215       "Trace 2: Acid"                                    vco_mehanacid01     ****        
+216       "Trace 2: Cold"                                    vco_mehancold01     ****        
+217       "Trace 2: Electric"                                vco_mehanelec01     ****        
+218       "Trace 2: Evil"                                    vco_mehanevil01     ****        
+219       "Trace 2: Fire"                                    vco_mehanfire01     ****        
+220       "Trace 2: Heal"                                    vco_mehanheal01     ****        
+221       "Trace 2: Holy"                                    vco_mehanholy01     ****        
+222       "Trace 2: Mind"                                    vco_mehanmind01     ****        
+223       "Trace 2: Nature"                                  vco_mehannatr01     ****        
+224       "Trace 2: Odd"                                     vco_mehanodd01      ****        
+225       "Trace 2: Sonic"                                   vco_mehansonc01     ****        
+226       "Death Shield"                                     vim_protdeath       ****        
+227       "Destruction (blood)"                              vim_destruct        ****        
+228       "Blue Flames"                                      vdr_eleshield02     ****        
+229       "Destruction (rays)"                               vim_destruct_l      ****        
+230       "Trace: Rays"                                      vim_bonholy         ****        
+231       "Fog: Big Green"                                   vdr_bigby_int       ****        
+232       "Fog: Black"                                       vps_tentacle        ****        
+233       "Negative Rays(laggy)"                             vim_negabil         ****        
+234       "Big Cloud"                                        vff_summon1         ****        
+235       "Sparkles/Tracers"                                 vff_summon2         ****        
+236       "Sparks: Body Encasing"                            vff_summund         ****        
+237       "Trace: Wierd"                                     vim_pulsneg         ****        
+238       "Beam: Flame Lash"                                 vim_lashfire        ****        
+239       "Doom(Stormcloud)"                                 vim_magdoom         ****        
+240       Lizardfolk                                         c_tailliz2          default     
+241       Leopard,Snow                                       c_tailfeline_b      ****        
+242       Cat                                                zep_tailcat         ****        

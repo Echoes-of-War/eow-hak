@@ -1,0 +1,17 @@
+# Exported from NWgMax Plus v6.11.28 at 10/5/2021 8:17:38 AM
+# mdl file
+#
+#NWgMax Plus MODEL ASCII
+# model: wblcl_b_111
+filedependancy Unknown
+newmodel wblcl_b_111
+setsupermodel wblcl_b_111 NULL
+classification Character
+setanimationscale 1.0
+#NWgMax Plus GEOM  ASCII
+beginmodelgeom wblcl_b_111
+node dummy wblcl_b_111
+  parent NULL
+endnode
+endmodelgeom wblcl_b_111
+donemodel wblcl_b_111

@@ -1,0 +1,17 @@
+# Exported from NWgMax Plus v6.11.28 at 10/5/2021 8:46:44 AM
+# mdl file
+#
+#NWgMax Plus MODEL ASCII
+# model: wmgfa_b_014
+filedependancy Unknown
+newmodel wmgfa_b_014
+setsupermodel wmgfa_b_014 NULL
+classification Character
+setanimationscale 1.0
+#NWgMax Plus GEOM  ASCII
+beginmodelgeom wmgfa_b_014
+node dummy wmgfa_b_014
+  parent NULL
+endnode
+endmodelgeom wmgfa_b_014
+donemodel wmgfa_b_014

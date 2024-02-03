@@ -1,0 +1,35 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: s_orb_horsestatue
+filedependancy Unknown
+node trimesh Plane01
+  parent s_orb_horsestatue_pwk
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.34375 0.34375 0.34375
+  ambient 0.339844 0.875 0.339844
+  diffuse 0.339844 0.875 0.339844
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 9
+    0.25 0.231794 0
+    -0.178446 0.23441 0
+    -0.467764 0.170972 0
+    0.25 0 0
+    0 0 0
+    -0.484372 0.0437692 0
+    0.25 -0.187608 0
+    0 -0.187608 0
+    -0.176547 -0.189397 0
+  faces 8
+    3 0 4  1  0 0 0  0
+    1 4 0  1  0 0 0  0
+    4 1 5  1  0 0 0  0
+    2 5 1  1  0 0 0  0
+    6 3 7  1  0 0 0  0
+    4 7 3  1  0 0 0  0
+    7 4 8  1  0 0 0  0
+    5 8 4  1  0 0 0  0
+endnode

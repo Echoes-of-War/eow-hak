@@ -1,0 +1,3 @@
+Nothing to see here, folks.
+
+Really. This hak is only here for backward compatibility with modules built with CEP 2.60.

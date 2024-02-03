@@ -1,0 +1,243 @@
+2DA V2.0
+
+          LABEL                         MODEL               ENVMAP      
+0         None                          ****                ****        
+1         Lizard                        c_tailliz           default     
+2         Bone                          c_tailbone          ****        
+3         Devil                         c_taildevil         default     
+4         ****                          ****                ****        
+5         ****                          ****                ****        
+6         ****                          ****                ****        
+7         ****                          ****                ****        
+8         ****                          ****                ****        
+9         ****                          ****                ****        
+10        ****                          ****                ****        
+11        ****                          ****                ****        
+12        ****                          ****                ****        
+13        ****                          ****                ****        
+14        ****                          ****                ****        
+15        ****                          ****                ****        
+16        ****                          ****                ****        
+17        ****                          ****                ****        
+18        ****                          ****                ****        
+19        ****                          ****                ****        
+20        ****                          ****                ****        
+21        ****                          ****                ****        
+22        ****                          ****                ****        
+23        ****                          ****                ****        
+24        ****                          ****                ****        
+25        ****                          ****                ****        
+26        ****                          ****                ****        
+27        ****                          ****                ****        
+28        ****                          ****                ****        
+29        ****                          ****                ****        
+30        ****                          ****                ****        
+31        ****                          ****                ****        
+32        ****                          ****                ****        
+33        ****                          ****                ****        
+34        ****                          ****                ****        
+35        ****                          ****                ****        
+36        ****                          ****                ****        
+37        ****                          ****                ****        
+38        ****                          ****                ****        
+39        ****                          ****                ****        
+40        ****                          ****                ****        
+41        ****                          ****                ****        
+42        ****                          ****                ****        
+43        ****                          ****                ****        
+44        ****                          ****                ****        
+45        ****                          ****                ****        
+46        ****                          ****                ****        
+47        ****                          ****                ****        
+48        ****                          ****                ****        
+49        ****                          ****                ****        
+50        ****                          ****                ****        
+51        ****                          ****                ****        
+52        ****                          ****                ****        
+53        ****                          ****                ****        
+54        ****                          ****                ****        
+55        ****                          ****                ****        
+56        ****                          ****                ****        
+57        ****                          ****                ****        
+58        ****                          ****                ****        
+59        ****                          ****                ****        
+60        ****                          ****                ****        
+61        ****                          ****                ****        
+62        ****                          ****                ****        
+63        ****                          ****                ****        
+64        ****                          ****                ****        
+65        ****                          ****                ****        
+66        ****                          ****                ****        
+67        ****                          ****                ****        
+68        ****                          ****                ****        
+69        ****                          ****                ****        
+70        ****                          ****                ****        
+71        ****                          ****                ****        
+72        ****                          ****                ****        
+73        ****                          ****                ****        
+74        ****                          ****                ****        
+75        ****                          ****                ****        
+76        ****                          ****                ****        
+77        ****                          ****                ****        
+78        ****                          ****                ****        
+79        ****                          ****                ****        
+80        ****                          ****                ****        
+81        ****                          ****                ****        
+82        ****                          ****                ****        
+83        ****                          ****                ****        
+84        ****                          ****                ****        
+85        ****                          ****                ****        
+86        ****                          ****                ****        
+87        ****                          ****                ****        
+88        ****                          ****                ****        
+89        ****                          ****                ****        
+90        ****                          ****                ****        
+91        ****                          ****                ****        
+92        ****                          ****                ****        
+93        ****                          ****                ****        
+94        ****                          ****                ****        
+95        ****                          ****                ****        
+96        ****                          ****                ****        
+97        ****                          ****                ****        
+98        ****                          ****                ****        
+99        ****                          ****                ****        
+100       ****                          ****                ****        
+101       ****                          ****                ****        
+102       ****                          ****                ****        
+103       ****                          ****                ****        
+104       ****                          ****                ****        
+105       ****                          ****                ****        
+106       ****                          ****                ****        
+107       ****                          ****                ****        
+108       ****                          ****                ****        
+109       ****                          ****                ****        
+110       ****                          ****                ****        
+111       ****                          ****                ****        
+112       ****                          ****                ****        
+113       ****                          ****                ****        
+114       ****                          ****                ****        
+115       ****                          ****                ****        
+116       ****                          ****                ****        
+117       ****                          ****                ****        
+118       ****                          ****                ****        
+119       ****                          ****                ****        
+120       ****                          ****                ****        
+121       ****                          ****                ****        
+122       ****                          ****                ****        
+123       ****                          ****                ****        
+124       ****                          ****                ****        
+125       ****                          ****                ****        
+126       ****                          ****                ****        
+127       ****                          ****                ****        
+128       ****                          ****                ****        
+129       ****                          ****                ****        
+130       ****                          ****                ****        
+131       ****                          ****                ****        
+132       ****                          ****                ****        
+133       ****                          ****                ****        
+134       ****                          ****                ****        
+135       ****                          ****                ****        
+136       ****                          ****                ****        
+137       ****                          ****                ****        
+138       ****                          ****                ****        
+139       ****                          ****                ****        
+140       ****                          ****                ****        
+141       ****                          ****                ****        
+142       ****                          ****                ****        
+143       ****                          ****                ****        
+144       ****                          ****                ****        
+145       ****                          ****                ****        
+146       ****                          ****                ****        
+147       ****                          ****                ****        
+148       ****                          ****                ****        
+149       ****                          ****                ****        
+150       "Ice"                         c_tailice           ****        
+151       "Fire"                        c_tailfire          ****        
+152       "Black"                       c_tailblack         ****        
+153       "Red"                         c_tailred           ****        
+154       "Blue"                        c_tailblue          ****        
+155       "Green"                       c_tailgreen         ****        
+156       ****                          CEP_reserved        ****        
+157       "Lizard: Mage2"               c_tailomge          ****        
+158       "Lizard: War"                 c_tailowar          ****        
+159       "Lizard: Red"                 c_taillizr          ****        
+160       "Spike: Gray"                 c_tailspike         ****        
+161       "Spike: White"                c_tailspike1        ****        
+162       "Spike: Black"                c_tailspike2        ****        
+163       "Spike: Red"                  c_tailspike3        ****        
+164       "Spike: Blue"                 c_tailspike4        ****        
+165       "Spike: Green"                c_tailspike5        ****        
+166       "Lizard: Black"               c_taillizbk         ****        
+167       "Lizard: Blue"                c_taillizbl         ****        
+168       "Lizard; White"               c_taillizwh         ****        
+169       "Lizard: Prism"               c_taillizprz        ****        
+170       "Lizard: Shadow"              c_taillizsh         ****        
+171       "Lizard: Brass"               c_taillizbs         default     
+172       "Lizard: Bronze"              c_taillizbz         default     
+173       "Lizard: Copper"              c_taillizcp         default     
+174       "Lizard: Gold"                c_taillizgd         default     
+175       "Lizard: Silver"              c_taillizsl         default     
+176       Cat                           zep_tailcat         ****        
+177       Gargoyle                      c_tailgarg          ****        
+178       Minotaur                      c_tailmino          ****        
+179       "Whip"                        c_tailwhip          ****        
+180       ****                          CEP_reserved        ****        
+181       ****                          CEP_reserved        ****        
+182       Bulette                       c_tailbulette       ****        
+183       Raven                         c_tailraven         ****        
+184       Falcon                        c_tailfalcon        ****        
+185       Manticore                     c_tailmanticore     ****        
+186       Scorpion                      c_tailscorpion      ****        
+187       "Scorpion: Red"               c_tailscorpionr     ****        
+188       "Scorpion: Green"             c_tailscorpiong     ****        
+189       Leopard                       c_tailfeline_a      ****        
+190       "Leopard: Snow"               c_tailfeline_b      ****        
+191       Tiger                         c_tailfeline_c      ****        
+192       "Tiger: White"                c_tailfeline_d      ****        
+193       Fox                           c_tailfluffy_a      ****        
+194       Wolf                          c_tailfluffy_b      ****        
+195       "Wolf: Shaggy"                c_tailfluffy_c      ****        
+196       "Half-Dragon: Gold"           c_tailglddrg        ****        
+197       "Half-Dragon: Silver"         c_tailslvhdrg       ****        
+198       "Lizard: SkinColors"          c_t_liz_plt         ****        
+199       "Devil: SkinColors"           c_t_devil_plt       ****        
+200       "Demon: Blue Translucent"     c_demtailblu        ****        
+201       "Demon: Red Translucent"      c_demtailred        ****        
+202       "Parrot: Gold"                c_tailparrot1       ****        
+203       "Parrot: Blue"                c_tailparrot2       ****        
+204       "Feathers"                    c_tailfeathers1     ****        
+205       None                          ****                ****        
+206       "Dust"                        rockexpld           ****        
+207       "Smoke: Ghost"                vdr_ghostsmoke      ****        
+208       "Big Red Hand"                vff_rayhand         ****        
+209       "Whipfire"                    wwhip_fxfire        ****        
+210       "LavaSpurt"                   fx_lavaspurt        ****        
+211       "Spark: Fire"                 fx_ref_fire         ****        
+212       "Trace: Ribbon"               fx_ribbon           ****        
+213       "Backpack"                    plc_b09             ****        
+214       "Fire(Azer)"                  vcm_hitfire         ****        
+215       "Trace 2: Acid"               vco_mehanacid01     ****        
+216       "Trace 2: Cold"               vco_mehancold01     ****        
+217       "Trace 2: Electric"           vco_mehanelec01     ****        
+218       "Trace 2: Evil"               vco_mehanevil01     ****        
+219       "Trace 2: Fire"               vco_mehanfire01     ****        
+220       "Trace 2: Heal"               vco_mehanheal01     ****        
+221       "Trace 2: Holy"               vco_mehanholy01     ****        
+222       "Trace 2: Mind"               vco_mehanmind01     ****        
+223       "Trace 2: Nature"             vco_mehannatr01     ****        
+224       "Trace 2: Odd"                vco_mehanodd01      ****        
+225       "Trace 2: Sonic"              vco_mehansonc01     ****        
+226       "Death Shield"                vim_protdeath       ****        
+227       "Destruction (blood)"         vim_destruct        ****        
+228       "Blue Flames"                 vdr_eleshield02     ****        
+229       "Destruction (rays)"          vim_destruct_l      ****        
+230       "Trace: Rays"                 vim_bonholy         ****        
+231       "Fog: Big Green"              vdr_bigby_int       ****        
+232       "Fog: Black"                  vps_tentacle        ****        
+233       "Negative Rays(laggy)"        vim_negabil         ****        
+234       "Big Cloud"                   vff_summon1         ****        
+235       "Sparkles/Tracers"            vff_summon2         ****        
+236       "Sparks: Body Encasing"       vff_summund         ****        
+237       "Trace: Wierd"                vim_pulsneg         ****        
+238       "Beam: Flame Lash"            vim_lashfire        ****        
+239       "Doom(Stormcloud)"            vim_magdoom         ****        

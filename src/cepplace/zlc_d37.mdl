@@ -1,0 +1,77 @@
+# Exported from NWmax 0.5-beta at 2/10/2004 2:24:15 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: zlc_d37
+filedependancy Unknown
+newmodel zlc_d37
+setsupermodel zlc_d37 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom zlc_d37
+node dummy zlc_d37
+  parent NULL
+endnode
+node trimesh Plane01
+  parent zlc_d37
+  position 0.0141264 -0.0141264 0.02
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.721569 0.721569 
+    tilefade 0
+    scale 1.0
+    render 1
+    Shadow 1
+    beaming 0
+    inheritcolor 0
+    selfillumcolor 0.0 0.0 0.0 
+    rotatetexture 0
+      alpha 1.0
+    transparencyhint 1
+    center undefined
+    gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 11.0
+  selfillumcolor 0.0 0.0 0.0 
+    bitmap LOKfootpath
+    verts 15
+     0.745874 1.47413 0.01
+     -0.0041264 1.47413 0.01
+     -0.754126 1.47413 0.01
+     0.645874 -0.0458736 -0.01
+     -0.104126 -0.0458736 -0.01
+     -0.854126 -0.0458736 -0.01
+     -1.60413 0.754126 0.01
+     -1.60413 0.0041264 0.01
+     -1.60413 -0.745874 0.01
+     -0.0841264 0.654126 0.02
+     -0.0841264 -0.0958736 0.01
+     -0.0841264 -0.845874 0.01
+     1.42587 0.704126 -0.01
+     1.42587 -0.0458736 -0.01
+     1.42587 -0.795874 -0.01
+    faces 12
+     3 0 4  1  3 0 4  65536
+     1 4 0  1  1 4 0  65536
+     4 1 5  1  4 1 5  65536
+     2 5 1  1  2 5 1  65536
+     9 6 10  1  3 0 4  65536
+     7 10 6  1  1 4 0  65536
+     10 7 11  1  4 1 5  65536
+     8 11 7  1  2 5 1  65536
+     12 9 13  1  3 0 4  65536
+     10 13 9  1  1 4 0  65536
+     13 10 14  1  4 1 5  65536
+     11 14 10  1  2 5 1  65536
+    tverts 6
+     0.000499487 0.000499725 0
+     0.5 0.000499606 0
+     0.9995 0.000499487 0
+     0.000499725 0.999501 0
+     0.5 0.9995 0
+     0.999501 0.9995 0
+endnode
+endmodelgeom zlc_d37
+donemodel zlc_d37

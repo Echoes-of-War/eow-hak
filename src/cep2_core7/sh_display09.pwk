@@ -1,0 +1,19 @@
+# Exported from NWmax 0.8 b54 at 2/1/2019 11:08:55 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh pwk
+  parent sh_display_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.537255 
+  bitmap NULL
+  verts 4
+    1.4192 0.446709 0.0
+    -1.42002 0.444374 0.0
+    1.42001 -0.444374 0.0
+    -1.4192 -0.44671 0.0
+  faces 2
+    0 1 2  1  0 0 0  7
+    3 2 1  1  0 0 0  7
+endnode

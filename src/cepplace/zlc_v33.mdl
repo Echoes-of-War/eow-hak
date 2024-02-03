@@ -1,0 +1,40 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: zlc_v33
+filedependancy zlc_v33.max
+newmodel zlc_v33
+setsupermodel zlc_v33 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom zlc_v33
+node dummy zlc_v33
+  parent NULL
+endnode
+node trimesh Rectangle03
+  parent zlc_v33
+  position 0 0 0.02005
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap TIN01_burlap
+  verts 4
+    -2.195 -2.925 0
+    2.195 -2.925 0
+    2.195 2.925 0
+    -2.195 2.925 0
+  faces 2
+    0 1 2  1  0 1 2  1
+    0 2 3  1  0 2 3  1
+  tverts 4
+    0.000499 0.0005 0
+    0.9995 0.000499 0
+    0.999501 2.20083 0
+    0.0005 2.20083 0
+endnode
+endmodelgeom zlc_v33
+donemodel zlc_v33

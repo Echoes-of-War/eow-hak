@@ -1,0 +1,88 @@
+#Model converted by mdl2ascii
+#For updates/comments check out http://nwn-j3d.sf.net
+filedependancy Unknown
+newmodel zlc_o31
+setsupermodel zlc_o31 NULL
+classification Character
+setanimationscale 1.000000
+#MAXGEOM  ASCII
+beginmodelgeom zlc_o31
+node dummy zlc_o31
+  parent NULL
+endnode
+node trimesh sam
+  parent zlc_o31
+  position 0.412207 0.191367 0.200000
+  orientation 0.000000 0.000000 0.000000 0.000000
+  alpha 0.000000
+  diffuse 0.800000 0.800000 0.800000
+  ambient 0.200000 0.200000 0.200000
+  specular 0.000000 0.000000 0.000000
+  shininess 1.000000
+  render 1
+    bitmap NULL
+    verts 6
+     -1.250000 -0.800002 0.000000
+     1.250000 -0.800002 0.000000
+     1.250000 -0.800002 4.525990
+     -1.250000 -0.800002 4.525990
+     -1.250000 1.233270 0.000000
+     -1.250000 1.233270 4.525990
+    faces 4
+     0 1 2 1 0 0 0 5
+     2 3 0 1 0 0 0 5
+     4 0 3 1 0 0 0 3
+     3 5 4 1 0 0 0 3
+endnode
+node dummy o31_head
+  parent zlc_o31
+  position -0.390889 -0.448975 2.500010
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy o31_impact
+  parent zlc_o31
+  position -0.390889 -0.448975 1.128460
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy o31_head_hit
+  parent zlc_o31
+  position -0.390889 -0.448975 2.071450
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+node dummy o31_ground
+  parent zlc_o31
+  position -0.390889 -0.448975 0.040000
+  orientation 0.000000 0.000000 0.000000 0.000000
+endnode
+endmodelgeom zlc_o31
+
+newanim default zlc_o31
+length 0.033333
+transtime 0.250000
+animroot zlc_o31
+node dummy zlc_o31
+  parent NULL
+endnode
+node trimesh sam
+  parent zlc_o31
+  alphakey
+    0.000000  0.000000
+    0.033333  0.000000
+  endlist
+endnode
+node dummy o31_head
+  parent zlc_o31
+endnode
+node dummy o31_impact
+  parent zlc_o31
+endnode
+node dummy o31_head_hit
+  parent zlc_o31
+endnode
+node dummy o31_ground
+  parent zlc_o31
+endnode
+doneanim default zlc_o31
+donemodel zlc_o31
+
+

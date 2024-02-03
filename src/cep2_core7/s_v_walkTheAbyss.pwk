@@ -1,0 +1,24 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: s_v_walkTheAbyssPort
+filedependancy Unknown
+node trimesh Plane02
+  parent s_v_walkTheAbyssPort_pwk
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.601563 0.601563 0.601563
+  ambient 0.597656 0.890625 0.835938
+  diffuse 0.597656 0.890625 0.835938
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 4
+    1.16631 0.266385 0
+    -1.15701 0.266385 0
+    1.16631 -0.257404 0
+    -1.15701 -0.257404 0
+  faces 2
+    2 0 3  1  0 0 0  0
+    1 3 0  1  0 0 0  0
+endnode

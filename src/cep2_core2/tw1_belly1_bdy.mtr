@@ -1,0 +1,8 @@
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 tw1_belly1_bdy 
+texture1 tw1_belly1_bdy_n 
+texture2 tw1_belly1_bdy_s 
+texture3 null 
+texture4 null 

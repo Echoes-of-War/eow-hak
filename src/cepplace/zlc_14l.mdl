@@ -1,0 +1,46 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: zlc_14l
+filedependancy Autobak2.mx
+newmodel zlc_14l
+setsupermodel zlc_14l NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom zlc_14l
+node dummy zlc_14l
+  parent NULL
+endnode
+node trimesh Plane833
+  parent zlc_14l
+  position 0 0 0.02
+  orientation 0 0 0 0
+  wirecolor 0.777344 0.777344 0.777344
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tdd02_redpent
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 4
+    3 3 0
+    -3 3 0
+    3 -3 0
+    -3 -3 0
+  faces 2
+    2 0 3  1  2 0 3  0
+    1 3 0  1  1 3 0  0
+  tverts 4
+    0.000499487 0.000499725 0.5
+    0.9995 0.000499487 0.5
+    0.000499725 0.999501 0.5
+    0.999501 0.9995 0.5
+endnode
+endmodelgeom zlc_14l
+donemodel zlc_14l

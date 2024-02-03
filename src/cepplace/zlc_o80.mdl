@@ -1,0 +1,53 @@
+# Exported from NWmax 0.5-beta at 1/21/2004 2:43:01 PM
+# mdl file
+#
+#NWmaxMODEL ASCII
+# model: zlc_o80
+filedependancy Unknown
+newmodel zlc_o80
+setsupermodel zlc_o80 NULL
+classification Character
+setanimationscale 1.0
+#NWmaxGEOM  ASCII
+beginmodelgeom zlc_o80
+node dummy zlc_o80
+  parent NULL
+endnode
+node trimesh sam
+  parent zlc_o80
+  position 0.000954246 0.00270977 0.2
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+    tilefade 0
+    scale 1.0
+    render 0
+    Shadow 0
+    beaming 0
+    inheritcolor 0
+    selfillumcolor 0.0 0.0 0.0 
+    rotatetexture 0
+      alpha 0.0
+    transparencyhint 0
+    center undefined
+    gizmo SubAnim:Gizmo
+  ambient 0.2 0.2 0.2 
+  diffuse 0.8 0.8 0.8 
+  specular 0.0 0.0 0.0 
+  shininess 2.0
+  selfillumcolor 0.0 0.0 0.0 
+    bitmap NULL
+    verts 6
+     -0.0909542 -0.0627098 0.0
+     0.0890458 -0.0627098 0.0
+     0.0890458 -0.0627098 0.33
+     -0.0909542 -0.0627098 0.33
+     -0.0909542 0.0872902 0.0
+     -0.0909542 0.0872902 0.33
+    faces 4
+     0 1 2  1  0 0 0  5
+     2 3 0  1  0 0 0  5
+     4 0 3  1  0 0 0  3
+     3 5 4  1  0 0 0  3
+endnode
+endmodelgeom zlc_o80
+donemodel zlc_o80

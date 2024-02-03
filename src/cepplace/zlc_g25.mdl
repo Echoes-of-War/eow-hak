@@ -1,0 +1,40 @@
+#MAXMODEL ASCII
+# model: zlc_g25 
+filedependancy zlc_g25.max
+newmodel zlc_g25 
+setsupermodel zlc_g25 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom zlc_g25 
+node dummy zlc_g25 
+  parent NULL 
+endnode
+node trimesh paper 
+  parent zlc_g25 
+  position 0.00349831 -0.00791922 -0.0155149
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.239216 0.52549 0.0235294  
+  ambient 0.0 0.0 0.0  
+  diffuse 0.784314 0.784314 0.784314  
+  specular 0.0 0.0 0.0  
+  shininess 21.0 
+    bitmap bdPapr
+    verts 4
+     0.109477 -0.181136 0.02
+     -0.128123 0.196864 0.02
+     -0.128123 -0.181136 0.02
+     0.109477 0.196864 0.02
+    faces 2
+     0 1 2  1  0 1 2  1
+     0 3 1  1  0 3 1  1
+    tverts 4
+     0.324 0.0 0 
+     0.0 0.5 0 
+     0.0 0.0 0 
+     0.324 0.5 0 
+endnode
+endmodelgeom zlc_g25 
+
+donemodel zlc_g25 
+

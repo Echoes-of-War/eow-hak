@@ -1,0 +1,13 @@
+This hak is designed to be used by a builder to store blueprints for objects that are painted down in his or her module, but won't be needed for anything else while the module is running.
+
+Basic use:
+
+1. Builder creates a blueprint for an object that will be used multiple times when creating areas, but said object won't need to be accessible to DM-spawning, creation by scripts, etc. For example, a standard bookshelf placeable.
+2. Builder copies the blueprint file (ex: bookshelf.utp) from NWN/modules/temp0 with the module running.
+3. After closing the toolset, builder adds the copied blueprint file to cep2_build.hak with NWN/utils/nwhak.exe.
+4. Builder reopens the module in the toolset, adds cep2_build to the module (Edit > Module Properties > Custom Content).
+5. Builder continues building the module, painting down bookshelves left and right.
+6. Before sending finished module to the server (or posting to neverwintervault.org), builder removes cep2_build from module's custom content list and saves.
+
+This hak is basically just a way for a builder to hak a variety of premade objects handy for building areas that are quick and easy to remove from the module's palette so that the live module isn't filled with otherwise unused objects.
+

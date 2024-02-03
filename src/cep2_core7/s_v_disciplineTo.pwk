@@ -1,0 +1,24 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: s_v_disciplineTome
+filedependancy Unknown
+node trimesh Plane01
+  parent s_v_disciplineTome_pwk
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.582031 0.582031 0.582031
+  ambient 0.578125 0.691406 0.101563
+  diffuse 0.578125 0.691406 0.101563
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 4
+    0.433736 0.394473 0
+    -0.442296 0.394473 0
+    0.433736 -0.391212 0
+    -0.442296 -0.391212 0
+  faces 2
+    2 0 3  1  0 0 0  0
+    1 3 0  1  0 0 0  0
+endnode

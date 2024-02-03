@@ -1,0 +1,59 @@
+# Exported from NWmax v3.07.22 at 09/10/2012 04:48:50
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh PWK
+  parent drb_circsaw_pwk
+#  position -6.18759 1.6006 0.0
+  position 0 0 0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.541176 0.0313726 0.431373 
+  bitmap NULL
+  verts 9
+-1.9097 -0.878 0.	
+0.1441 -0.878 0.	
+1.7043 -0.878 0.	
+-1.9097 0.7968 0.	
+0.1441 0.7968 0.	
+1.7043 0.7968 0.	
+-0.3723 1.5488 0.	
+0.3062 1.7973 0.	
+1.2126 1.3688 0.	
+  faces 8
+    3 0 4  1  9 6 10  7
+    1 4 0  1  7 10 6  7
+    4 1 5  1  10 7 11  7
+    2 5 1  1  8 11 7  7
+    6 3 7  1  12 9 13  7
+    4 7 3  1  10 13 9  7
+    7 4 8  1  13 10 14  7
+    5 8 4  1  11 14 10  7
+  tverts 15
+    0.0 0.0 0
+    0.5 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    0.5 0.0 0
+    1.0 0.0 0
+    0.0 0.0 0
+    0.5 0.0 0
+    1.0 0.0 0
+    0.0 0.5 0
+    0.5 0.5 0
+    1.0 0.5 0
+    0.0 1.0 0
+    0.5 1.0 0
+    1.0 1.0 0
+endnode
+node dummy saw_pwk_use01
+  parent drb_circsaw_pwk
+  position 0 1.5 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.690196 0.101961 0.101961 
+endnode
+node dummy saw_pwk_use02
+  parent drb_circsaw_pwk
+  position 0 -0.8 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.690196 0.101961 0.101961 
+endnode

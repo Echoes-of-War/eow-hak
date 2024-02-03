@@ -1,0 +1,62 @@
+# Exported from NWmax v3.07.22 at 09/10/2012 04:39:22
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy forge_pwk_use01
+  parent drb_forge_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.529412 0.231373 0.0313726 
+endnode
+node dummy forge_pwk_use02
+  parent drb_forge_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode
+node trimesh drb_forge_wg
+  parent drb_forge_pwk
+  position 0.0 0.0 0.0
+  orientation -1.0 0.0 0.0 0.0
+  wirecolor 0.0196078 0.0196078 0.0196078 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  bitmap NULL
+  verts 4
+    0.881693 1.45 0.0
+    -0.891693 1.45 0.0
+    0.881693 -4.29815 0.0
+    -0.891693 -4.29815 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode

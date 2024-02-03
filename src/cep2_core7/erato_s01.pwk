@@ -1,0 +1,48 @@
+# Exported from NWmax 0.8 b61 at 8/15/2009 1:58:43 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh Erato_S01_wg
+  parent Erato_S01_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  bitmap NULL
+  verts 10
+    -0.274182 -0.0808081 0.0
+    0.464117 -1.09101 0.0
+    -0.0535973 0.34864 0.0
+    0.666161 -0.17807 0.0
+    0.517233 0.322184 0.0
+    -0.274182 -0.0808081 1.0
+    0.1544 -0.56867 1.0
+    -0.0535973 0.34864 1.0
+    0.709358 -0.17807 1.0
+    0.517233 0.322184 1.0
+  faces 13
+    6 8 5  1  0 0 0  7
+    7 5 9  1  0 0 0  7
+    9 5 8  1  0 0 0  7
+    1 3 8  0  0 0 0  7
+    8 6 1  0  0 0 0  7
+    0 1 6  0  0 0 0  7
+    6 5 0  0  0 0 0  7
+    2 0 5  0  0 0 0  7
+    5 7 2  0  0 0 0  7
+    4 2 7  0  0 0 0  7
+    7 9 4  0  0 0 0  7
+    3 4 9  0  0 0 0  7
+    9 8 3  0  0 0 0  7
+endnode
+node dummy S01_pwk_use01
+  parent Erato_S01_pwk
+  position 0.442446 -0.924576 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.560784 0.882353 
+endnode
+node dummy S01_pwk_use02
+  parent Erato_S01_pwk
+  position -0.626116 0.655766 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.560784 0.882353 
+endnode
