@@ -1,0 +1,16 @@
+2DA V2.0
+
+       Corner1     Edge         Corner2     Height     Model            
+0      Sewer       ****         Sewer       0          avs01_z01_01     
+1      Wall        ****         Sewer       0          avs01_z02_01
+2      Floor       ****         Floor       0          avs01_z03_01
+3      Wall        ****         Floor       0          avs01_z04_01     
+4      Wall        Corridor     Wall        0          avs01_z05_01     
+5      Wall        Channel      Wall        0          avs01_z06_01     
+6      Wall        ****         Wall        0          avs01_z07_01     
+7      Wall        Doorway      Wall        0          avs01_z08_01
+8      Sewer       Plankway     Sewer       0          avs01_z09_01
+9      Sewer       ****         ****        0          avs01_z01_01
+10     Floor       ****         ****        0          avs01_z03_01
+11     Wall        ****         ****        0          avs01_z07_01
+12     Floor       ****         Sewer       0          avs01_z10_01             

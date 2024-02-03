@@ -1,0 +1,328 @@
+#MAXMODEL ASCII
+# model: HTD01_Z20_01 
+filedependancy HTD01_Z20_01.max
+newmodel HTD01_Z20_01 
+setsupermodel HTD01_Z20_01 NULL
+classification Tile
+#MAXGEOM  ASCII
+beginmodelgeom HTD01_Z20_01 
+node dummy HTD01_Z20_01 
+  parent NULL 
+endnode
+node dummy HTD01_G20_01_D01 
+  parent HTD01_Z20_01 
+  position -4.9457 0.0 0.0
+  orientation  0.0 0.0 -1.0  -4.71239
+  wirecolor 0.223529 0.0313726 0.533333  
+endnode
+node trimesh Plane07 
+  parent HTD01_Z20_01 
+  position 0.0 0.0 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_black
+    verts 8
+     -5.0 -2.5 0.0
+     -5.0 -5.0 0.0
+     -1.87 -2.5 0.0
+     5.0 -5.0 0.0
+     5.0 5.0 0.0
+     -5.0 5.0 0.0
+     -1.87 2.5 0.0
+     -5.0 2.5 0.0
+    faces 6
+     0 1 2  1  0 0 0  1
+     3 4 2  1  0 0 0  1
+     3 2 1  1  0 0 0  1
+     5 6 4  1  0 0 0  1
+     5 7 6  1  0 0 0  1
+     2 4 6  1  0 0 0  1
+endnode
+node trimesh Object1477 
+  parent HTD01_Z20_01 
+  position -3.43 1.0 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -0.5 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_black
+    verts 4
+     -1.57 0.0 1.5
+     -1.57 0.0 -1.5
+     1.56 0.0 -1.5
+     1.56 0.0 1.5
+    faces 2
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+    tverts 4
+     0.0833331 0.75 0 
+     0.0833334 -0.0833333 0 
+     1.57993 -0.0833334 0 
+     1.57993 0.75 0 
+endnode
+node trimesh Rectangle03 
+  parent HTD01_Z20_01 
+  position -3.43 0.0 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -0.5 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_black
+    verts 4
+     -1.57 -2.5 0.0
+     1.56 -2.5 0.0
+     1.56 2.5 0.0
+     -1.57 2.5 0.0
+    faces 2
+     0 1 2  1  0 0 0  1
+     3 0 2  1  0 0 0  1
+endnode
+node trimesh Object453 
+  parent HTD01_Z20_01 
+  position -1.87 0.0 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_black
+    verts 4
+     0.0 -1.0 1.5
+     0.0 1.0 1.5
+     0.0 1.0 -1.5
+     0.0 -1.0 -1.5
+    faces 2
+     0 1 2  1  0 1 2  1
+     2 3 0  1  1 0 3  1
+    tverts 4
+     26.0 -33.0 0 
+     26.0 -32.8 0 
+     26.0 -32.8 0 
+     26.0 -33.0 0 
+endnode
+node trimesh Object451 
+  parent HTD01_Z20_01 
+  position -3.38 0.0 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 1
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_floor1
+    verts 5
+     1.57 -1.0 0.0
+     1.57 1.0 0.0
+     -1.57 1.0 0.0
+     -1.57 0.0 0.0
+     -1.57 -1.0 0.0
+    faces 3
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+     3 4 0  1  3 4 0  1
+    tverts 5
+     0.814 0.3 0 
+     0.814 0.7 0 
+     0.186 0.7 0 
+     0.186 0.5 0 
+     0.186 0.3 0 
+endnode
+node trimesh Object459 
+  parent HTD01_Z20_01 
+  position -3.43 -1.0 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -0.5 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_black
+    verts 4
+     -1.57 0.0 -1.5
+     -1.57 0.0 1.5
+     1.56 0.0 -1.5
+     1.56 0.0 1.5
+    faces 2
+     0 1 2  1  0 1 2  1
+     3 2 1  1  3 2 1  1
+    tverts 4
+     0.0833334 -0.0833333 0 
+     0.0833331 0.75 0 
+     1.56678 -0.0833334 0 
+     1.56679 0.75 0 
+endnode
+node trimesh Object426 
+  parent HTD01_Z20_01 
+  position -3.4 0.0 1.51
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -0.5 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_black
+    verts 8
+     1.59 -0.99 -1.5
+     1.59 0.99 -1.5
+     -1.6 0.99 -1.5
+     -1.6 -0.99 -1.5
+     1.59 0.99 1.5
+     -1.6 0.99 1.5
+     -1.6 -0.99 1.5
+     1.59 -0.99 1.5
+    faces 6
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+     4 5 2  2  1 2 4  1
+     2 1 4  2  2 1 5  1
+     6 7 0  2  3 0 6  1
+     0 3 6  2  0 3 7  1
+    tverts 8
+     0.000499636 0.9995 0 
+     0.000499398 0.000500202 0 
+     0.9995 0.000499576 0 
+     0.9995 0.9995 0 
+     0.9995 0.000499576 0 
+     0.000499398 0.000500202 0 
+     0.000499636 0.9995 0 
+     0.9995 0.9995 0 
+endnode
+endmodelgeom HTD01_Z20_01 
+
+donemodel HTD01_Z20_01 
+

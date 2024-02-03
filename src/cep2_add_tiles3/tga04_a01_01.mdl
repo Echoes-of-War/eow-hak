@@ -1,0 +1,261 @@
+# Exported from NWmax 0.8 b60 at 12/25/2006 5:22:00 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tga04_a01_01
+#local file: Unknown
+filedependancy Unknown
+newmodel tga04_a01_01
+setsupermodel tga04_a01_01 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom tga04_a01_01
+node dummy tga04_a01_01
+  parent NULL
+endnode
+node aabb Plane03_01
+  parent tga04_a01_01
+  position 0.0 0.0 4.49935
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.878431 0.878431 
+  bitmap NULL
+  verts 18
+    -5.0 -5.0 -10.5
+    -0.83 3.09 -10.5
+    5.0 -5.0 -10.5
+    -5.0 5.0 -10.5
+    5.0 -0.33 -10.5
+    5.0 4.45 10.5
+    5.0 3.76 10.5
+    5.0 3.02 5.71
+    5.0 0.21 -0.12
+    5.0 5.0 10.5
+    5.0 4.52 10.5
+    5.0 1.66 2.78
+    -1.82 5.0 -10.5
+    4.35 5.0 10.5
+    4.39 5.0 10.5
+    1.1 5.0 7.29
+    2.22 5.0 10.5
+    4.46 5.0 10.5
+  faces 17
+    3 0 1  1  0 0 0  16
+    2 1 0  1  0 0 0  16
+    4 1 2  1  0 0 0  16
+    13 16 6  1  0 0 0  1
+    6 5 13  1  0 0 0  1
+    7 1 11  2  0 0 0  7
+    6 16 15  4  0 0 0  7
+    6 15 1  4  0 0 0  7
+    6 1 7  4  0 0 0  7
+    8 1 4  8  0 0 0  7
+    11 1 8  2  0 0 0  7
+    12 1 15  16  0 0 0  7
+    3 1 12  1  0 0 0  16
+    17 10 9  1  0 0 0  1
+    14 13 5  1  0 0 0  1
+    14 5 10  1  0 0 0  1
+    14 10 17  1  0 0 0  1
+    aabb         -5.0 -5.0 -10.4994 5.0 5.0 10.5006 -1
+        -5.0 -5.0 -10.4994 5.0 5.0 7.29065 -1
+        -5.0 -5.0 -10.4994 5.0 5.0 -10.4994 -1
+        -5.0 -5.0 -10.4994 -0.83 5.0 -10.4994 -1
+        -5.0 -5.0 -10.4994 -0.83 5.0 -10.4994 0
+        -5.0 3.09 -10.4994 -0.83 5.0 -10.4994 12
+        -5.0 -5.0 -10.4994 5.0 3.09 -10.4994 -1
+        -5.0 -5.0 -10.4994 5.0 3.09 -10.4994 1
+        -0.83 -5.0 -10.4994 5.0 3.09 -10.4994 2
+        -1.82 -0.33 -10.4994 5.0 5.0 7.29065 -1
+        -1.82 -0.33 -10.4994 5.0 5.0 7.29065 -1
+        -0.83 -0.33 -10.4994 5.0 3.09 -0.11935 9
+        -1.82 3.09 -10.4994 1.1 5.0 7.29065 11
+        -0.83 0.21 -10.4994 5.0 3.09 5.71065 -1
+        -0.83 0.21 -10.4994 5.0 3.09 2.78065 10
+        -0.83 1.66 -10.4994 5.0 3.09 5.71065 5
+        -0.83 3.02 -10.4994 5.0 5.0 10.5006 -1
+        -0.83 3.02 -10.4994 5.0 5.0 10.5006 -1
+        -0.83 3.02 -10.4994 5.0 3.76 10.5006 8
+        -0.83 3.09 -10.4994 5.0 5.0 10.5006 7
+        1.1 3.76 7.29065 5.0 5.0 10.5006 -1
+        1.1 3.76 7.29065 5.0 5.0 10.5006 6
+        2.22 3.76 10.5006 5.0 5.0 10.5006 -1
+        2.22 3.76 10.5006 5.0 5.0 10.5006 3
+        4.35 3.76 10.5006 5.0 5.0 10.5006 -1
+        4.35 3.76 10.5006 5.0 5.0 10.5006 -1
+        4.35 3.76 10.5006 5.0 5.0 10.5006 4
+        4.39 4.45 10.5006 5.0 5.0 10.5006 15
+        4.35 4.45 10.5006 5.0 5.0 10.5006 -1
+        4.35 4.45 10.5006 5.0 5.0 10.5006 -1
+        4.35 4.45 10.5006 5.0 5.0 10.5006 14
+        4.39 4.52 10.5006 5.0 5.0 10.5006 16
+        4.46 4.52 10.5006 5.0 5.0 10.5006 13
+endnode
+#Tile trimesh node
+node trimesh Cone04_01
+  parent tga04_a01_01
+  position 4.37 3.73 15.41
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0 0.0 0.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  betgang 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap ttr01_crystal01
+  verts 3
+    0.63 0.14 -0.41
+    0.63 1.27 -1.15
+    -1.9 1.27 -0.41
+  faces 1
+    1 0 2  1  0 1 2  3
+  tverts 3
+    3.84596 1.74653 0
+    3.76029 1.60952 0
+    3.97899 1.60952 0
+endnode
+#Tile trimesh node
+node trimesh Object02_01
+  parent tga04_a01_01
+  position 4.08 5.03 14.9
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.0 0.0 0.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  betgang 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap tew00_Ground001
+  verts 8
+    0.92 -0.03 0.1
+    0.92 -0.19 0.1
+    0.92 -0.4 0.1
+    0.92 -0.77 0.1
+    0.33 -0.03 0.1
+    0.65 -0.03 0.1
+    0.71 -0.03 0.1
+    -0.81 -0.03 0.1
+  faces 6
+    4 7 3  1  0 1 2  2
+    3 2 4  1  3 4 5  2
+    1 6 5  1  6 7 8  2
+    2 1 5  1  9 10 11  2
+    4 2 5  1  12 13 14  2
+    6 1 0  1  15 16 17  2
+  tverts 18
+    3.09515 1.09492 0
+    3.25891 1.07024 0
+    2.98476 0.959399 0
+    2.98476 0.959399 0
+    2.99802 1.03435 0
+    3.09515 1.09492 0
+    2.98928 1.05211 0
+    3.02341 1.07595 0
+    3.03455 1.0789 0
+    2.99802 1.03435 0
+    2.98928 1.05211 0
+    3.03455 1.0789 0
+    3.09515 1.09492 0
+    2.99802 1.03435 0
+    3.03455 1.0789 0
+    3.02341 1.07595 0
+    2.98928 1.05211 0
+    2.99005 1.07358 0
+endnode
+#Tile trimesh node
+node trimesh Object03_01
+  parent tga04_a01_01
+  position 3.73 4.44 15.01
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.690196 0.690196 0.690196 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  betgang 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap tew00_Ground001
+  verts 5
+    1.27 0.23 0.0
+    1.27 -0.57 -0.01
+    1.27 0.56 0.0
+    -1.26 0.56 -0.01
+    0.9 0.56 0.0
+  faces 3
+    4 0 2  1  0 1 2  2
+    1 0 4  1  3 4 5  2
+    4 3 1  1  6 7 8  2
+  tverts 9
+    -15.5584 0.316201 0
+    -15.4407 0.285589 0
+    -15.4678 0.338315 0
+    -15.3307 0.125646 0
+    -15.4407 0.285589 0
+    -15.5584 0.316201 0
+    -15.5584 0.316201 0
+    -15.976 0.100327 0
+    -15.3307 0.125646 0
+endnode
+node light tga04_a01_01ml1
+  parent tga04_a01_01
+  position 0.0 0.0 23.1664
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.6 0.6 
+  radius 1400.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDyntgacType 0
+  affectDyntgac 0
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+node light tga04_a01_01ml2
+  parent tga04_a01_01
+  position -2.0 -2.0 22.1664
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.898039 0.898039 
+  radius 500.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDyntgacType 0
+  affectDyntgac 0
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+endmodelgeom tga04_a01_01
+donemodel tga04_a01_01
+
+
+

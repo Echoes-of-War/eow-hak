@@ -1,0 +1,17 @@
+DOA City Tileset Addition: Main Gate and Stairs
+Den of Assassins (http://denofassassins.com)
+version 1.0
+
+Used in the Almraiven City Tileset
+
+New raised cobble group and features.
+
+  + main city gate 3x2 group
+  + 3 stairs variants
+  + modifies City Wall Gate Door (tcn_udoor_06) to only open inwards
+
+Notes on Usage _____________________
+Place this hak in your HAK directory and then under Module Properties from the Edit menu, select the hak on the Advanced tab. The new tiles will appear under the city tileset.
+
+Note to HAK Distributors ____________
+If you wish to include this in your combined "mega" hak for other than a world or module-specific distribution, we ask that you also include this readme in your distribution so that modelers get full credit for their work. The excuse "I forgot where I got that" just doesn't cut it.

@@ -1,0 +1,22 @@
+#MAXMODEL ASCII
+# model: lca03_O10_01
+filedependancy lca03_O10_01.max
+newmodel lca03_O10_01
+setsupermodel lca03_O10_01 NULL
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom lca03_O10_01
+node dummy lca03_O10_01
+  parent NULL
+  #part-number 0
+endnode
+node dummy lca03_O10_01_D01
+  parent lca03_O10_01
+  #part-number 1
+  position 3.70383 0 -8.85010013e-006
+  orientation 0 0 1 -1.57079995
+endnode
+endmodelgeom lca03_O10_01
+
+donemodel lca03_O10_01

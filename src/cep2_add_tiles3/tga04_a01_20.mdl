@@ -1,0 +1,67 @@
+# Exported from NWmax 0.8 b60 at 12/25/2006 5:22:25 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: tga04_a01_20
+#local file: Unknown
+filedependancy Unknown
+newmodel tga04_a01_20
+setsupermodel tga04_a01_20 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom tga04_a01_20
+node dummy tga04_a01_20
+  parent NULL
+endnode
+node aabb Plane03_20
+  parent tga04_a01_20
+  position 0.0 0.0 -5.99995
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.878431 0.878431 
+  bitmap NULL
+  verts 4
+    -5.0 -5.0 0.0
+    5.0 -5.0 0.0
+    -5.0 5.0 0.0
+    5.0 5.0 0.0
+  faces 2
+    2 0 3  1  0 0 0  16
+    1 3 0  1  0 0 0  16
+    aabb         -5.0 -5.0 0.0 5.0 5.0 0.0 -1
+        -5.0 -5.0 0.0 5.0 5.0 0.0 0
+        -5.0 -5.0 0.0 5.0 5.0 0.0 1
+endnode
+node light tga04_a01_20ml1
+  parent tga04_a01_20
+  position 0.0 0.0 23.1664
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.345098 
+  radius 1400.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDyntgacType 0
+  affectDyntgac 0
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+node light tga04_a01_20ml2
+  parent tga04_a01_20
+  position -2.0 -2.0 22.1664
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.345098 0.345098 
+  radius 500.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDyntgacType 0
+  affectDyntgac 0
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+endmodelgeom tga04_a01_20
+donemodel tga04_a01_20
+
+

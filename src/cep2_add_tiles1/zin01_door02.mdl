@@ -1,0 +1,1768 @@
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel zin01_door02
+setsupermodel zin01_door02 null
+setanimationscale 1
+classification DOOR
+#MAXGEOM ASCII
+beginmodelgeom zin01_door02
+node dummy zin01_door02
+  parent NULL
+endnode
+node dummy zin01_door02head
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.1019610 0.6941180 0.1019610
+  position 0 -0.2187500 2.5000000
+endnode
+node dummy zin01_door02grnd
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.3450980 0.5607840 0.8823530
+  position 0 0 0
+endnode
+node dummy zin01_door02impc
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.3450980 0.5607840 0.8823530
+  position 0 -0.2265625 1.7500000
+endnode
+node dummy zin01_door02hhit
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.1019610 0.6941180 0.1019610
+  position 0 -0.2187500 2.2500000
+endnode
+node trimesh door02_left
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.3333330 0.1098040 0.6941180
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap zkc01_door3
+  position 0 0 -2.5546875
+  shadow 0
+  verts 13
+    -1.6015625 0.0625000 -1.5546875
+    -1.6015625 -0.0625000 -1.5546875
+    -1.6015625 0.0625000 1.5546875
+    -1.6015625 -0.0625000 1.5546875
+    0 0.0625000 -1.5546875
+    0 0 -1.5546875
+    0 -0.0625000 -1.5546875
+    0 -0.0625000 1.5546875
+    0 0 1.5546875
+    0 0.0625000 1.5546875
+    0 -0.0625000 0
+    0 0.0625000 0
+    0 0 0
+  faces 22
+    0 4 5 2 0 2 2 1
+    8 9 2 4 3 3 1 1
+    0 1 3 8 0 0 1 1
+    3 2 0 8 1 1 0 1
+    1 6 10 16 0 2 4 1
+    2 9 11 64 1 3 4 1
+    5 6 0 2 2 2 0 1
+    6 1 0 2 2 0 0 1
+    8 3 7 4 3 1 3 1
+    2 3 8 4 1 1 3 1
+    10 7 1 16 4 3 0 1
+    7 3 1 16 3 1 0 1
+    11 4 2 64 4 2 1 1
+    4 0 2 64 2 0 1 1
+    12 8 7 16 4 3 3 1
+    7 10 12 16 3 4 4 1
+    11 9 8 16 4 3 3 1
+    8 12 11 16 3 4 4 1
+    5 12 10 16 2 4 4 1
+    10 6 5 16 4 2 2 1
+    4 11 12 16 2 4 4 1
+    12 5 4 16 4 2 2 1
+  tverts 5
+    0.5909000 0.9896282 0
+    0.5909000 2.0103700 0
+    1.2305800 0.9896282 0
+    1.2305800 2.0103700 0
+    1.2305800 1.5000000 0
+endnode
+node trimesh torus05
+  parent door02_left
+  orientation 0 0 0 0
+  wirecolor 0.5686270 0.1098040 0.6941180
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap zkc01_st_door2
+  position -0.2734375 -0.1250000 0.0625000
+  shadow 0
+  verts 40
+    -0.2031250 0 0
+    -0.1406250 -0.0312500 0
+    -0.1406250 0.0234375 0
+    -0.1406250 0 0.1406250
+    -0.0937500 -0.0312500 0.1015625
+    -0.0937500 0.0234375 0.1015625
+    0 0 0.2031250
+    0 -0.0312500 0.1406250
+    0 0.0234375 0.1406250
+    0.1484375 0 0.1406250
+    0.1015625 -0.0312500 0.1015625
+    0.1015625 0.0234375 0.1015625
+    0.2109375 0 0
+    0.1484375 -0.0312500 0
+    0.1484375 0.0234375 0
+    0.1484375 0 -0.1484375
+    0.1015625 -0.0312500 -0.1015625
+    0.1015625 0.0234375 -0.1015625
+    0 0 -0.2031250
+    0 -0.0312500 -0.1484375
+    0 0.0234375 -0.1484375
+    -0.1406250 0 -0.1484375
+    -0.0937500 -0.0312500 -0.1015625
+    -0.0937500 0.0234375 -0.1015625
+    -0.0703125 -0.0156250 0.1093750
+    -0.0703125 0.0156250 0.1093750
+    -0.0234375 -0.0156250 0.1250000
+    -0.0234375 0.0156250 0.1250000
+    0.0703125 -0.0156250 -0.1171875
+    0.0703125 0.0156250 -0.1171875
+    0.0312500 -0.0156250 -0.1328125
+    0.0312500 0.0156250 -0.1328125
+    0.1484375 -0.0156250 0.0937500
+    0.1328125 -0.0156250 0.0781250
+    0.1718750 -0.0156250 0.0390625
+    0.1484375 -0.0156250 0.0390625
+    0.1562500 -0.1171875 0.0937500
+    0.1406250 -0.1171875 0.0781250
+    0.1796875 -0.1171875 0.0390625
+    0.1484375 -0.1171875 0.0390625
+  faces 86
+    0 4 3 1 44 45 46 1
+    0 1 4 1 44 47 45 1
+    1 5 4 1 1 48 49 1
+    1 2 5 1 1 50 48 1
+    2 3 5 1 2 3 51 1
+    2 0 3 1 2 0 3 1
+    3 7 6 1 46 52 53 1
+    3 4 7 1 46 45 52 1
+    5 6 8 1 51 6 54 1
+    5 3 6 1 51 3 6 1
+    6 10 9 1 53 10 9 1
+    6 7 10 1 53 52 10 1
+    7 11 10 1 7 55 56 1
+    7 8 11 1 7 8 55 1
+    8 9 11 1 54 57 11 1
+    8 6 9 1 54 6 57 1
+    36 39 38 1 58 59 60 1
+    36 37 39 1 58 61 59 1
+    10 14 13 1 62 63 64 1
+    10 11 14 1 62 65 63 1
+    11 12 14 1 11 66 14 1
+    11 9 12 1 11 57 66 1
+    12 16 15 1 12 67 68 1
+    12 13 16 1 12 13 67 1
+    13 17 16 1 64 69 70 1
+    13 14 17 1 64 63 69 1
+    14 15 17 1 14 15 71 1
+    14 12 15 1 14 66 15 1
+    15 19 18 1 68 72 73 1
+    15 16 19 1 68 67 72 1
+    26 25 24 1 74 75 76 1
+    26 27 25 1 74 77 75 1
+    17 18 20 1 71 18 78 1
+    17 15 18 1 71 15 18 1
+    18 22 21 1 73 79 80 1
+    18 19 22 1 73 72 79 1
+    19 23 22 1 19 81 82 1
+    19 20 23 1 19 20 81 1
+    20 21 23 1 78 21 23 1
+    20 18 21 1 78 18 21 1
+    21 1 0 1 80 47 44 1
+    21 22 1 1 80 79 47 1
+    22 2 1 1 22 50 1 1
+    22 23 2 1 22 83 50 1
+    23 0 2 1 23 0 2 1
+    23 21 0 1 23 21 0 1
+    4 5 25 0 4 5 25 1
+    25 24 4 0 25 24 4 1
+    7 4 24 0 7 4 24 1
+    24 26 7 0 24 26 7 1
+    8 7 26 0 8 7 26 1
+    26 27 8 0 26 27 8 1
+    5 8 27 0 5 8 27 1
+    27 25 5 0 27 25 5 1
+    16 17 29 0 16 17 84 1
+    29 28 16 0 84 85 16 1
+    19 16 28 0 19 16 85 1
+    28 30 19 0 85 86 19 1
+    20 19 30 0 20 19 86 1
+    30 31 20 0 86 87 20 1
+    17 20 31 0 17 20 87 1
+    31 29 17 0 87 84 17 1
+    31 30 24 0 88 89 90 1
+    24 25 31 0 90 91 88 1
+    30 28 26 0 30 92 93 1
+    26 24 30 0 93 34 30 1
+    28 29 27 0 28 94 95 1
+    27 26 28 0 95 32 28 1
+    29 31 25 0 29 31 35 1
+    25 27 29 0 35 33 29 1
+    9 10 33 0 9 10 96 1
+    33 32 9 0 96 97 9 1
+    13 12 34 0 13 12 98 1
+    34 35 13 0 98 99 13 1
+    12 9 32 0 12 9 97 1
+    32 34 12 0 97 98 12 1
+    10 13 35 0 10 13 99 1
+    35 33 10 0 99 96 10 1
+    35 34 38 0 100 101 102 1
+    38 39 35 0 102 103 100 1
+    34 32 36 0 38 104 105 1
+    36 38 34 0 105 42 38 1
+    32 33 37 0 36 106 107 1
+    37 36 32 0 107 40 36 1
+    33 35 39 0 37 39 43 1
+    39 37 33 0 43 41 37 1
+  tverts 108
+    0.6833950 0.0246899 0
+    0.2657200 0.6277960 0
+    0.6277960 0.1638270 0
+    0.9570910 0.2916070 0
+    0.2657200 0.3506770 0
+    0.6284000 0.3506770 0
+    0.9618850 0.6738780 0
+    0.2657200 0.6182790 0
+    0.6284000 0.6182790 0
+    0.3050310 0.9475740 0
+    0.3641020 0.8098740 0
+    0.6358980 0.8098740 0
+    0.6873020 0.9523680 0
+    0.6317030 0.8132300 0
+    0.3682970 0.8132300 0
+    0.0390014 0.6854510 0
+    0.7342830 0.6263800 0
+    0.3716020 0.6263800 0
+    0.0342075 0.3031800 0
+    0.7342830 0.3587790 0
+    0.3716020 0.3587790 0
+    0.3011240 0.0294837 0
+    0.2657200 0.3601950 0
+    0.3601950 0.1671830 0
+    0.3594900 0.4310180 0
+    0.5633900 0.4310180 0
+    0.3594900 0.5380580 0
+    0.5633900 0.5380580 0
+    0.3594900 0.1773850 0
+    0.1773850 0.5460840 0
+    0.8239570 0.4390440 0
+    0.1760430 0.4390440 0
+    0.3594900 0.8175250 0
+    0.8175250 0.5380700 0
+    0.1838090 0.4310100 0
+    0.8161910 0.4310100 0
+    0.6292260 0.9077290 0
+    0.6647180 0.5583530 0
+    1.3707700 0.4383430 0
+    0.6647180 0.4589880 0
+    1.3620850 0.9223710 0
+    1.3706020 0.5498210 0
+    0.6419040 0.4273070 0
+    1.3678100 0.4505050 0
+    0.3166050 0.0246899 0
+    0.1806080 0.3506770 0
+    0.0429087 0.2916070 0
+    0.3722040 0.1638270 0
+    0.6284000 0.8193920 0
+    0.2657200 0.8193920 0
+    0.6284000 0.6277960 0
+    0.8193920 0.3506770 0
+    0.1772520 0.6182790 0
+    0.0381148 0.6738780 0
+    0.8227480 0.6182790 0
+    0.6284000 0.8098740 0
+    0.2657200 0.8098740 0
+    0.6949690 0.9475740 0
+    0.4308180 0.9223710 0
+    0.5494950 0.8579850 0
+    0.5726930 0.9178020 0
+    0.4501790 0.8611830 0
+    0.7342830 0.6358980 0
+    0.3716020 0.3682970 0
+    0.7342830 0.3682970 0
+    0.3716010 0.6358980 0
+    0.3126980 0.9523680 0
+    0.8232990 0.6263800 0
+    0.9609990 0.6854510 0
+    0.3716020 0.1767010 0
+    0.7342830 0.1767010 0
+    0.1767010 0.6263800 0
+    0.8266550 0.3587790 0
+    0.9657930 0.3031800 0
+    0.6405050 0.5380700 0
+    0.4366070 0.4310100 0
+    0.6405050 0.4310100 0
+    0.4366070 0.5380700 0
+    0.1733450 0.3587790 0
+    0.6398050 0.1671830 0
+    0.6988760 0.0294837 0
+    0.3716020 0.1671830 0
+    0.7342830 0.1671830 0
+    0.6284000 0.3601950 0
+    0.4366070 0.5460840 0
+    0.6405060 0.5460840 0
+    0.6405060 0.4390440 0
+    0.4366070 0.4390440 0
+    0.4366070 0.1760430 0
+    0.6405060 0.1760430 0
+    0.6405050 0.8161910 0
+    0.4366070 0.8161910 0
+    0.8226150 0.5460840 0
+    0.1824750 0.5380700 0
+    0.5633900 0.1773850 0
+    0.5633900 0.8175250 0
+    0.4416470 0.8565990 0
+    0.4197130 0.9077290 0
+    0.5616560 0.9095090 0
+    0.5410120 0.8578450 0
+    1.3352800 0.8578450 0
+    1.3707700 0.9095090 0
+    0.6419040 0.9178020 0
+    0.6321900 0.8579850 0
+    1.3707700 0.5802870 0
+    0.6379150 0.5691820 0
+    0.6647180 0.8565990 0
+    1.3706020 0.8611830 0
+endnode
+node trimesh zin01_door01_schloss01
+  parent door02_left
+  orientation 0 0 0 0
+  wirecolor 0.3333330 0.1098040 0.6941180
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap zkc01_st_door2
+  position -0.4843750 -0.1015625 -0.8906250
+  shadow 0
+  verts 8
+    0.0156250 -0.0234375 1.0156250
+    0.0156250 -0.0234375 -0.7734375
+    -0.0078125 0 1.0156250
+    -0.0078125 0 -0.7578125
+    0.0468750 0 1.0156250
+    0.0468750 0 -0.7890625
+    0.0156250 0.0312500 1.0156250
+    0.0156250 0.0312500 -0.7734375
+  faces 12
+    0 2 3 2 0 2 3 1
+    3 1 0 2 3 1 0 1
+    4 5 7 4 4 5 1 1
+    7 6 4 4 1 0 4 1
+    0 1 5 8 0 1 5 1
+    5 4 0 8 5 4 0 1
+    3 2 6 32 3 2 0 1
+    6 7 3 32 0 1 3 1
+    2 0 4 64 2 0 4 1
+    4 6 2 64 4 0 2 1
+    5 1 3 32 1 3 3 1
+    3 7 5 32 3 1 1 1
+  tverts 6
+    0 0.8515630 0
+    0.9257810 0.8515630 0
+    0 0.7773440 0
+    0.9179690 0.7773440 0
+    0 0.9218750 0
+    0.9335940 0.9218750 0
+endnode
+node trimesh zin01_door01_oesenl01
+  parent door02_left
+  orientation 0 0 0 0
+  wirecolor 0.3333330 0.1098040 0.6941180
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap zkc01_st_door2_d
+  position -0.4765625 -0.0781250 -0.3359375
+  shadow 0
+  verts 16
+    0.0312500 0.0859375 -0.1328125
+    0.0312500 0.0859375 -0.1953125
+    0.0703125 0.0156250 -0.1328125
+    0.0703125 0.0156250 -0.1953125
+    -0.0625000 -0.0156250 -0.1328125
+    -0.0625000 -0.0156250 -0.1953125
+    0 -0.0859375 -0.1328125
+    0 -0.0859375 -0.1953125
+    0.0312500 0.0859375 0.1953125
+    0.0312500 0.0859375 0.1328125
+    0.0703125 0.0156250 0.1953125
+    0.0703125 0.0156250 0.1328125
+    -0.0625000 -0.0156250 0.1953125
+    -0.0625000 -0.0156250 0.1328125
+    0 -0.0859375 0.1953125
+    0 -0.0859375 0.1328125
+  faces 20
+    4 5 7 4 20 17 18 1
+    7 6 4 4 18 21 20 1
+    0 1 5 8 0 1 5 1
+    5 4 0 8 5 4 0 1
+    1 3 7 16 1 3 7 1
+    7 5 1 16 7 5 1 1
+    3 2 6 32 16 19 21 1
+    6 7 3 32 21 18 16 1
+    2 0 4 64 2 0 4 1
+    4 6 2 64 4 6 2 1
+    12 13 15 4 23 20 21 1
+    15 14 12 4 21 24 23 1
+    8 9 13 8 8 9 13 1
+    13 12 8 8 13 12 8 1
+    9 11 15 16 9 11 15 1
+    15 13 9 16 15 13 9 1
+    11 10 14 32 19 22 24 1
+    14 15 11 32 24 21 19 1
+    10 8 12 64 10 8 12 1
+    12 14 10 64 12 14 10 1
+  tverts 25
+    0.4218750 0.1914060 0
+    0.4414060 0.1914060 0
+    0.4218750 0.2109380 0
+    0.4414060 0.2109380 0
+    0.4218750 0.1601560 0
+    0.4414060 0.1601560 0
+    0.4218750 0.1796880 0
+    0.4414060 0.1796880 0
+    0.3320310 0.1914060 0
+    0.3476560 0.1914060 0
+    0.3320310 0.2109380 0
+    0.3476560 0.2109380 0
+    0.3320310 0.1601560 0
+    0.3476560 0.1601560 0
+    0.3320310 0.1796880 0
+    0.3476560 0.1796880 0
+    0.6914060 0.6601560 0
+    0.6914060 0.4453130 0
+    0.6914060 0.5507810 0
+    0.6289060 0.6601560 0
+    0.6289060 0.4453130 0
+    0.6289060 0.5507810 0
+    0.5703130 0.6601560 0
+    0.5703130 0.4453130 0
+    0.5703130 0.5507810 0
+endnode
+node trimesh zin01_door01_oesenr01
+  parent door02_left
+  orientation 0 0 0 0
+  wirecolor 0.3333330 0.1098040 0.6941180
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap zkc01_st_door2_d
+  position -0.4765625 -0.0781250 -1.1406250
+  shadow 0
+  verts 16
+    0.0312500 0.0859375 -0.1406250
+    0.0312500 0.0859375 -0.2109375
+    0.0703125 0.0156250 -0.1406250
+    0.0703125 0.0156250 -0.2109375
+    -0.0625000 -0.0156250 -0.1406250
+    -0.0625000 -0.0156250 -0.2109375
+    0 -0.0859375 -0.1406250
+    0 -0.0859375 -0.2109375
+    0.0312500 0.0859375 0.2031250
+    0.0312500 0.0859375 0.1328125
+    0.0703125 0.0156250 0.2031250
+    0.0703125 0.0156250 0.1328125
+    -0.0625000 -0.0156250 0.2031250
+    -0.0625000 -0.0156250 0.1328125
+    0 -0.0859375 0.2031250
+    0 -0.0859375 0.1328125
+  faces 20
+    4 5 7 4 18 19 21 1
+    7 6 4 4 21 20 18 1
+    0 1 5 8 0 1 5 1
+    5 4 0 8 5 4 0 1
+    1 3 7 16 1 3 7 1
+    7 5 1 16 7 5 1 1
+    3 2 6 32 17 16 20 1
+    6 7 3 32 20 21 17 1
+    2 0 4 64 2 0 4 1
+    4 6 2 64 4 6 2 1
+    12 13 15 4 23 18 20 1
+    15 14 12 4 20 24 23 1
+    8 9 13 8 8 9 13 1
+    13 12 8 8 13 12 8 1
+    9 11 15 16 9 11 15 1
+    15 13 9 16 15 13 9 1
+    11 10 14 32 16 22 24 1
+    14 15 11 32 24 20 16 1
+    10 8 12 64 10 8 12 1
+    12 14 10 64 12 14 10 1
+  tverts 25
+    0.6054690 0.1914060 0
+    0.6250000 0.1914060 0
+    0.6054690 0.2109380 0
+    0.6250000 0.2109380 0
+    0.6054690 0.1601560 0
+    0.6250000 0.1601560 0
+    0.6054690 0.1796880 0
+    0.6250000 0.1796880 0
+    0.5078130 0.1914060 0
+    0.5273440 0.1914060 0
+    0.5078130 0.2109380 0
+    0.5273440 0.2109380 0
+    0.5078130 0.1601560 0
+    0.5273440 0.1601560 0
+    0.5078130 0.1796880 0
+    0.5273440 0.1796880 0
+    0.7421880 0.6601560 0
+    0.7968750 0.6601560 0
+    0.7421880 0.4453130 0
+    0.7968750 0.4453130 0
+    0.7421880 0.5507810 0
+    0.7968750 0.5507810 0
+    0.6914060 0.6601560 0
+    0.6914060 0.4453130 0
+    0.6914060 0.5507810 0
+endnode
+node trimesh door02_right
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.3333330 0.1098040 0.6941180
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap zkc01_door3
+  position 0 0 -2.5546875
+  shadow 0
+  verts 13
+    1.6015625 0.0625000 -1.5546875
+    1.6015625 -0.0625000 -1.5546875
+    1.6015625 0.0625000 1.5546875
+    1.6015625 -0.0625000 1.5546875
+    0 0.0625000 -1.5546875
+    0 0 -1.5546875
+    0 -0.0625000 -1.5546875
+    0 -0.0625000 1.5546875
+    0 0 1.5546875
+    0 0.0625000 1.5546875
+    0 -0.0625000 0
+    0 0.0625000 0
+    0 0 0
+  faces 22
+    1 6 5 2 0 2 2 1
+    8 7 3 4 3 3 1 1
+    3 7 10 16 1 3 4 1
+    1 0 2 32 0 0 1 1
+    2 3 1 32 1 1 0 1
+    0 4 11 64 0 2 4 1
+    5 4 1 2 2 2 0 1
+    4 0 1 2 2 0 0 1
+    8 2 9 4 3 1 3 1
+    3 2 8 4 1 1 3 1
+    10 6 3 16 4 2 1 1
+    6 1 3 16 2 0 1 1
+    11 9 0 64 4 3 0 1
+    9 2 0 64 3 1 0 1
+    12 5 6 16 4 2 2 1
+    6 10 12 16 2 4 4 1
+    11 4 5 16 4 2 2 1
+    5 12 11 16 2 4 4 1
+    8 12 10 16 3 4 4 1
+    10 7 8 16 4 3 3 1
+    9 11 12 16 3 4 4 1
+    12 8 9 16 4 3 3 1
+  tverts 5
+    0.8702600 0.9896282 0
+    0.8702600 2.0103700 0
+    0.2305800 0.9896282 0
+    0.2305800 2.0103700 0
+    0.2305800 1.5000000 0
+endnode
+node trimesh box535
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.3333330 0.1098040 0.6941180
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 11
+  bitmap rustmetlsml
+  position -0.0859375 1.0703125 4.1562500
+  shadow 0
+  verts 39
+    -0.0625000 -1.0546875 -0.1406250
+    -0.0390625 -1.0546875 -0.9453125
+    0.0546875 -1.0859375 -0.1406250
+    0.0078125 -1.1250000 -0.1406250
+    0.0781250 -1.0859375 -0.9453125
+    0.0312500 -1.1250000 -0.9453125
+    -0.0390625 -1.0546875 0.6875000
+    0.0781250 -1.0859375 0.6875000
+    0.0312500 -1.1250000 0.6875000
+    0.3593750 -1.0546875 -0.9453125
+    0.3515625 -1.0546875 0.4140625
+    0.4687500 -1.0859375 0.4140625
+    0.4218750 -1.1250000 0.4140625
+    0.4296875 -1.1250000 -0.9453125
+    0.4765625 -1.0859375 -0.9453125
+    0.8203125 -1.0546875 -0.9453125
+    0.8359375 -1.0546875 0.1640625
+    0.9453125 -1.0859375 0.1640625
+    0.9062500 -1.1250000 0.1640625
+    0.8906250 -1.1250000 -0.9453125
+    0.9296875 -1.0859375 -0.9453125
+    -0.5546875 -1.0546875 -0.9453125
+    -0.5078125 -1.0546875 -0.1718750
+    -0.3906250 -1.0859375 -0.1718750
+    -0.4375000 -1.1250000 -0.1718750
+    -0.4921875 -1.1250000 -0.9453125
+    -0.4453125 -1.0859375 -0.9453125
+    -0.5546875 -1.0546875 0.6875000
+    -0.4921875 -1.1250000 0.6875000
+    -0.4453125 -1.0859375 0.6875000
+    -0.9375000 -1.0546875 -0.9453125
+    -0.9453125 -1.0546875 -0.0859375
+    -0.8281250 -1.0859375 -0.0859375
+    -0.8750000 -1.1250000 -0.0859375
+    -0.8671875 -1.1250000 -0.9453125
+    -0.8281250 -1.0859375 -0.9453125
+    -0.9375000 -1.0546875 0.6875000
+    -0.8671875 -1.1250000 0.6875000
+    -0.8281250 -1.0859375 0.6875000
+  faces 32
+    2 3 5 4 8 9 10 1
+    5 4 2 4 10 11 8 1
+    0 1 5 16 0 12 13 1
+    5 3 0 16 13 1 0 1
+    3 2 7 0 9 8 14 1
+    7 8 3 0 14 15 9 1
+    0 3 8 0 0 1 3 1
+    8 6 0 0 3 2 0 1
+    11 12 13 4 16 17 18 1
+    13 14 11 4 18 19 16 1
+    10 9 13 16 20 12 13 1
+    13 12 10 16 13 21 20 1
+    17 18 19 4 22 23 24 1
+    19 20 17 4 24 25 22 1
+    16 15 19 16 26 12 13 1
+    19 18 16 16 13 27 26 1
+    23 24 25 4 28 29 30 1
+    25 26 23 4 30 31 28 1
+    22 21 25 16 32 33 30 1
+    25 24 22 16 13 5 4 1
+    24 23 29 0 29 28 34 1
+    29 28 24 0 34 35 29 1
+    22 24 28 0 4 5 3 1
+    28 27 22 0 3 2 4 1
+    32 33 34 4 36 37 38 1
+    34 35 32 4 38 39 36 1
+    31 30 34 16 40 41 38 1
+    34 33 31 16 13 7 6 1
+    33 32 38 0 37 36 42 1
+    38 37 33 0 42 43 37 1
+    31 33 37 0 6 7 3 1
+    37 36 31 0 3 2 6 1
+  tverts 44
+    0.4873310 1.4272470 0
+    0.5564930 1.4272470 0
+    0.4873310 2.2449200 0
+    0.5564930 2.2449200 0
+    0.4873310 1.3916290 0
+    0.5564930 1.3916290 0
+    0.4873310 1.4768320 0
+    0.5564930 1.4768320 0
+    0.7718870 1.4272470 0
+    0.7280630 1.4272470 0
+    0.7513810 0.8798670 0
+    0.7952050 0.8798670 0
+    0.4873310 0.8798670 0
+    0.5564930 0.8798670 0
+    0.7952060 2.2449200 0
+    0.7513820 2.2449200 0
+    0.1797500 1.3712230 0
+    0.1359300 1.3712230 0
+    0.1468400 0.8798670 0
+    0.1906600 0.8798670 0
+    0.4873310 1.3712230 0
+    0.5564930 1.3712230 0
+    0.6593100 1.4131930 0
+    0.6154900 1.4131930 0
+    0.5989200 0.8798670 0
+    0.6427400 0.8798670 0
+    0.4873310 1.4131930 0
+    0.5564930 1.4131930 0
+    0.3288150 1.3916290 0
+    0.2849900 1.3916290 0
+    0.2345920 0.8798670 0
+    0.2784160 0.8798670 0
+    0.2158280 1.3916290 0
+    0.1654300 0.8798670 0
+    0.2784170 2.2449200 0
+    0.2345930 2.2449200 0
+    0.8959890 1.4768320 0
+    0.8521650 1.4768320 0
+    0.8557100 0.8798670 0
+    0.8995340 0.8798670 0
+    0.7830020 1.4768320 0
+    0.7865480 0.8798670 0
+    0.8995350 2.2449200 0
+    0.8557110 2.2449200 0
+endnode
+node trimesh sam
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.6274510 0.6274510 0.6274510
+  alpha 0.2493250
+  transparencyhint 0
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.3528290 0 0.7056590
+  rotatetexture 0
+  center -0.0000153 0.0000454 155.6470000
+  bitmap NULL
+  position 0 0 0
+  verts 4
+    1.6015625 0 0
+    1.6015625 0 3.1093750
+    -1.6015625 0 0
+    -1.6015625 0 3.1093750
+  faces 4
+    1 3 2 16 1 3 4 1
+    2 0 1 16 2 0 1 1
+    2 3 0 64 4 3 0 1
+    3 1 0 64 3 1 0 1
+  tverts 5
+    0.8702600 0.9896282 0
+    0.8702600 2.0103700 0
+    0.2305800 0.9896282 0
+    0.2305800 2.0103700 0
+    0.2305800 1.5000000 0
+endnode
+node emitter auraemitter02
+  parent zin01_door02
+  orientation 0 0 0 0
+  wirecolor 0.5254900 0.2313730 0.0313726
+  colorStart 0.7333330 0.6980390 0.6039220
+  colorEnd 0.8431370 0.7490200 0.6235290
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 24
+  birthrate 10
+  spawntype 0
+  lifeExp 2.5000000
+  mass 0.0900000
+  spread 2.9670600
+  particleRot 0.5000000
+  velocity 2
+  randvel 0.5000000
+  fps 10
+  random 0
+  inherit 0
+  inherit_local 1
+  inherit_part 0
+  inheritvel 0
+  xsize 100
+  ysize 99
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Explosion
+  render Normal
+  blend Normal
+  update_sel 2
+  render_sel 1
+  blend_sel 1
+  deadspace 0
+  opacity 0.5000000
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0.2000000
+  blastLength 0
+  twosidedtex 1
+  p2p 0
+  p2p_sel 1
+  p2p_type Bezier
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  affectedByWind false
+  m_isTinted 1
+  renderorder 0
+  splat 0
+  lightningSubDiv 0
+  position 0 0.3125000 1.4921875
+endnode
+endmodelgeom zin01_door02
+
+#MAXANIM ASCII
+newanim closed zin01_door02
+  length 0.0333333
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 0 0 1.5567825
+      0.0333333 0 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.8906250
+      0.0333333 -0.4843750 -0.1015625 -0.8906250
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 0 0 1.5567825
+      0.0333333 0 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 3.8714400
+      0.0333333 -0.0859375 1.0703125 3.8714400
+    endlist
+  endnode
+  node dummy sam
+    parent zin01_door02
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim closed zin01_door02
+
+#MAXANIM ASCII
+newanim closing1 zin01_door02
+  length 0.666667
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 -0.9653220 0 1.5567825
+      0.4000000 0 0 1.5567825
+      0.6666670 0 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0.4666670 0 1 0 2.7925300
+      0.6666670 0 0 0 0
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.5013440
+      0.4666670 -0.4843750 -0.1015625 -0.5013440
+      0.6666670 -0.4843750 -0.1015625 -0.8906250
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 1.1030900 0 1.5567825
+      0.4000000 0 0 1.5567825
+      0.6666670 0 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 4.2701700
+      0.4666670 -0.0859375 1.0703125 4.2701700
+      0.6666670 -0.0859375 1.0703125 3.8714400
+    endlist
+  endnode
+  node dummy sam
+    parent zin01_door02
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim closing1 zin01_door02
+
+#MAXANIM ASCII
+newanim closing2 zin01_door02
+  length 0.666667
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 -0.8848730 0 1.5567825
+      0.3666670 0 0 1.5567825
+      0.6666670 0 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 0 0 0
+      0.4000000 0 0 0 0
+      0.6666670 0 1 0 2.7925300
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.5013440
+      0.4333330 -0.4843750 -0.1015625 -0.5013440
+      0.6666670 -0.4843750 -0.1015625 -0.8906250
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 1.0111600 0 1.5567825
+      0.3666670 0 0 1.5567825
+      0.6666670 0 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 4.2701700
+      0.4333330 -0.0859375 1.0703125 4.2701700
+      0.6666670 -0.0859375 1.0703125 3.8714400
+    endlist
+  endnode
+  node dummy sam
+    parent zin01_door02
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim closing2 zin01_door02
+
+#MAXANIM ASCII
+newanim dead zin01_door02
+  length 0.0333333
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 0 0 -2.5546875
+      0.0333333 0 0 -2.5546875
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.8906250
+      0.0333333 -0.4843750 -0.1015625 -0.8906250
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 0 0 -2.5546875
+      0.0333333 0 0 -2.5546875
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 4.1942200
+      0.0333333 -0.0859375 1.0703125 4.1942200
+    endlist
+  endnode
+  node trimesh sam
+    parent zin01_door02
+    selfillumcolorkey
+      0 0.3529410 0 0.7058820
+      0.0333333 0.3529410 0 0.7058820
+    endlist
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim dead zin01_door02
+
+#MAXANIM ASCII
+newanim die zin01_door02
+  length 0.2
+  transtime 0.25
+  event 0.0333333 detonate
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 0 0 0.9694335
+      0.0333333 0 0 0.3820805
+      0.1666670 0 0 -2.5546875
+      0.2000000 0 0 -2.5546875
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 1 0 1.3962600
+      0.0333333 0 0 0 0
+      0.2000000 0 0 0 0
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.8906250
+      0.2000000 -0.4843750 -0.1015625 -0.8906250
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 0 0 0.9694335
+      0.0333333 0 0 0.3820805
+      0.1666670 0 0 -2.5546875
+      0.2000000 0 0 -2.5546875
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 3.8714400
+      0.0333333 -0.0859375 1.0703125 3.8714400
+      0.2000000 -0.0859375 1.0703125 4.1562500
+    endlist
+  endnode
+  node dummy sam
+    parent zin01_door02
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim die zin01_door02
+
+#MAXANIM ASCII
+newanim opened1 zin01_door02
+  length 0.0333333
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 -0.9653220 0 1.5567825
+      0.0333333 -0.9653220 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 1 0 2.7925300
+      0.0333333 0 1 0 2.7925300
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.5013440
+      0.0333333 -0.4843750 -0.1015625 -0.5013440
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 1.1030900 0 1.5567825
+      0.0333333 1.1030900 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 4.2701700
+      0.0333333 -0.0859375 1.0703125 4.2701700
+    endlist
+  endnode
+  node dummy sam
+    parent zin01_door02
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim opened1 zin01_door02
+
+#MAXANIM ASCII
+newanim opened2 zin01_door02
+  length 0.0333333
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 -0.9653220 0 1.5567825
+      0.0333333 -0.9653220 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.5013440
+      0.0333333 -0.4843750 -0.1015625 -0.5013440
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 1.1030900 0 1.5567825
+      0.0333333 1.1030900 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 4.2701700
+      0.0333333 -0.0859375 1.0703125 4.2701700
+    endlist
+  endnode
+  node dummy sam
+    parent zin01_door02
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim opened2 zin01_door02
+
+#MAXANIM ASCII
+newanim opening1 zin01_door02
+  length 0.666667
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 0 0 1.5567825
+      0.2666670 0 0 1.5567825
+      0.6666670 -0.9653220 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 0 0 0
+      0.1666670 0 1 0 2.7925300
+      0.6666670 0 1 0 2.7925300
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.8906250
+      0.1666670 -0.4843750 -0.1015625 -0.5013440
+      0.6666670 -0.4843750 -0.1015625 -0.5013440
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 0 0 1.5567825
+      0.2666670 0 0 1.5567825
+      0.6666670 1.1030900 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 3.8714400
+      0.1666670 -0.0859375 1.0703125 3.8714400
+      0.2666670 -0.0859375 1.0703125 4.2701700
+      0.6666670 -0.0859375 1.0703125 4.2701700
+    endlist
+  endnode
+  node trimesh sam
+    parent zin01_door02
+    alphakey
+      0 0
+      0.6666670 0
+    endlist
+    selfillumcolorkey
+      0 0 0 0
+      0.6666670 0 0 0
+    endlist
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim opening1 zin01_door02
+
+#MAXANIM ASCII
+newanim opening2 zin01_door02
+  length 0.666667
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 0 0 1.5567825
+      0.2333330 0 0 1.5567825
+      0.6333330 -0.9653220 0 1.5567825
+      0.6666670 -0.9653220 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 0 0 0
+      0.1333330 0 1 0 2.7925300
+      0.6666670 0 0 0 0
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.8127690
+      0.1333330 -0.4843750 -0.1015625 -0.5013440
+      0.6333330 -0.4843750 -0.1015625 -0.5013440
+      0.6666670 -0.4843750 -0.1015625 -0.5013440
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 0 0 1.5567825
+      0.2333330 0 0 1.5567825
+      0.6333330 1.1030900 0 1.5567825
+      0.6666670 1.1030900 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 3.8714400
+      0.1333330 -0.0859375 1.0703125 3.8714400
+      0.2333330 -0.0859375 1.0703125 4.2701700
+      0.6333330 -0.0859375 1.0703125 4.2701700
+      0.6666670 -0.0859375 1.0703125 4.2701700
+    endlist
+  endnode
+  node dummy sam
+    parent zin01_door02
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim opening2 zin01_door02
+
+#MAXANIM ASCII
+newanim trans zin01_door02
+  length 0.0333333
+  transtime 0.25
+  animroot zin01_door02
+  node dummy zin01_door02
+    parent NULL
+  endnode
+  node dummy zin01_door02head
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02grnd
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02impc
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02hhit
+    parent zin01_door02
+  endnode
+  node trimesh door02_left
+    parent zin01_door02
+    positionkey
+      0 -0.9653220 0 1.5567825
+      0.0333333 -0.9653220 0 1.5567825
+    endlist
+  endnode
+  node trimesh torus05
+    parent door02_left
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node trimesh zin01_door01_schloss01
+    parent door02_left
+    positionkey
+      0 -0.4843750 -0.1015625 -0.5013440
+      0.0333333 -0.4843750 -0.1015625 -0.5013440
+    endlist
+  endnode
+  node dummy zin01_door01_oesenl01
+    parent door02_left
+  endnode
+  node dummy zin01_door01_oesenr01
+    parent door02_left
+  endnode
+  node trimesh door02_right
+    parent zin01_door02
+    positionkey
+      0 1.1030900 0 1.5567825
+      0.0333333 1.1030900 0 1.5567825
+    endlist
+  endnode
+  node trimesh box535
+    parent zin01_door02
+    positionkey
+      0 -0.0859375 1.0703125 4.2701700
+      0.0333333 -0.0859375 1.0703125 4.2701700
+    endlist
+  endnode
+  node trimesh sam
+    parent zin01_door02
+    alphakey
+      0 0.2500000
+      0.0333333 0.2500000
+    endlist
+  endnode
+  node emitter auraemitter02
+    parent zin01_door02
+  endnode
+  node dummy zin01_door02_dwk
+    parent zin01_door02
+  endnode
+  node dummy 02_dwk_dp_closed_02
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_closed_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open2_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_dp_open1_01
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_open1
+    parent zin01_door02_dwk
+  endnode
+  node dummy 02_dwk_wg_closed
+    parent zin01_door02_dwk
+  endnode
+doneanim trans zin01_door02
+donemodel zin01_door02

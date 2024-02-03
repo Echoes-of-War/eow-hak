@@ -1,0 +1,21 @@
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom HTD01_A09_01 
+node aabb Rectangle12 
+  parent HTD01_A09_01 
+  position 0.0 0.0 5e-007
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+    verts 4
+     -5.0 -5.0 0.0
+     5.0 -5.0 0.0
+     5.0 5.0 0.0
+     -5.0 5.0 0.0
+    faces 2
+     0 1 2  1  0 0 0  4
+     3 0 2  1  0 0 0  4
+aabb    -5.00 -5.00  0.00   5.00  5.00  0.00  -1
+    -5.00 -5.00  0.00   5.00  5.00  0.00  0
+    -5.00 -5.00  0.00   5.00  5.00  0.00  1
+endnode
+endwalkmeshgeom HTD01_A09_01 
+

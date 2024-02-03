@@ -1,0 +1,13 @@
+Almraiven City v1.0
+
+This is a non-replacing reskin of the bioware city exterior tileset. It uses FesterPot's textures from his "Almraiven" single player module, and converted into a non-replacing tileset by MannyJabrielle with permission from ol'FP.
+
+This tileset also includes the NWNAlleys and DOA City Gate and Stairs tile addons. It includes minimap images, however the minimap is not retextured, so they appear the same coloring as the default bioware city exterior minimap.
+
+Fester Pot's "Almraiven" module:
+http://neverwintervault.org/project/nwn1/module/almraiven
+
+The original DOA Main Gate and Stairs project:
+http://neverwintervault.org/project/nwn1/hakpak/tileset/doa-city-tile-addition-main-gate-and-stairs
+
+THe original NWNAlleys project: http://neverwintervault.org/project/nwn1/hakpak/tileset/nwalleys

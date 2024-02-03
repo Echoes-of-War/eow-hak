@@ -1,0 +1,1794 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: HTD_UDoor_02
+filedependancy HTD_UDoor_02.max
+newmodel HTD_UDoor_02
+setsupermodel HTD_UDoor_02 NULL
+classification Door
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+  position -1.80967 -0.0953955 1.87273
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_wall9k
+  verts 12
+    -0.125 -0.193256 -1.84987
+    -0.125 0.0567443 -1.84987
+    0.125 0.0567443 -1.84987
+    0.125 -0.193256 -1.84987
+    -0.125 -0.193255 -0.56899
+    -0.125 0.0567446 -0.56899
+    -0.125 0.0567443 -0.736994
+    -0.125 -0.193256 -0.736994
+    0.125 0.0567445 -0.56899
+    0.125 0.0567443 -0.736994
+    0.125 -0.193255 -0.56899
+    0.125 -0.193256 -0.736994
+  faces 18
+    0 1 2  1  0 1 26  0
+    2 3 0  1  26 27 0  0
+    4 5 6  1  14 15 16  0
+    6 7 4  1  16 17 14  0
+    5 8 9  1  8 10 11  0
+    9 6 5  1  11 9 8  0
+    8 10 11  1  4 18 19  0
+    11 9 8  1  19 5 4  0
+    10 4 7  1  24 22 23  0
+    7 11 10  1  23 25 24  0
+    7 6 1  1  17 16 13  0
+    1 0 7  1  13 12 17  0
+    6 9 2  1  9 11 7  0
+    2 1 6  1  7 6 9  0
+    9 11 3  1  5 19 3  0
+    3 2 9  1  3 2 5  0
+    11 7 0  1  25 23 20  0
+    0 3 11  1  20 21 25  0
+  tverts 28
+    -0.0706047 -0.59496 0
+    -0.0721765 -0.414845 0
+    0.254811 0.36782 0
+    0.0746887 0.36782 0
+    0.254811 1.29068 0
+    0.254811 1.16963 0
+    0.850514 -0.413629 0
+    0.850514 -0.59375 0
+    -0.0723425 -0.413629 0
+    0.0487021 -0.413629 0
+    -0.0723425 -0.593751 0
+    0.0487021 -0.593751 0
+    -0.068635 0.36782 0
+    -0.248757 0.36782 0
+    -0.0686358 1.29068 0
+    -0.248757 1.29068 0
+    -0.248757 1.16963 0
+    -0.0686351 1.16963 0
+    0.0746895 1.29068 0
+    0.0746887 1.16963 0
+    1.77569 -0.59375 0
+    1.77569 -0.413629 0
+    0.852837 -0.59375 0
+    0.973882 -0.59375 0
+    0.852837 -0.413629 0
+    0.973882 -0.413629 0
+    -0.252291 -0.416417 0
+    -0.250719 -0.596532 0
+endnode
+node trimesh Mesh103
+  parent Box691
+  position 0 -0.250166 0.20938
+  orientation 0 0 0 0
+  wirecolor 0.769531 0.769531 0.769531
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_wall9k
+  verts 12
+    -0.125 0.0569084 -0.778374
+    0.125 0.0569084 -0.778374
+    0.125 -0.139572 -0.0450991
+    -0.125 -0.139572 -0.0450991
+    0.125 -0.676366 0.491695
+    -0.125 -0.676366 0.491695
+    0.125 0.306908 -0.778374
+    0.125 0.0769345 0.0799009
+    0.125 -0.551366 0.708202
+    -0.125 0.306908 -0.778374
+    -0.125 0.0769345 0.0799009
+    -0.125 -0.551366 0.708202
+  faces 16
+    0 1 2  1  2 3 4  0
+    2 3 0  1  4 5 2  0
+    3 2 4  1  5 4 22  0
+    4 5 3  1  22 23 5  0
+    1 6 7  1  6 9 10  0
+    7 2 1  1  10 7 6  0
+    2 7 8  1  7 10 11  0
+    8 4 2  1  11 8 7  0
+    6 9 10  1  0 13 14  0
+    10 7 6  1  14 1 0  0
+    7 10 11  1  1 14 15  0
+    11 8 7  1  15 12 1  0
+    9 0 3  1  19 16 17  0
+    3 10 9  1  17 20 19  0
+    10 3 5  1  20 17 18  0
+    5 11 10  1  18 21 20  0
+  tverts 24
+    0.727346 1.58152 0
+    1.20738 1.58152 0
+    0.02 1.57953 0
+    0.02 1.4397 0
+    0.430124 1.4397 0
+    0.430124 1.57953 0
+    -0.531513 0.412933 0
+    -0.643453 0.822503 0
+    -0.945182 1.12123 0
+    -0.391688 0.413632 0
+    -0.522711 0.893021 0
+    -0.875875 1.24267 0
+    1.55879 1.58152 0
+    0.727346 1.44169 0
+    1.20738 1.44169 0
+    1.55879 1.44169 0
+    -0.143741 0.41328 0
+    -0.0307936 0.822573 0
+    0.271668 1.12056 0
+    -0.283563 0.414323 0
+    -0.151362 0.893388 0
+    0.20266 1.24217 0
+    0.730356 1.4397 0
+    0.730356 1.57953 0
+endnode
+node trimesh Mesh101
+  parent Box691
+  position 0 -1.72742 2.28481
+  orientation 0 0 0 0
+  wirecolor 0.242188 0.242188 0.242188
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_wall9k
+  verts 24
+    -0.125 0.800885 -1.58373
+    0.125 0.800885 -1.58373
+    -0.125 0.0956003 -1.43199
+    0.125 0.0956003 -1.43199
+    0.125 0.925885 -1.36723
+    0.125 0.0956003 -1.15785
+    -0.125 0.925885 -1.36723
+    -0.125 0.0956003 -1.15785
+    -0.125 -0.0838855 -1.43196
+    0.125 -0.0838855 -1.43196
+    0.125 -0.0838855 -1.15754
+    -0.125 -0.0838855 -1.15754
+    0.125001 0.0947801 -4.13471
+    0.125001 -0.0847049 -4.13471
+    -0.124999 0.0947801 -4.13471
+    -0.124999 -0.0847049 -4.13471
+    -0.125 -0.0841583 -1.59996
+    0.125 -0.0841583 -1.59996
+    0.125 0.0953267 -1.59999
+    -0.125 0.0953267 -1.59999
+    0.125 -0.0844313 -3.09996
+    0.125 0.0950537 -3.09999
+    -0.125 0.0950537 -3.09999
+    -0.125 -0.0844313 -3.09996
+  faces 42
+    0 1 2  1  0 1 54  0
+    3 2 1  1  55 54 1  0
+    1 4 5  1  2 14 15  0
+    5 3 1  1  15 3 2  0
+    4 6 5  1  4 6 5  0
+    7 5 6  1  7 5 6  0
+    6 0 7  1  37 35 38  0
+    2 7 0  1  36 38 35  0
+    8 9 10  1  8 9 10  0
+    10 11 8  1  10 11 8  0
+    12 13 14  1  12 13 52  0
+    15 14 13  1  53 52 13  0
+    5 10 9  1  15 25 24  0
+    9 3 5  1  24 3 15  0
+    7 11 5  1  7 17 5  0
+    10 5 11  1  16 5 17  0
+    2 8 7  1  36 39 38  0
+    11 7 8  1  40 38 39  0
+    9 8 16  1  9 8 30  0
+    16 17 9  1  30 31 9  0
+    2 3 18  1  20 21 28  0
+    18 19 2  1  28 29 20  0
+    3 9 17  1  3 24 47  0
+    17 18 3  1  47 48 3  0
+    8 2 19  1  39 36 44  0
+    19 16 8  1  44 43 39  0
+    18 17 20  1  48 47 49  0
+    20 21 18  1  49 50 48  0
+    19 18 21  1  29 28 32  0
+    21 22 19  1  32 33 29  0
+    16 19 22  1  43 44 45  0
+    22 23 16  1  45 46 43  0
+    17 16 23  1  31 30 51  0
+    23 20 17  1  51 34 31  0
+    21 20 13  1  50 49 27  0
+    13 12 21  1  27 26 50  0
+    22 21 12  1  33 32 22  0
+    12 14 22  1  22 23 33  0
+    23 22 14  1  46 45 41  0
+    14 15 23  1  41 42 46  0
+    20 23 15  1  34 51 19  0
+    15 13 20  1  19 18 34  0
+  tverts 56
+    0.908296 0.458657 0
+    0.908296 0.539271 0
+    0.00735 1.73401 0
+    -0.424198 1.82685 0
+    0.0661155 1.58362 0
+    0.948815 1.58362 0
+    0.0661155 1.45706 0
+    0.948815 1.45706 0
+    0.349119 1.67453 0
+    0.429732 1.67453 0
+    0.429732 1.76302 0
+    0.349119 1.76302 0
+    1.1611 1.58362 0
+    1.1611 1.49276 0
+    0.0838346 1.86648 0
+    -0.424198 1.9946 0
+    1.13963 1.58362 0
+    1.13963 1.45706 0
+    0.429732 0.406498 0
+    0.349119 0.406498 0
+    0.342473 1.67452 0
+    0.26186 1.67452 0
+    0.26186 0.406498 0
+    0.342473 0.406498 0
+    -0.534021 1.82687 0
+    -0.534021 1.99479 0
+    -0.4247 -0.0402423 0
+    -0.534523 -0.0402423 0
+    0.26186 1.62035 0
+    0.342473 1.62035 0
+    0.349119 1.62036 0
+    0.429732 1.62036 0
+    0.26186 0.844786 0
+    0.342473 0.844786 0
+    0.429732 0.844795 0
+    -0.649933 1.74126 0
+    -0.218385 1.83411 0
+    -0.726418 1.87374 0
+    -0.218385 2.00185 0
+    -0.108562 1.83413 0
+    -0.108562 2.00205 0
+    -0.217883 -0.0329849 0
+    -0.0876578 -0.0388345 0
+    -0.108395 1.73134 0
+    -0.218218 1.73132 0
+    -0.218051 0.755443 0
+    -0.108228 0.755461 0
+    -0.534189 1.72408 0
+    -0.424365 1.72406 0
+    -0.534355 0.748204 0
+    -0.424532 0.748185 0
+    0.349119 0.844795 0
+    1.42688 1.58362 0
+    1.42688 1.49276 0
+    0.680874 0.458657 0
+    0.680874 0.539271 0
+endnode
+node trimesh Line131
+  parent Box691
+  position -0.022758 -0.93446 0.212229
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_grate
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 9
+    0 0.742847 -2.06209
+    0 -0.69626 -1.02741
+    0 -0.696533 -2.06213
+    0 -0.695986 -0.859411
+    0 -0.695713 0.64059
+    0 0.00957031 0.48885
+    0 0.546367 -0.0479499
+    0 0.742847 -0.781223
+    0 0.742847 -0.949223
+  faces 14
+    0 1 2  1  9 10 11  0
+    0 3 1  1  12 13 14  0
+    0 4 3  1  15 16 17  0
+    0 5 4  1  18 19 20  0
+    0 6 5  1  21 22 23  0
+    0 7 6  1  24 25 26  0
+    8 7 0  1  27 28 29  0
+    0 2 1  1  30 2 31  0
+    0 1 3  1  32 1 33  0
+    0 3 4  1  34 3 35  0
+    0 4 5  1  36 4 37  0
+    0 5 6  1  38 5 39  0
+    0 6 7  1  40 6 41  0
+    8 0 7  1  8 0 7  0
+  tverts 42
+    1.22279 0.000514328 0.999501
+    0.382961 0.000689059 0.455673
+    0.000499517 0.000499576 0.118423
+    0.445058 0.000879258 0.510375
+    0.9995 0.00106868 0.999306
+    0.943413 0.49057 0.782644
+    0.744997 0.863134 0.480395
+    0.805228 0.473959 0.999501
+    0.859995 0.411861 0.999501
+    0.999486 0.999501 -0.222786
+    0.617039 0.000689059 0.455673
+    0.999501 0.000499576 0.118423
+    0.999486 0.999501 -0.222786
+    0.554942 0.000879258 0.510375
+    0.617039 0.000689059 0.455673
+    0.999486 0.999501 -0.222786
+    0.000499576 0.00106868 0.999306
+    0.554942 0.000879258 0.510375
+    0.999486 0.999501 -0.222786
+    0.0565869 0.49057 0.782644
+    0.000499576 0.00106868 0.999306
+    0.999486 0.999501 -0.222786
+    0.255003 0.863134 0.480395
+    0.0565869 0.49057 0.782644
+    0.999486 0.999501 -0.222786
+    0.526041 0.999501 0.194772
+    0.255003 0.863134 0.480395
+    0.140005 0.411861 0.999501
+    0.194772 0.473959 0.999501
+    -0.222786 0.000514328 0.999501
+    0.000514328 0.999501 -0.222786
+    0.382961 0.000689059 0.455673
+    0.000514328 0.999501 -0.222786
+    0.445058 0.000879258 0.510375
+    0.000514328 0.999501 -0.222786
+    0.9995 0.00106868 0.999306
+    0.000514328 0.999501 -0.222786
+    0.943413 0.49057 0.782644
+    0.000514328 0.999501 -0.222786
+    0.744997 0.863134 0.480395
+    0.000514328 0.999501 -0.222786
+    0.473959 0.999501 0.194772
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+  position 1.81293 -0.0953955 1.25514
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.839844 0.839844 0.839844
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_wall9k
+  verts 12
+    0.125 0.193256 -1.23228
+    0.125 -0.0567444 -1.23228
+    -0.125 -0.0567444 -1.23228
+    -0.125 0.193256 -1.23228
+    0.125 0.193255 0.0486001
+    0.125 -0.0567446 0.0486001
+    0.125 -0.0567444 -0.119404
+    0.125 0.193256 -0.119404
+    -0.125 -0.0567446 0.0486001
+    -0.125 -0.0567445 -0.119404
+    -0.125 0.193255 0.0486001
+    -0.125 0.193256 -0.119404
+  faces 18
+    0 1 2  1  12 13 14  0
+    2 3 0  1  14 15 12  0
+    4 5 6  1  18 19 20  0
+    6 7 4  1  20 21 18  0
+    5 8 9  1  6 23 24  0
+    9 6 5  1  24 22 6  0
+    8 10 11  1  9 26 27  0
+    11 9 8  1  27 25 9  0
+    10 4 7  1  10 4 7  0
+    7 11 10  1  7 11 10  0
+    7 6 1  1  21 20 17  0
+    1 0 7  1  17 16 21  0
+    6 9 2  1  22 24 5  0
+    2 1 6  1  5 1 22  0
+    9 11 3  1  25 27 8  0
+    3 2 9  1  8 2 25  0
+    11 7 0  1  11 7 0  0
+    0 3 11  1  0 3 11  0
+  tverts 28
+    1.87036 -0.580548 0
+    0.948274 -0.406152 0
+    0.938219 0.399269 0
+    1.87036 -0.400427 0
+    0.947508 -0.580548 0
+    0.948274 -0.586273 0
+    0.0254177 -0.406152 0
+    1.06855 -0.580548 0
+    0.758097 0.399269 0
+    0.938219 1.32213 0
+    0.947508 -0.400427 0
+    1.06855 -0.400427 0
+    -0.221861 -0.411096 0
+    -0.221861 -0.591218 0
+    -0.0417393 -0.591218 0
+    -0.0417393 -0.411096 0
+    1.59694 0.393544 0
+    1.41682 0.393544 0
+    1.59694 1.3164 0
+    1.41682 1.3164 0
+    1.41682 1.19536 0
+    1.59694 1.19536 0
+    0.146462 -0.406152 0
+    0.0254178 -0.586273 0
+    0.146463 -0.586273 0
+    0.938219 1.20108 0
+    0.758098 1.32213 0
+    0.758097 1.20108 0
+endnode
+node trimesh Mesh20
+  parent Box689
+  position 0 1.70208 2.90975
+  orientation 0 0 0 0
+  wirecolor 0.113281 0.113281 0.113281
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_wall9k
+  verts 24
+    0.125 -0.775554 -1.59108
+    -0.125 -0.775554 -1.59108
+    0.125 -0.0702693 -1.43934
+    -0.125 -0.0702693 -1.43934
+    -0.125 -0.900554 -1.37458
+    -0.125 -0.0702693 -1.1652
+    0.125 -0.900554 -1.37458
+    0.125 -0.0702693 -1.1652
+    0.125 0.109216 -1.43931
+    -0.125 0.109216 -1.43931
+    -0.125 0.109216 -1.16489
+    0.125 0.109216 -1.16489
+    -0.125001 -0.0694492 -4.14206
+    -0.125001 0.110036 -4.14206
+    0.124999 -0.0694492 -4.14206
+    0.124999 0.110036 -4.14206
+    0.125 0.109489 -1.60731
+    -0.125 0.109489 -1.60731
+    -0.125 -0.0699957 -1.60734
+    0.125 -0.0699957 -1.60734
+    -0.125 0.109762 -3.10731
+    -0.125 -0.0697227 -3.10734
+    0.125 -0.0697227 -3.10734
+    0.125 0.109762 -3.10731
+  faces 42
+    0 1 2  1  24 25 26  0
+    3 2 1  1  27 26 25  0
+    1 4 5  1  1 9 28  0
+    5 3 1  1  28 3 1  0
+    4 6 5  1  4 10 5  0
+    7 5 6  1  33 5 10  0
+    6 0 7  1  6 0 7  0
+    2 7 0  1  2 7 0  0
+    8 9 10  1  13 15 16  0
+    10 11 8  1  16 17 13  0
+    12 13 14  1  36 37 46  0
+    15 14 13  1  47 46 37  0
+    5 10 9  1  28 30 29  0
+    9 3 5  1  29 3 28  0
+    7 11 5  1  33 35 5  0
+    10 5 11  1  34 5 35  0
+    2 8 7  1  2 8 7  0
+    11 7 8  1  11 7 8  0
+    9 8 16  1  15 13 42  0
+    16 17 9  1  42 43 15  0
+    2 3 18  1  12 18 52  0
+    18 19 2  1  52 53 12  0
+    3 9 17  1  3 29 48  0
+    17 18 3  1  48 49 3  0
+    8 2 19  1  8 2 38  0
+    19 16 8  1  38 22 8  0
+    18 17 20  1  49 48 50  0
+    20 21 18  1  50 51 49  0
+    19 18 21  1  53 52 54  0
+    21 22 19  1  54 55 53  0
+    16 19 22  1  22 38 39  0
+    22 23 16  1  39 40 22  0
+    17 16 23  1  43 42 45  0
+    23 20 17  1  45 44 43  0
+    21 20 13  1  51 50 32  0
+    13 12 21  1  32 31 51  0
+    22 21 12  1  55 54 21  0
+    12 14 22  1  21 41 55  0
+    23 22 14  1  40 39 14  0
+    14 15 23  1  14 19 40  0
+    20 23 15  1  44 45 23  0
+    15 13 20  1  23 20 44  0
+  tverts 56
+    1.34081 1.73455 0
+    0.675621 1.74522 0
+    1.78001 1.82904 0
+    0.236425 1.83971 0
+    0.706053 0.442705 0
+    -0.377175 0.442705 0
+    1.26297 1.86937 0
+    1.78001 1.99975 0
+    1.89178 1.82906 0
+    0.753461 1.88004 0
+    0.706053 0.579748 0
+    1.89178 1.99995 0
+    -0.409229 1.67253 0
+    -0.402584 1.67254 0
+    1.78052 -0.0339931 0
+    -0.32197 1.67254 0
+    -0.32197 1.76103 0
+    -0.402584 1.76103 0
+    -0.489842 1.67253 0
+    1.89229 -0.0339931 0
+    -0.32197 0.362085 0
+    -0.489842 0.362085 0
+    1.89195 1.72444 0
+    -0.402583 0.362085 0
+    0.0934041 1.03292 0
+    0.174017 1.03292 0
+    0.093404 1.26035 0
+    0.174017 1.26035 0
+    0.236425 2.01043 0
+    0.124655 1.83973 0
+    0.124655 2.01062 0
+    0.235914 -0.0233196 0
+    0.124145 -0.0233196 0
+    -0.377175 0.579748 0
+    -0.61134 0.442705 0
+    -0.61134 0.579748 0
+    1.05856 0.481359 0
+    1.05856 0.579748 0
+    1.78018 1.72442 0
+    1.78035 0.743714 0
+    1.89212 0.743733 0
+    -0.409229 0.362085 0
+    -0.402584 1.61837 0
+    -0.32197 1.61837 0
+    -0.32197 0.933894 0
+    -0.402584 0.933894 0
+    0.732401 0.481359 0
+    0.732401 0.579748 0
+    0.124485 1.73512 0
+    0.236254 1.7351 0
+    0.124315 0.754407 0
+    0.236084 0.754388 0
+    -0.489842 1.61836 0
+    -0.409229 1.61836 0
+    -0.489842 0.933884 0
+    -0.409229 0.933884 0
+endnode
+node trimesh Mesh99
+  parent Box689
+  position 0 0.233721 0.81021
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_wall9k
+  verts 12
+    0.125 -0.0404675 -0.761615
+    -0.125 -0.0404675 -0.761615
+    -0.125 0.156013 -0.0283402
+    0.125 0.156013 -0.0283402
+    -0.125 0.692807 0.508454
+    0.125 0.692807 0.508454
+    -0.125 -0.290467 -0.761615
+    -0.125 -0.0604936 0.0966597
+    -0.125 0.567807 0.724961
+    0.125 -0.290467 -0.761615
+    0.125 -0.0604935 0.0966597
+    0.125 0.567807 0.724961
+  faces 16
+    0 1 2  1  12 13 14  0
+    2 3 0  1  14 15 12  0
+    3 2 4  1  15 14 16  0
+    4 5 3  1  16 17 15  0
+    1 6 7  1  1 18 19  0
+    7 2 1  1  19 2 1  0
+    2 7 8  1  2 19 20  0
+    8 4 2  1  20 4 2  0
+    6 9 10  1  6 21 22  0
+    10 7 6  1  22 7 6  0
+    7 10 11  1  7 22 23  0
+    11 8 7  1  23 8 7  0
+    9 0 3  1  9 0 3  0
+    3 10 9  1  3 10 9  0
+    10 3 5  1  10 3 5  0
+    5 11 10  1  5 11 10  0
+  tverts 24
+    -0.807707 0.414647 0
+    -0.543091 0.421768 0
+    -0.655032 0.831338 0
+    -0.69476 0.82394 0
+    -0.956761 1.13007 0
+    -0.392298 1.12192 0
+    -0.397487 1.58381 0
+    0.576988 1.58381 0
+    1.29035 1.58381 0
+    -0.947529 0.41569 0
+    -0.815328 0.894754 0
+    -0.461306 1.24354 0
+    -0.397487 1.58381 0
+    -0.397487 1.44398 0
+    0.435065 1.44398 0
+    0.435065 1.58381 0
+    1.04453 1.44398 0
+    1.04453 1.58381 0
+    -0.403267 0.422467 0
+    -0.53429 0.901855 0
+    -0.887454 1.25151 0
+    -0.397487 1.44398 0
+    0.576988 1.44398 0
+    1.29035 1.44398 0
+endnode
+node trimesh Line132
+  parent Box689
+  position -0.0227539 0.936104 0.829819
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap HTD01_grate
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 9
+    0 -0.742847 -2.06209
+    0 0.69626 -1.02741
+    0 0.696533 -2.06213
+    0 0.695986 -0.859411
+    0 0.695713 0.64059
+    0 -0.00957028 0.48885
+    0 -0.546367 -0.0479499
+    0 -0.742847 -0.781223
+    0 -0.742847 -0.949223
+  faces 14
+    0 1 2  1  9 10 11  0
+    0 3 1  1  12 13 14  0
+    0 4 3  1  15 16 17  0
+    0 5 4  1  18 19 20  0
+    0 6 5  1  21 22 23  0
+    0 7 6  1  24 25 26  0
+    8 7 0  1  27 28 29  0
+    0 2 1  1  30 2 31  0
+    0 1 3  1  32 1 33  0
+    0 3 4  1  34 3 35  0
+    0 4 5  1  36 4 37  0
+    0 5 6  1  38 5 39  0
+    0 6 7  1  40 6 41  0
+    8 0 7  1  8 0 7  0
+  tverts 42
+    0.279284 0.000514358 0.000499576
+    0.617039 0.999311 0.276132
+    0.9995 0.999501 0.000340462
+    0.554942 0.999121 0.320955
+    0.000499517 0.998931 0.720738
+    0.0565869 0.50943 0.816976
+    0.255003 0.136866 0.77795
+    0.620617 0.473959 0.000499547
+    0.575848 0.411861 0.000499547
+    0.000514358 0.000499576 0.279284
+    0.382961 0.999311 0.276132
+    0.000499576 0.999501 0.000340462
+    0.000514358 0.000499576 0.279284
+    0.445058 0.999121 0.320955
+    0.382961 0.999311 0.276132
+    0.000514358 0.000499576 0.279284
+    0.999501 0.998931 0.720738
+    0.445058 0.999121 0.320955
+    0.000514358 0.000499576 0.279284
+    0.943413 0.50943 0.816976
+    0.999501 0.998931 0.720738
+    0.000514358 0.000499576 0.279284
+    0.744997 0.136866 0.77795
+    0.943413 0.50943 0.816976
+    0.000514358 0.000499576 0.279284
+    0.473959 0.000499547 0.620617
+    0.744997 0.136866 0.77795
+    0.424152 0.411861 0.000499547
+    0.379383 0.473959 0.000499547
+    0.720716 0.000514358 0.000499576
+    0.999486 0.000499576 0.279284
+    0.617039 0.999311 0.276132
+    0.999486 0.000499576 0.279284
+    0.554942 0.999121 0.320955
+    0.999486 0.000499576 0.279284
+    0.000499517 0.998931 0.720738
+    0.999486 0.000499576 0.279284
+    0.0565869 0.50943 0.816976
+    0.999486 0.000499576 0.279284
+    0.255003 0.136866 0.77795
+    0.999486 0.000499576 0.279284
+    0.526041 0.000499547 0.620617
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+  position 0.0100391 -0.0872998 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.105469 0.105469 0.105469
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  alpha 0
+  selfillumcolor 0 0 1
+  bitmap NULL
+  render 1
+  Shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 8
+    -0.0184672 1.85407 0
+    -0.0184672 -1.85407 0
+    -0.0184672 -1.85407 4.33169
+    -0.0184672 1.85407 4.33169
+    0.0318757 -1.85407 0
+    0.0318757 1.85407 0
+    0.0318757 -1.85407 4.33169
+    0.0318757 1.85407 4.33169
+  faces 4
+    0 1 2  1  0 0 0  0
+    2 3 0  1  0 0 0  0
+    4 5 6  1  0 0 0  0
+    7 6 5  1  0 0 0  0
+  tverts 1
+    0 0 0
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+  position -0.0426746 -0.0642704 0.611537
+  orientation 0 0 -1 -3.14159
+  wirecolor 0.878906 0.878906 0.878906
+    colorStart 1 1 1
+    colorEnd 1 1 1
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 5
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 314
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_S01
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+  position -0.0426746 0.0170772 0.923231
+  orientation 0 0.707107 0.707107 -3.1416
+  wirecolor 0.878906 0.878906 0.878906
+    colorStart 0.47451 0.439216 0.364706
+    colorEnd 0.819608 0.796079 0.709804
+    alphaStart 1
+    alphaEnd 0
+    sizeStart 4
+    sizeEnd 1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 35
+    spawnType 0
+    lifeExp 2.5
+    mass 0.09
+    spread 2.96706
+    particleRot 0.5
+    velocity 2
+    randvel 0.5
+    fps 10
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 312
+    ysize 146
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0.2
+    blastLength 1
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_smoke01
+    xgrid 4
+    ygrid 4
+    affectedByWind 0
+    m_isTinted 1
+    renderorder 0
+    Splat 0
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+  position -0.0426746 -0.0642704 1.19031
+  orientation 0 0 -1 -3.14159
+  wirecolor 0.878906 0.878906 0.878906
+    colorStart 0.482353 0.435294 0.317647
+    colorEnd 0.584314 0.533333 0.407843
+    alphaStart 1
+    alphaEnd 1
+    sizeStart 0.1
+    sizeEnd 0.1
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 24
+    birthrate 3
+    spawnType 0
+    lifeExp 0.75
+    mass 3
+    spread 1.22173
+    particleRot 2.9
+    velocity 8
+    randvel 0.3
+    fps 0
+    random 0
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 304
+    ysize 40
+    bounce 1
+    bounce_co 0.5
+    loop 0
+    update Explosion
+    render Normal
+    Blend Normal
+    update_sel 2
+    render_sel 1
+    blend_sel 1
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 1
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cloud02
+    xgrid 5
+    ygrid 5
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+    chunkName PLC_Chunk_S02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+  position 0.00246094 0.0296179 2.5109
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.878906 0.878906 0.878906
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+  position 0.00246094 0.0296179 1.09464
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.878906 0.878906 0.878906
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+  position 0.00246094 0.0296179 2.20024
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.878906 0.878906 0.878906
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+  position 0.00246094 0.0296179 0.02
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.878906 0.878906 0.878906
+endnode
+endmodelgeom HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim opening2 HTD_UDoor_02
+  length 0.966667
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.5708
+      0.0666667  0 0 1 1.5708
+      0.9  0 0 1 3.20268
+      0.966667  0 0 1 3.14159
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.5708
+      0.9  0 0 -1 0.0610869
+      0.966667  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0
+      0.966667  0
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim opening2 HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim opening1 HTD_UDoor_02
+  length 0.966667
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.5708
+      0.0666667  0 0 1 1.5708
+      0.9  0 0 -1 0.0610869
+      0.966667  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.5708
+      0.9  0 0 1 3.20268
+      0.966667  0 0 1 3.14159
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0
+      0.966667  0
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim opening1 HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim closing2 HTD_UDoor_02
+  length 0.966667
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.97804
+      0.0666667  0 0 1 3.14159
+      0.9  0 0 1 1.5708
+      0.933333  0 0 1 1.61443
+      0.966667  0 0 1 1.5708
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 0 0
+      0.9  0 0 1 1.5708
+      0.933333  0 0 1 1.53589
+      0.966667  0 0 1 1.5708
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim closing2 HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim closing1 HTD_UDoor_02
+  length 0.966667
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.16356
+      0.0666667  0 0 0 0
+      0.9  0 0 1 1.5708
+      0.933333  0 0 1 1.52716
+      0.966667  0 0 1 1.5708
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 3.14159
+      0.9  0 0 1 1.5708
+      0.933333  0 0 1 1.6057
+      0.966667  0 0 1 1.5708
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0
+      0.966667  0
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim closing1 HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim closed HTD_UDoor_02
+  length 0
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.5708
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 1.5708
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim closed HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim opened2 HTD_UDoor_02
+  length 0.0333333
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 3.14159
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 0 0
+      0.0333333  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim opened2 HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim opened1 HTD_UDoor_02
+  length 0.0333333
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 0 0
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    orientationkey
+      0  0 0 1 3.14159
+      0.0333333  0 0 1 3.14159
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0
+      0.0333333  0
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim opened1 HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim trans HTD_UDoor_02
+  length 0.0333333
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+    alphakey
+      0  0.25
+      0.0333333  0.25
+    endlist
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim trans HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim die HTD_UDoor_02
+  length 0.166667
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    positionkey
+      0  -1.80967 -0.0953955 1.87273
+      0.166667  -1.80967 -0.0953955 -2.89227
+    endlist
+    orientationkey
+      0  0 0 1 1.5708
+      0.166667  0.263168 0.309582 0.913729 1.26022
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    positionkey
+      0  1.81293 -0.0953955 1.25514
+      0.166667  1.81293 -0.0953955 -3.50986
+    endlist
+    orientationkey
+      0  0 0 1 1.5708
+      0.166667  -0.0764521 -0.429341 0.899901 1.20994
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+event 0  detonate
+event 0  detonate
+event 0  detonate
+doneanim die HTD_UDoor_02
+
+#MAXANIM ASCII
+newanim dead HTD_UDoor_02
+  length 0.0333333
+  transtime 0.25
+  animroot HTD_UDoor_02
+node dummy HTD_UDoor_02
+  parent NULL
+endnode
+node trimesh Box691
+  parent HTD_UDoor_02
+    positionkey
+      0  -1.80967 -0.0953955 -2.89227
+    endlist
+    orientationkey
+      0  0.263168 0.309582 0.913729 1.26022
+    endlist
+endnode
+node trimesh Mesh103
+  parent Box691
+endnode
+node trimesh Mesh101
+  parent Box691
+endnode
+node trimesh Line131
+  parent Box691
+endnode
+node trimesh Box689
+  parent HTD_UDoor_02
+    positionkey
+      0  1.81293 -0.0953955 -3.50986
+      0.0333333  1.81293 -0.0953955 -3.50986
+    endlist
+    orientationkey
+      0  -0.0764521 -0.429341 0.899901 1.20994
+      0.0333333  -0.0764525 -0.429341 0.899901 1.20994
+    endlist
+endnode
+node trimesh Mesh20
+  parent Box689
+endnode
+node trimesh Mesh99
+  parent Box689
+endnode
+node trimesh Line132
+  parent Box689
+endnode
+node trimesh sam
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood08
+  parent HTD_UDoor_02
+endnode
+node emitter fire!10
+  parent HTD_UDoor_02
+endnode
+node emitter ChunkyWood07
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02head
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02impc
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02hhit
+  parent HTD_UDoor_02
+endnode
+node dummy HTD_UDoor_02grnd
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open1
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_open2
+  parent HTD_UDoor_02
+endnode
+node trimesh 02_DWK_wg_closed
+  parent HTD_UDoor_02
+endnode
+doneanim dead HTD_UDoor_02
+donemodel HTD_UDoor_02

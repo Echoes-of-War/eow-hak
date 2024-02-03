@@ -1,0 +1,24 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sat Dec 09 16:05:23 2017
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom dct01_p01_01
+node aabb plane1405
+  parent dct01_p01_01
+  wirecolor 1 1 1
+  bitmap NULL
+  orientation 0 0 0 0
+  position 0 0 0
+  verts 4
+    5 -5 0
+    5 5 0
+    -5 -5 0
+    -5 5 0
+  faces 2
+    0 1 2 1 0 0 0 4
+    3 2 1 1 0 0 0 4
+  aabb     -5 -5 0 5 5 0 -1
+    -5 -5 0 5 5 0 1
+    -5 -5 0 5 5 0 0
+endnode
+endwalkmeshgeom dct01_p01_01
+
+

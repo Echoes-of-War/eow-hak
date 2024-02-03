@@ -1,0 +1,158 @@
+# Exported from 3ds max by MDL Plugin Suite 1.1b3
+# http://rockbottom.vtex.net
+#MAXMODEL ASCII
+# model: tga02_h05_01
+filedependancy Unknown
+newmodel tga02_h05_01
+setsupermodel tga02_h05_01 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom tga02_h05_01
+node dummy tga02_h05_01
+  parent NULL
+endnode
+node light tga02_h05_01ml1
+  parent tga02_h05_01
+  position 0 0 5
+  orientation 0 0 0 0
+  wirecolor 0.839844 0.839844 0.839844
+    radius 14
+    multiplier 1
+    color 0 0 0
+    ambient_only 0
+    n_dyntgac_type 0
+    affect_dyntgac 1
+    shadow 0
+    lightpriority 5
+    lensflares 0
+    fading_light 1
+endnode
+node trimesh Plane48
+  parent tga02_h05_01
+  position 0 0 0.01
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap tga07_FogPath02
+  render 1
+  Shadow 1
+  betgang 0
+  transparencyhint 1
+  tilefade 0
+  rotatetexture 0
+  verts 9
+    -2 2 0
+    -2 0 0
+    0 2 0
+    0 0 0
+    2 2 0
+    2 0 0
+    -2 5 0
+    0 5 0
+    2 5 0
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.000499815 0.5999 0
+    0.000499994 0.9995 0
+    0.5 0.5999 0
+    0.5 0.9995 0
+    0.9995 0.5999 0
+    0.999501 0.9995 0
+    0.000499517 0.000499845 0
+    0.5 0.000499696 0
+    0.9995 0.000499517 0
+endnode
+node aabb CM153
+  parent tga02_h05_01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  verts 11
+    1.69271 0.836254 0
+    -1.84682 5 0
+    -1.57262 0.744401 0
+    1.84564 5 0
+    -0.232895 0.282572 0
+    0.45218 0.281929 0
+    2.43124 -0.102288 0
+    2.71892 5 0
+    -2.65177 5 0
+    -2.37789 -0.194141 0
+    0.181732 -0.656613 0
+  faces 13
+    5 3 4  1  0 0 0  1
+    4 1 2  1  0 0 0  1
+    0 3 5  1  0 0 0  1
+    4 3 1  1  0 0 0  1
+    6 7 3  1  0 0 0  7
+    3 0 6  1  0 0 0  7
+    8 9 2  1  0 0 0  7
+    2 1 8  1  0 0 0  7
+    5 4 10  1  0 0 0  7
+    9 10 4  1  0 0 0  7
+    4 2 9  1  0 0 0  7
+    10 6 0  1  0 0 0  7
+    0 5 10  1  0 0 0  7
+  aabb     -2.65 -0.66 0.00   2.72 5.00 0.00   -1
+     -2.65 -0.66 0.00   2.43 5.00 0.00   -1
+     -2.38 -0.66 0.00   2.43 0.84 0.00   -1
+     -2.38 -0.66 0.00   0.18 0.28 0.00   9
+     -0.23 -0.66 0.00   2.43 0.84 0.00   -1
+     -0.23 -0.66 0.00   0.45 0.28 0.00   8
+     0.18 -0.66 0.00   2.43 0.84 0.00   11
+     -2.65 -0.66 0.00   1.69 5.00 0.00   -1
+     0.18 -0.66 0.00   1.69 0.84 0.00   12
+     -2.65 -0.19 0.00   -0.23 5.00 0.00   -1
+     -2.38 -0.19 0.00   -0.23 0.74 0.00   10
+     -2.65 -0.19 0.00   -1.57 5.00 0.00   6
+     -2.65 -0.10 0.00   2.72 5.00 0.00   -1
+     -2.65 0.28 0.00   1.85 5.00 0.00   -1
+     -1.85 0.28 0.00   -0.23 5.00 0.00   1
+     -2.65 0.28 0.00   1.85 5.00 0.00   -1
+     -1.85 0.28 0.00   1.85 5.00 0.00   3
+     -2.65 0.74 0.00   -1.57 5.00 0.00   7
+     -0.23 -0.10 0.00   2.72 5.00 0.00   -1
+     -0.23 -0.10 0.00   2.43 5.00 0.00   -1
+     -0.23 0.28 0.00   1.85 5.00 0.00   0
+     1.69 -0.10 0.00   2.43 5.00 0.00   5
+     0.45 -0.10 0.00   2.72 5.00 0.00   -1
+     0.45 0.28 0.00   1.85 5.00 0.00   2
+     1.85 -0.10 0.00   2.72 5.00 0.00   4
+endnode
+node light tga02_h05_01ml2
+  parent tga02_h05_01
+  position 0.543152 3.62433 2.82037
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+    radius 5
+    multiplier 1
+    color 0.00392157 0.00392157 0.00392157
+    ambient_only 0
+    n_dyntgac_type 0
+    affect_dyntgac 1
+    shadow 0
+    lightpriority 5
+    lensflares 0
+    fading_light 1
+endnode
+endmodelgeom tga02_h05_01
+donemodel tga02_h05_01
+
+

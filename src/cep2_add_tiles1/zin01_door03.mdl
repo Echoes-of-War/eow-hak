@@ -1,0 +1,161 @@
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel zin01_door03
+setsupermodel zin01_door03 null
+setanimationscale 1
+classification DOOR
+#MAXGEOM ASCII
+beginmodelgeom zin01_door03
+node dummy zin01_door03
+  parent NULL
+endnode
+node dummy zin01_door03grnd
+  parent zin01_door03
+  orientation 0 0 0 0
+  wirecolor 0.1019610 0.6941180 0.1019610
+  position 0 0 0
+endnode
+node dummy zin01_door03impc
+  parent zin01_door03
+  orientation 0 0 0 0
+  wirecolor 0.5254900 0.4313730 0.0313726
+  position 0 0 1.7500000
+endnode
+node dummy zin01_door03hhit
+  parent zin01_door03
+  orientation 0 0 0 0
+  wirecolor 0.5254900 0.4313730 0.0313726
+  position 0 0 2.2500000
+endnode
+node dummy zin01_door03head
+  parent zin01_door03
+  orientation 0 0 0 0
+  wirecolor 0.3372550 0.3372550 0.3372550
+  position 0 0 2.5000000
+endnode
+node trimesh sam
+  parent zin01_door03
+  orientation 0 0 0 0
+  wirecolor 0.5529410 0.0274510 0.2274510
+  alpha 0
+  transparencyhint 0
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  selfillumcolor 0.3333330 0 0.7450980
+  rotatetexture 0
+  center 0 -54.5002000 -132.8000000
+  bitmap NULL
+  position 0 0.5468750 2.6796875
+  verts 4
+    0.9921875 -0.5468750 0
+    -1 -0.5468750 0
+    0.9921875 -0.5468750 -2.6562500
+    -1 -0.5468750 -2.6562500
+  faces 4
+    0 1 2 1 0 0 0 1
+    3 2 1 1 0 0 0 1
+    1 0 2 1 0 0 0 1
+    2 3 1 1 0 0 0 1
+  tverts 1
+    0 0 0
+endnode
+endmodelgeom zin01_door03
+
+#MAXANIM ASCII
+newanim default zin01_door03
+  length 0.0333333
+  transtime 0.25
+  animroot zin01_door03
+  node dummy zin01_door03
+    parent NULL
+  endnode
+  node dummy zin01_door03grnd
+    parent zin01_door03
+  endnode
+  node dummy zin01_door03impc
+    parent zin01_door03
+  endnode
+  node dummy zin01_door03hhit
+    parent zin01_door03
+  endnode
+  node dummy zin01_door03head
+    parent zin01_door03
+  endnode
+  node trimesh sam
+    parent zin01_door03
+    alphakey
+      0 0
+      0.0333333 0
+    endlist
+  endnode
+  node dummy zin01_door03_dwk
+    parent zin01_door03
+  endnode
+  node dummy 03_dwk_dp_open1_01
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_dp_open2_01
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_dp_closed_01
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_dp_closed_02
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_wg_closed
+    parent zin01_door03_dwk
+  endnode
+doneanim default zin01_door03
+
+#MAXANIM ASCII
+newanim trans zin01_door03
+  length 0.0333333
+  transtime 0.25
+  animroot zin01_door03
+  node dummy zin01_door03
+    parent NULL
+  endnode
+  node dummy zin01_door03grnd
+    parent zin01_door03
+  endnode
+  node dummy zin01_door03impc
+    parent zin01_door03
+  endnode
+  node dummy zin01_door03hhit
+    parent zin01_door03
+  endnode
+  node dummy zin01_door03head
+    parent zin01_door03
+  endnode
+  node trimesh sam
+    parent zin01_door03
+    alphakey
+      0 0.2500000
+      0.0333333 0.2500000
+    endlist
+  endnode
+  node dummy zin01_door03_dwk
+    parent zin01_door03
+  endnode
+  node dummy 03_dwk_dp_open1_01
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_dp_open2_01
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_dp_closed_01
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_dp_closed_02
+    parent zin01_door03_dwk
+  endnode
+  node dummy 03_dwk_wg_closed
+    parent zin01_door03_dwk
+  endnode
+doneanim trans zin01_door03
+donemodel zin01_door03

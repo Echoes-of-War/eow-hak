@@ -1,0 +1,464 @@
+#MAXMODEL ASCII
+# model: zic01_d51_11
+filedependancy zic01_d51_11.max
+newmodel zic01_d51_11
+setsupermodel zic01_d51_11 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zic01_d51_11
+node dummy zic01_d51_11
+  parent NULL
+  #part-number 0
+endnode
+node light zic01_d51_11ml1
+  parent zic01_d51_11
+  #part-number 1
+  ambientonly 0
+  shadow 1
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 5
+  fadingLight 1
+  flareradius 0
+  orientation -1 0 0 -1.57079625
+  radius 14
+  multiplier 1
+  color 0 0 0
+  position 3.203125 0 3.328125
+endnode
+node trimesh wall2
+  parent zic01_d51_11
+  #part-number 2
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_marbl05
+  verts 8
+    -5 1.5 1
+    -5 1.5 0
+    5 1.5 0
+    5 1.5 1
+    5 -1.5 1
+    5 -1.5 0
+    -5 -1.5 0
+    -5 -1.5 1
+  tverts 4
+    4.5 0 0
+    4.5 0.5 0
+    0.5 0.5 0
+    0.5 0 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+    4 5 6 1 3 2 1 1
+    4 6 7 1 3 1 0 1
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 0
+endnode
+node trimesh floor
+  parent zic01_d51_11
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tic01_floor00
+  verts 7
+    -1.0546875 -1.7109375 0
+    1.9453125 1.2890625 0
+    -2.671875 1.2890625 0
+    -4.5546875 1.2890625 0
+    -4.5546875 -1.7109375 0
+    5.4453125 -1.7109375 0
+    5.4453125 1.2890625 0
+  tverts 7
+    1.75 0.75 0
+    3.25 2.25 0
+    0.942309976 2.25 0
+    0 2.25 0
+    0 0.750001013 0
+    5 0.749998987 0
+    5 2.25 0
+  faces 5
+    0 1 2 1 0 1 2 65536
+    2 3 4 1 2 3 4 65536
+    0 2 4 1 0 2 4 65536
+    5 6 1 1 5 6 1 65536
+    1 0 5 1 1 0 5 65536
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position -0.4453125 0.2109375 0
+endnode
+node trimesh wall
+  parent zic01_d51_11
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_marbl01
+  verts 8
+    -5 1.5 3
+    -5 1.5 0
+    5 1.5 0
+    5 1.5 3
+    5 -1.5 3
+    5 -1.5 0
+    -5 -1.5 0
+    -5 -1.5 3
+  tverts 4
+    0 0.999499977 0
+    0 0.000499900023 0
+    4 0.000499800022 0
+    4 0.999499977 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+    4 5 6 1 3 2 1 1
+    4 6 7 1 3 1 0 1
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 1
+endnode
+node trimesh top
+  parent zic01_d51_11
+  #part-number 5
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  bitmap tdr01_black
+  verts 12
+    0 -5 2.5
+    10 -1.5 2.5
+    5 -1.5 2.5
+    0 -1.5 2.5
+    10 -5 2.5
+    0 5 2.5
+    0 1.5 2.5
+    10 5 2.5
+    5 1.5 2.5
+    10 1.5 2.5
+    0 -1.5 -2.5
+    0 1.5 -2.5
+  tverts 8
+    5 5 0
+    0 0 0
+    2.75 0 0
+    5 0 0
+    0 5 0
+    2.25 0 0
+    2.25 0 0
+    2.75 0 0
+  faces 10
+    0 1 2 1 0 1 2 65536
+    2 3 0 1 2 3 0 65536
+    4 1 0 1 4 1 0 65536
+    5 6 7 1 4 1 0 65536
+    7 6 8 1 0 1 5 65536
+    8 9 7 1 5 3 0 65536
+    3 2 8 1 3 2 5 1
+    3 8 6 1 3 5 1 1
+    10 11 6 2 2 5 6 1
+    6 3 10 2 5 2 7 1
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position -5 0 2.5
+endnode
+node trimesh door_wall
+  parent zic01_d51_11
+  #part-number 6
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_marbl01
+  verts 6
+    0.1640625 -0.1640625 -3
+    0.1640625 0.3359375 -3
+    0.1640625 0.3359375 0
+    0.1640625 -0.1640625 0
+    -0.3359375 -0.1640625 0
+    -0.3359375 -0.1640625 -3
+  tverts 8
+    0.563436985 0.874625027 0
+    0.563436985 1.06193995 0
+    1.68731296 1.06193995 0
+    1.68731296 0.874625027 0
+    1.68748295 1.06204998 0
+    0.563463986 1.06204998 0
+    0.563463986 0.877384007 0
+    1.68748295 0.877384007 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 0 2 4 5 6 1
+    4 0 3 2 4 6 7 1
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position -0.6640625 1.1640625 3
+endnode
+node trimesh door_top
+  parent zic01_d51_11
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_marbl01
+  verts 6
+    -0.5 -1.5 -2
+    -0.5 1.5 -2
+    0 1.5 -2
+    0 -1.5 -2
+    0 1.5 0
+    0 -1.5 0
+  tverts 4
+    1 0 0
+    1 1 0
+    0 1 0
+    0 0 0
+  faces 4
+    0 1 2 1 0 1 2 2
+    2 3 0 1 2 3 0 2
+    3 2 4 2 3 0 1 4
+    4 5 3 2 1 2 3 4
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 5
+endnode
+node aabb walkplane
+  parent zic01_d51_11
+  #part-number 8
+  ambient 0.588 0.588 0.588
+  diffuse 0.705882013 0 1
+  specular 0 0 0
+  shininess 10
+  shadow 0
+  transparencyhint 0
+  bitmap NULL
+  verts 12
+    -5 -5 5
+    5 -1.5 5
+    -0.5 -1.5 5
+    5 -5 5
+    -0.5 1.5 5
+    5 1.5 5
+    5 5 5
+    -0.5 -1.5 0
+    5 -1.5 0
+    5 1.5 0
+    -0.5 1.5 0
+    -5 5 5
+  faces 14
+    0 1 2 1 0 0 0 7
+    1 0 3 1 0 0 0 7
+    4 5 6 1 0 0 0 7
+    7 8 9 1 0 0 0 4
+    7 9 10 1 0 0 0 4
+    1 8 7 2 0 0 0 2
+    1 7 2 2 0 0 0 2
+    4 10 9 2 0 0 0 2
+    4 9 5 2 0 0 0 2
+    2 7 10 4 0 0 0 2
+    2 10 4 4 0 0 0 2
+    0 2 4 1 0 0 0 7
+    0 4 11 1 0 0 0 7
+    11 4 6 1 0 0 0 7
+  aabb -5 -5 0 5 5 5 -1
+        -5 -5 0 5 5 5 -1
+         -5 -5 5 -0.5 5 5 -1
+          -5 -5 5 -0.5 1.5 5 11
+          -5 -5 5 -0.5 5 5 12
+         -5 -5 0 5 5 5 -1
+          -0.5 -1.5 0 -0.5 1.5 5 -1
+           -0.5 -1.5 0 -0.5 1.5 5 9
+           -0.5 -1.5 0 -0.5 1.5 5 10
+          -5 -5 5 5 5 5 -1
+           -5 -5 5 5 -1.5 5 0
+           -5 1.5 5 5 5 5 13
+        -5 -5 0 5 5 5 -1
+         -5 -5 0 5 1.5 5 -1
+          -0.5 -1.5 0 5 1.5 5 -1
+           -0.5 -1.5 0 5 1.5 0 4
+           -0.5 -1.5 0 5 1.5 5 -1
+            -0.5 1.5 0 5 1.5 5 7
+            -0.5 -1.5 0 5 -1.5 5 6
+          -5 -5 5 5 -1.5 5 1
+         -0.5 -1.5 0 5 5 5 -1
+          -0.5 -1.5 0 5 1.5 5 -1
+           -0.5 -1.5 0 5 1.5 0 3
+           -0.5 -1.5 0 5 -1.5 5 5
+          -0.5 1.5 0 5 5 5 -1
+           -0.5 1.5 0 5 1.5 5 8
+           -0.5 1.5 5 5 5 5 2
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node trimesh wall2_1
+  parent zic01_d51_11
+  #part-number 9
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_marbl05
+  verts 8
+    -5 1.5 1
+    -5 1.5 0
+    5 1.5 0
+    5 1.5 1
+    5 -1.5 1
+    5 -1.5 0
+    -5 -1.5 0
+    -5 -1.5 1
+  tverts 4
+    4.5 0 0
+    4.5 0.5 0
+    0.5 0.5 0
+    0.5 0 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+    4 5 6 1 3 2 1 1
+    4 6 7 1 3 1 0 1
+  orientation 0 1 0 3.1416
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 5
+endnode
+node trimesh door_wall_1
+  parent zic01_d51_11
+  #part-number 10
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tcn01_marbl01
+  verts 6
+    0.1640625 -0.3359375 -3
+    0.1640625 0.1640625 -3
+    0.1640625 0.1640625 0
+    0.1640625 -0.3359375 0
+    -0.3359375 0.1640625 -3
+    -0.3359375 0.1640625 0
+  tverts 8
+    0.563436985 0.938062012 0
+    0.563436985 1.12537503 0
+    1.68731296 1.12537503 0
+    1.68731296 0.938062012 0
+    1.68817902 1.12533796 0
+    0.563362002 1.12533796 0
+    0.563362002 0.93800658 0
+    1.68817902 0.93800658 0
+  faces 4
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    2 1 4 2 4 5 6 1
+    2 4 5 2 4 6 7 1
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position -0.6640625 -1.1640625 3
+endnode
+node trimesh side01
+  parent zic01_d51_11
+  #part-number 11
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  bitmap tde01_black
+  verts 4
+    -5 5 0
+    5 5 0
+    -5 5 -5
+    5 5 -5
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 5
+endnode
+node trimesh side02
+  parent zic01_d51_11
+  #part-number 12
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  bitmap tde01_black
+  verts 4
+    -5 5 0
+    -5 5 -5
+    -5 -5 0
+    -5 -5 -5
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 5
+endnode
+node trimesh side03
+  parent zic01_d51_11
+  #part-number 13
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 10
+  bitmap tde01_black
+  verts 4
+    5 -5 0
+    -5 -5 0
+    5 -5 -5
+    -5 -5 -5
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 65536
+    3 2 1 1 3 2 1 65536
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  position 0 0 5
+endnode
+endmodelgeom zic01_d51_11
+
+donemodel zic01_d51_11

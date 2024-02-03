@@ -1,0 +1,1457 @@
+#MAXMODEL ASCII
+# model: HTD01_I09_01 
+filedependancy HTD01_I09_01.max
+newmodel HTD01_I09_01 
+setsupermodel HTD01_I09_01 NULL
+classification Tile
+#MAXGEOM  ASCII
+beginmodelgeom HTD01_I09_01 
+node dummy HTD01_I09_01 
+  parent NULL 
+endnode
+node trimesh CylinderSP67 
+  parent HTD01_I09_01 
+  position 1.55 0.07 1.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 -3.0 25.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 6
+     0.01 0.03 -0.87
+     -0.06 -0.09 -0.87
+     0.01 0.03 1.38
+     -0.06 -0.09 1.38
+     0.07 -0.09 -0.87
+     0.07 -0.09 1.38
+    faces 6
+     0 1 2  1  0 1 2  3
+     3 2 1  1  3 2 1  3
+     1 4 3  1  4 5 6  3
+     5 3 4  1  7 6 5  3
+     4 0 5  1  1 0 3  3
+     2 5 0  1  2 3 0  3
+    tverts 8
+     0.987107 0.437574 0 
+     0.987107 0.588736 0 
+     0.0435199 0.437574 0 
+     0.0435199 0.588738 0 
+     0.987107 0.599747 0 
+     0.987105 0.425201 0 
+     0.0435199 0.599747 0 
+     0.0435199 0.425201 0 
+endnode
+node trimesh CylinderSP68 
+  parent HTD01_I09_01 
+  position 2.3 0.07 1.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 -3.0 25.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 6
+     0.01 0.03 -0.87
+     -0.06 -0.09 -0.87
+     0.01 0.03 1.38
+     -0.06 -0.09 1.38
+     0.07 -0.09 -0.87
+     0.07 -0.09 1.38
+    faces 6
+     0 1 2  1  0 1 2  3
+     3 2 1  1  3 2 1  3
+     1 4 3  1  4 5 6  3
+     5 3 4  1  7 6 5  3
+     4 0 5  1  1 0 3  3
+     2 5 0  1  2 3 0  3
+    tverts 8
+     1.06603 0.444933 0 
+     1.06603 0.579041 0 
+     -0.0354069 0.444933 0 
+     -0.0354069 0.579043 0 
+     1.06603 0.58881 0 
+     1.06603 0.433956 0 
+     -0.0354069 0.58881 0 
+     -0.0354069 0.433956 0 
+endnode
+node trimesh Box304 
+  parent HTD01_I09_01 
+  position 0.0 0.0 0.65
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -0.5 -0.5 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall1
+    verts 22
+     0.62 0.25 0.1
+     0.62 0.62 0.65
+     0.62 -0.63 0.65
+     0.62 -0.25 0.1
+     0.0 0.62 -0.65
+     -0.63 0.62 0.65
+     -0.63 0.62 -0.65
+     0.62 0.62 -0.65
+     -0.63 -0.25 0.1
+     -0.63 -0.63 0.65
+     -0.63 0.25 0.1
+     0.62 -0.63 -0.65
+     0.0 -0.63 -0.65
+     -0.63 -0.63 -0.65
+     0.62 0.5 -0.65
+     0.62 0.25 -0.15
+     -0.63 0.5 -0.65
+     -0.63 0.25 -0.15
+     0.62 -0.25 -0.15
+     0.62 -0.5 -0.65
+     -0.63 -0.25 -0.15
+     -0.63 -0.5 -0.65
+    faces 22
+     0 1 2  1  0 1 2  5
+     2 3 0  1  2 3 0  5
+     4 5 1  2  4 5 6  4
+     6 5 4  2  7 5 4  4
+     1 7 4  2  6 8 4  4
+     8 9 10  1  3 2 0  6
+     5 10 9  1  1 0 2  6
+     11 2 12  2  8 6 4  3
+     9 12 2  2  5 4 6  3
+     9 13 12  2  5 7 4  3
+     14 7 1  1  9 10 1  5
+     14 1 0  1  9 1 0  5
+     0 15 14  1  0 11 9  5
+     5 6 16  1  1 10 9  6
+     5 16 10  1  1 9 0  6
+     10 16 17  1  0 9 11  6
+     2 11 3  1  2 12 3  5
+     18 3 11  1  13 3 12  5
+     11 19 18  1  12 14 13  5
+     20 21 13  1  13 14 12  6
+     13 9 8  1  12 2 3  6
+     13 8 20  1  12 3 13  6
+    tverts 15
+     0.583333 0.778285 0 
+     0.708333 0.961618 0 
+     0.291667 0.961618 0 
+     0.416667 0.778285 0 
+     5.5 0.547263 0 
+     5.70833 0.980596 0 
+     5.29167 0.980596 0 
+     5.70833 0.547263 0 
+     5.29167 0.547263 0 
+     0.666667 0.528285 0 
+     0.708333 0.528285 0 
+     0.583333 0.694951 0 
+     0.291667 0.528285 0 
+     0.416667 0.694951 0 
+     0.333333 0.528285 0 
+endnode
+node trimesh Mesh577 
+  parent HTD01_I09_01 
+  position 0.0 0.0 3.02
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -0.5 -0.5 -87.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall1
+    verts 16
+     0.62 -0.63 -0.52
+     0.62 0.62 -0.52
+     0.62 -0.63 -0.02
+     0.62 0.62 -0.02
+     -0.63 0.62 -0.52
+     -0.63 0.62 -0.02
+     -0.63 -0.63 -0.52
+     -0.63 -0.63 -0.02
+     0.62 -0.63 -1.72
+     0.62 0.62 -1.72
+     0.44 0.44 -1.72
+     0.44 -0.44 -1.72
+     -0.63 0.62 -1.72
+     -0.44 0.44 -1.72
+     -0.63 -0.63 -1.72
+     -0.44 -0.44 -1.72
+    faces 16
+     0 1 2  1  0 1 2  1
+     3 2 1  1  3 2 1  1
+     1 4 3  2  4 5 2  1
+     5 3 4  2  3 2 5  1
+     4 6 5  1  6 7 3  1
+     7 5 6  1  2 3 7  1
+     6 0 7  2  5 4 3  1
+     2 7 0  2  2 3 4  1
+     8 9 10  1  8 9 10  1
+     10 11 8  1  10 11 8  1
+     9 12 13  1  12 13 14  1
+     13 10 9  1  14 15 12  1
+     12 14 15  1  16 17 18  1
+     15 13 12  1  18 19 16  1
+     14 8 11  1  16 17 20  1
+     11 15 14  1  20 21 16  1
+    tverts 22
+     0.25 7.56085e-005 0 
+     0.75 7.54893e-005 0 
+     0.25 0.200076 0 
+     0.75 0.200076 0 
+     0.25 7.57277e-005 0 
+     0.75 7.56383e-005 0 
+     0.75 7.55191e-005 0 
+     0.25 7.56383e-005 0 
+     0.0186903 0.972893 0 
+     0.435357 0.972893 0 
+     0.372857 0.883823 0 
+     0.0811903 0.883823 0 
+     0.0186903 0.970477 0 
+     0.435357 0.970477 0 
+     0.372857 0.886238 0 
+     0.0811903 0.886238 0 
+     0.476555 0.971383 0 
+     0.893222 0.971383 0 
+     0.830722 0.882313 0 
+     0.539055 0.882313 0 
+     0.830722 0.884728 0 
+     0.539055 0.884728 0 
+endnode
+node trimesh Mesh578 
+  parent HTD01_I09_01 
+  position 0.0 0.0 1.9
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall1
+    verts 8
+     0.44 -0.44 -0.6
+     0.44 0.44 -0.6
+     0.44 0.44 0.6
+     0.44 -0.44 0.6
+     -0.44 0.44 -0.6
+     -0.44 0.44 0.6
+     -0.44 -0.44 -0.6
+     -0.44 -0.44 0.6
+    faces 8
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 0  1
+     1 4 5  2  4 5 6  1
+     5 2 1  2  6 7 4  1
+     4 6 7  1  1 0 3  1
+     7 5 4  1  3 2 1  1
+     6 0 3  2  5 4 7  1
+     3 7 6  2  7 6 5  1
+    tverts 8
+     0.408382 0.874585 0 
+     0.758382 0.874585 0 
+     0.758382 0.394585 0 
+     0.408382 0.394585 0 
+     0.408301 0.874585 0 
+     0.758301 0.874585 0 
+     0.758301 0.394585 0 
+     0.408301 0.394585 0 
+endnode
+node trimesh CylinderSP71 
+  parent HTD01_I09_01 
+  position -3.95 0.07 1.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 -3.0 25.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 6
+     0.01 0.03 -0.87
+     -0.06 -0.09 -0.87
+     0.01 0.03 1.38
+     -0.06 -0.09 1.38
+     0.07 -0.09 -0.87
+     0.07 -0.09 1.38
+    faces 6
+     0 1 2  1  0 1 2  3
+     3 2 1  1  3 2 1  3
+     1 4 3  1  4 5 6  3
+     5 3 4  1  7 6 5  3
+     4 0 5  1  1 0 3  3
+     2 5 0  1  2 3 0  3
+    tverts 8
+     0.938718 0.443445 0 
+     0.938718 0.579104 0 
+     0.091909 0.443445 0 
+     0.091909 0.579105 0 
+     0.938718 0.588985 0 
+     0.938717 0.432341 0 
+     0.091909 0.588985 0 
+     0.091909 0.432341 0 
+endnode
+node trimesh CylinderSP72 
+  parent HTD01_I09_01 
+  position -1.7 0.07 1.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 -3.0 25.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 6
+     0.01 0.03 -0.87
+     -0.06 -0.09 -0.87
+     0.01 0.03 1.38
+     -0.06 -0.09 1.38
+     0.07 -0.09 -0.87
+     0.07 -0.09 1.38
+    faces 6
+     0 1 2  1  0 1 2  3
+     3 2 1  1  3 2 1  3
+     1 4 3  1  4 5 6  3
+     5 3 4  1  7 6 5  3
+     4 0 5  1  1 0 3  3
+     2 5 0  1  2 3 0  3
+    tverts 8
+     0.92904 0.446834 0 
+     0.92904 0.579392 0 
+     0.101587 0.446834 0 
+     0.101587 0.579394 0 
+     0.92904 0.589048 0 
+     0.929039 0.435984 0 
+     0.101587 0.589048 0 
+     0.101587 0.435984 0 
+endnode
+node trimesh CylinderSP73 
+  parent HTD01_I09_01 
+  position -2.45 0.07 1.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 -3.0 25.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 6
+     0.01 0.03 -0.87
+     -0.06 -0.09 -0.87
+     0.01 0.03 1.38
+     -0.06 -0.09 1.38
+     0.07 -0.09 -0.87
+     0.07 -0.09 1.38
+    faces 6
+     0 1 2  1  0 1 2  3
+     3 2 1  1  3 2 1  3
+     1 4 3  1  4 5 6  3
+     5 3 4  1  7 6 5  3
+     4 0 5  1  1 0 3  3
+     2 5 0  1  2 3 0  3
+    tverts 8
+     1.03738 0.448406 0 
+     1.03738 0.575537 0 
+     -0.0067567 0.448406 0 
+     -0.00675672 0.575539 0 
+     1.03738 0.584798 0 
+     1.03738 0.438 0 
+     -0.00675672 0.584798 0 
+     -0.0067567 0.438 0 
+endnode
+node trimesh CylinderSP74 
+  parent HTD01_I09_01 
+  position -3.2 0.07 1.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 -3.0 25.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 6
+     0.01 0.03 -0.87
+     -0.06 -0.09 -0.87
+     0.01 0.03 1.38
+     -0.06 -0.09 1.38
+     0.07 -0.09 -0.87
+     0.07 -0.09 1.38
+    faces 6
+     0 1 2  1  0 1 2  3
+     3 2 1  1  3 2 1  3
+     1 4 3  1  4 5 6  3
+     5 3 4  1  7 6 5  3
+     4 0 5  1  1 0 3  3
+     2 5 0  1  2 3 0  3
+    tverts 8
+     1.06285 0.447829 0 
+     1.06285 0.581162 0 
+     -0.0322235 0.447829 0 
+     -0.0322236 0.581164 0 
+     1.06285 0.5877 0 
+     1.06285 0.433741 0 
+     -0.0322236 0.5877 0 
+     -0.0322235 0.433741 0 
+endnode
+node trimesh CylinderSP77 
+  parent HTD01_I09_01 
+  position -4.7 0.07 1.62
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 -3.0 25.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 6
+     0.01 0.03 -0.87
+     -0.06 -0.09 -0.87
+     0.01 0.03 1.38
+     -0.06 -0.09 1.38
+     0.07 -0.09 -0.87
+     0.07 -0.09 1.38
+    faces 6
+     0 1 2  1  0 1 2  3
+     3 2 1  1  3 2 1  3
+     1 4 3  1  4 5 6  3
+     5 3 4  1  7 6 5  3
+     4 0 5  1  1 0 3  3
+     2 5 0  1  2 3 0  3
+    tverts 8
+     1.03738 0.445969 0 
+     1.03738 0.5731 0 
+     -0.00675582 0.445969 0 
+     -0.00675584 0.573102 0 
+     1.03738 0.585388 0 
+     1.03738 0.43859 0 
+     -0.00675584 0.585388 0 
+     -0.00675582 0.43859 0 
+endnode
+node trimesh Object343 
+  parent HTD01_I09_01 
+  position -2.82 0.0 0.37
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.5 0.0 0.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall1
+    verts 18
+     2.19 0.25 0.38
+     0.32 0.25 0.38
+     2.19 -0.25 0.38
+     0.32 -0.25 0.38
+     -2.18 -0.25 0.38
+     -2.18 0.25 0.38
+     0.32 -0.5 -0.37
+     2.19 -0.5 -0.37
+     0.32 -0.25 0.13
+     2.19 -0.25 0.13
+     2.19 0.5 -0.37
+     0.32 0.5 -0.37
+     2.19 0.25 0.13
+     0.32 0.25 0.13
+     -2.18 -0.5 -0.37
+     -2.18 -0.25 0.13
+     -2.18 0.5 -0.37
+     -2.18 0.25 0.13
+    faces 20
+     0 1 2  1  18 19 20  1
+     3 2 1  1  21 22 23  1
+     3 1 4  1  24 25 26  1
+     5 4 1  1  27 28 29  1
+     6 7 8  1  30 31 32  2
+     9 8 7  1  33 34 7  2
+     10 11 12  1  10 35 36  1
+     13 12 11  1  37 38 39  1
+     14 6 8  1  40 6 41  2
+     8 15 14  1  42 43 14  2
+     11 16 17  1  44 16 45  1
+     17 13 11  1  46 47 11  1
+     15 8 3  2  48 49 50  1
+     3 4 15  2  51 4 15  1
+     13 17 5  2  52 17 53  1
+     5 1 13  2  5 54 55  1
+     2 3 8  2  56 3 57  1
+     8 9 2  2  8 9 2  1
+     12 13 0  2  12 58 59  1
+     1 0 13  2  1 0 13  1
+    tverts 60
+     -0.228333 0.6875 0 
+     0.395 0.6875 0 
+     1.22833 0.6875 0 
+     0.605 0.6875 0 
+     -0.228333 0.6875 0 
+     1.22833 0.6875 0 
+     0.605 0.3125 0 
+     1.22833 0.3125 0 
+     0.605 0.5625 0 
+     1.22833 0.5625 0 
+     -0.228333 0.3125 0 
+     0.395 0.3125 0 
+     -0.228333 0.5625 0 
+     0.395 0.5625 0 
+     -0.228333 0.3125 0 
+     -0.228333 0.5625 0 
+     1.22833 0.3125 0 
+     1.22833 0.5625 0 
+     1.22833 0.583333 0 
+     0.605 0.583333 0 
+     1.22833 0.416667 0 
+     0.605 0.416667 0 
+     1.22833 0.416667 0 
+     0.605 0.583333 0 
+     0.605 0.416667 0 
+     0.605 0.583333 0 
+     -0.228333 0.416667 0 
+     -0.228333 0.583333 0 
+     -0.228333 0.416667 0 
+     0.605 0.583333 0 
+     0.605 0.3125 0 
+     1.22833 0.3125 0 
+     0.605 0.5625 0 
+     1.22833 0.5625 0 
+     0.605 0.5625 0 
+     0.395 0.3125 0 
+     -0.228333 0.5625 0 
+     0.395 0.5625 0 
+     -0.228333 0.5625 0 
+     0.395 0.3125 0 
+     -0.228333 0.3125 0 
+     0.605 0.5625 0 
+     0.605 0.5625 0 
+     -0.228333 0.5625 0 
+     0.395 0.3125 0 
+     1.22833 0.5625 0 
+     1.22833 0.5625 0 
+     0.395 0.5625 0 
+     -0.228333 0.5625 0 
+     0.605 0.5625 0 
+     0.605 0.6875 0 
+     0.605 0.6875 0 
+     0.395 0.5625 0 
+     1.22833 0.6875 0 
+     0.395 0.6875 0 
+     0.395 0.5625 0 
+     1.22833 0.6875 0 
+     0.605 0.5625 0 
+     0.395 0.5625 0 
+     -0.228333 0.6875 0 
+endnode
+node trimesh Mesh579 
+  parent HTD01_I09_01 
+  position 1.56 0.0 0.37
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.0 0.0 0.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall1
+    verts 12
+     0.94 0.25 0.38
+     -0.94 0.25 0.38
+     0.94 -0.25 0.38
+     -0.94 -0.25 0.38
+     0.94 0.5 -0.37
+     -0.94 0.5 -0.37
+     0.94 0.25 0.13
+     -0.94 0.25 0.13
+     -0.94 -0.5 -0.37
+     0.94 -0.5 -0.37
+     -0.94 -0.25 0.13
+     0.94 -0.25 0.13
+    faces 10
+     0 1 2  1  12 13 14  1
+     3 2 1  1  15 16 17  1
+     4 5 6  1  4 18 19  1
+     7 6 5  1  20 21 5  1
+     8 9 10  1  8 22 23  2
+     11 10 9  1  24 25 9  2
+     2 3 11  2  2 26 27  1
+     10 11 3  2  10 11 3  1
+     6 7 0  2  6 28 29  1
+     1 0 7  2  1 0 7  1
+    tverts 30
+     0.186667 0.379268 0 
+     0.813333 0.379268 0 
+     0.813333 0.379268 0 
+     0.186667 0.379268 0 
+     0.186667 0.00426817 0 
+     0.813333 0.00426817 0 
+     0.186667 0.254268 0 
+     0.813333 0.254268 0 
+     0.186667 0.00426817 0 
+     0.813333 0.00426817 0 
+     0.186667 0.254268 0 
+     0.813333 0.254268 0 
+     0.813333 0.275101 0 
+     0.186667 0.275102 0 
+     0.813333 0.108435 0 
+     0.186667 0.108435 0 
+     0.813333 0.108435 0 
+     0.186667 0.275102 0 
+     0.813333 0.00426817 0 
+     0.186667 0.254268 0 
+     0.813333 0.254268 0 
+     0.186667 0.254268 0 
+     0.813333 0.00426817 0 
+     0.186667 0.254268 0 
+     0.813333 0.254268 0 
+     0.186667 0.254268 0 
+     0.186667 0.379268 0 
+     0.813333 0.254268 0 
+     0.813333 0.254268 0 
+     0.186667 0.379268 0 
+endnode
+node trimesh Cylinder108 
+  parent HTD01_I09_01 
+  position -2.46 0.0 2.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 123.0 0.0 1.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 7
+     -2.54 0.0 0.1
+     5.0 -0.09 -0.07
+     5.0 0.0 0.1
+     -2.54 -0.09 -0.07
+     -2.54 0.09 -0.07
+     5.0 0.09 -0.07
+     5.0 0.0 0.0
+    faces 7
+     0 1 2  1  0 1 2  3
+     0 3 1  1  0 3 1  3
+     4 2 5  1  4 5 6  3
+     4 0 2  1  4 7 5  3
+     6 2 1  2  8 2 1  1
+     6 1 5  2  8 1 6  1
+     6 5 2  2  8 6 2  1
+    tverts 9
+     1.33345 -0.586784 0 
+     -0.730597 -0.434084 0 
+     -0.730597 -0.586785 0 
+     1.33345 -0.434084 0 
+     1.33345 0.429186 0 
+     -0.730597 0.581887 0 
+     -0.730597 0.429186 0 
+     1.33345 0.581887 0 
+     -0.730597 -0.380174 0 
+endnode
+node trimesh Cylinder109 
+  parent HTD01_I09_01 
+  position -2.46 0.0 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 123.0 0.0 1.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall9k
+    verts 7
+     -2.54 0.0 0.1
+     5.0 -0.09 -0.07
+     5.0 0.0 0.1
+     -2.54 -0.09 -0.07
+     -2.54 0.09 -0.07
+     5.0 0.09 -0.07
+     5.0 0.0 0.0
+    faces 7
+     0 1 2  1  0 1 2  3
+     0 3 1  1  0 3 1  3
+     4 2 5  1  4 5 6  3
+     4 0 2  1  4 7 5  3
+     6 2 1  2  8 2 1  1
+     6 1 5  2  8 1 6  1
+     6 5 2  2  8 6 2  1
+    tverts 9
+     1.55859 -0.572609 0 
+     -0.463673 -0.421894 0 
+     -0.463673 -0.572609 0 
+     1.55859 -0.421894 0 
+     1.55859 0.423194 0 
+     -0.463673 0.573909 0 
+     -0.463673 0.423193 0 
+     1.55859 0.573909 0 
+     -0.463673 0.371479 0 
+endnode
+node trimesh Mesh532 
+  parent HTD01_I09_01 
+  position 3.75 0.0 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0  
+  diffuse 0.0 0.0 0.0  
+  specular 0.0 0.0 0.0  
+  shininess 27.0 
+    bitmap NULL
+    verts 8
+     -1.25 -5.0 0.0
+     1.25 -5.0 0.0
+     -1.25 -2.5 0.0
+     -1.25 -0.5 0.0
+     -1.25 0.5 0.0
+     -1.25 2.5 0.0
+     -1.25 5.0 0.0
+     1.25 5.0 0.0
+    faces 6
+     0 1 2  1  0 1 2  1
+     2 1 3  1  2 3 4  1
+     4 1 5  1  5 6 7  1
+     5 1 6  1  7 8 9  1
+     7 6 1  1  10 9 8  1
+     3 1 4  1  4 6 5  1
+    tverts 11
+     0.478593 0.470618 0 
+     0.485729 0.470618 0 
+     0.478593 0.485309 0 
+     0.485729 0.485309 0 
+     0.478593 0.497062 0 
+     0.478593 0.502938 0 
+     0.485729 0.5 0 
+     0.478593 0.514691 0 
+     0.485729 0.514691 0 
+     0.478593 0.529382 0 
+     0.485729 0.529382 0 
+endnode
+node trimesh Object339 
+  parent HTD01_I09_01 
+  position 2.5 0.0 1.5
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_wall3
+    verts 16
+     0.0 -2.5 -1.5
+     0.0 -5.0 -1.5
+     0.0 -5.0 1.5
+     0.0 -2.5 1.5
+     0.0 -0.5 -1.5
+     0.0 -0.5 1.5
+     0.0 2.5 -1.5
+     0.0 0.5 -1.5
+     0.0 0.5 1.5
+     0.0 2.5 1.5
+     0.0 5.0 -1.5
+     0.0 5.0 1.5
+     0.0 0.25 -0.75
+     0.0 -0.25 -0.75
+     0.0 0.25 -1.0
+     0.0 -0.25 -1.0
+    faces 14
+     0 1 2  1  0 1 2  1
+     2 3 0  1  2 3 20  1
+     4 0 3  1  4 21 22  1
+     3 5 4  1  23 5 4  1
+     6 7 8  1  6 7 8  1
+     8 9 6  1  8 9 16  1
+     10 6 9  1  10 17 18  1
+     9 11 10  1  19 11 10  1
+     12 13 8  1  12 13 8  1
+     5 8 13  1  5 8 13  1
+     8 7 12  1  8 7 12  1
+     4 5 13  1  4 5 13  1
+     14 12 7  1  14 12 7  1
+     15 4 13  1  15 4 13  1
+    tverts 24
+     0.173644 0.000499636 0 
+     1.00698 0.000499785 0 
+     1.00698 0.999501 0 
+     0.173643 0.999501 0 
+     0.666667 0.000499547 0 
+     0.666667 0.999501 0 
+     -0.333333 0.000499368 0 
+     0.333333 0.000499487 0 
+     0.333333 0.9995 0 
+     -0.333333 0.9995 0 
+     0.00682902 0.000499249 0 
+     0.0068289 0.9995 0 
+     0.416667 0.25025 0 
+     0.583333 0.25025 0 
+     0.416667 0.167 0 
+     0.583333 0.167 0 
+     -0.333333 0.000499368 0 
+     0.840162 0.000499368 0 
+     0.840162 0.9995 0 
+     0.840162 0.9995 0 
+     0.173644 0.000499636 0 
+     1.33333 0.000499636 0 
+     1.33333 0.999501 0 
+     1.33333 0.999501 0 
+endnode
+node trimesh Box444 
+  parent HTD01_I09_01 
+  position 1.25 0.0 1.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 1
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 125.0 0.0 101.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_grate
+    verts 4
+     3.75 0.0 0.43
+     -1.25 0.0 0.43
+     -1.25 0.0 1.6
+     3.75 0.0 1.6
+    faces 4
+     0 1 2  1  0 1 2  4
+     2 3 0  1  2 3 0  4
+     1 0 3  2  1 0 3  3
+     3 2 1  2  3 2 1  3
+    tverts 4
+     2.98165 0.122347 0 
+     0.073282 0.122347 0 
+     0.073282 0.923724 0 
+     2.98165 0.923723 0 
+endnode
+node trimesh Box445 
+  parent HTD01_I09_01 
+  position -3.75 0.0 1.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 1
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center 125.0 0.0 101.5 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_grate
+    verts 4
+     3.75 0.0 0.43
+     -1.25 0.0 0.43
+     -1.25 0.0 1.6
+     3.75 0.0 1.6
+    faces 4
+     0 1 2  1  0 1 2  4
+     2 3 0  1  2 3 0  4
+     1 0 3  2  1 0 3  3
+     3 2 1  2  3 2 1  3
+    tverts 4
+     2.92641 0.122347 0 
+     0.018043 0.122347 0 
+     0.018043 0.923724 0 
+     2.92641 0.923723 0 
+endnode
+node aabb Line86 
+  parent HTD01_I09_01 
+  position 0.0 0.0 1.8
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+  multimaterial 20 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+      NULL 
+    bitmap NULL
+    verts 14
+     -5.0 -0.63 -1.8
+     -5.0 -5.0 -1.8
+     2.5 -5.0 -1.8
+     2.5 -0.63 -1.8
+     2.5 5.0 -1.8
+     -5.0 5.0 -1.8
+     -5.0 0.62 -1.8
+     2.5 0.62 -1.8
+     2.5 5.0 1.2
+     2.5 -5.0 1.2
+     5.0 5.0 1.2
+     5.0 -5.0 1.2
+     2.5 0.0 1.8
+     -5.0 0.0 1.8
+    faces 12
+     0 1 2  1  0 0 0  4
+     3 0 2  1  0 0 0  4
+     4 5 6  1  0 0 0  4
+     4 6 7  1  0 0 0  4
+     4 2 8  2  0 0 0  2
+     8 2 9  2  0 0 0  2
+     8 9 10  1  0 0 0  2
+     10 9 11  1  0 0 0  2
+     0 3 12  2  0 0 0  8
+     12 13 0  2  0 0 0  8
+     7 6 13  4  0 0 0  8
+     13 12 7  4  0 0 0  8
+aabb    -5.00 -5.00 -1.80   5.00  5.00  1.80  -1
+    -5.00 -5.00 -1.80   5.00  5.00  1.80  -1
+     -5.00 -5.00 -1.80   2.50  5.00  1.20  -1
+      -5.00 -5.00 -1.80   2.50 -0.63 -1.80  0
+      -5.00 -5.00 -1.80   2.50  5.00  1.20  -1
+       -5.00 -5.00 -1.80   2.50 -0.63 -1.80  1
+        2.50 -5.00 -1.80   2.50  5.00  1.20  5
+     -5.00 -5.00 -1.80   5.00  5.00  1.80  -1
+       2.50 -5.00  1.20   5.00  5.00  1.20  7
+      -5.00 -0.63 -1.80   2.50  0.00  1.80  -1
+       -5.00 -0.63 -1.80   2.50  0.00  1.80  9
+       -5.00 -0.63 -1.80   2.50  0.00  1.80  8
+    -5.00 -5.00 -1.80   5.00  5.00  1.80  -1
+     -5.00 -5.00 -1.80   2.50  5.00  1.80  -1
+      -5.00  0.00 -1.80   2.50  0.62  1.80  11
+      -5.00 -5.00 -1.80   2.50  5.00  1.80  -1
+       -5.00  0.00 -1.80   2.50  0.62  1.80  10
+        2.50 -5.00 -1.80   2.50  5.00  1.20  4
+     -5.00 -5.00 -1.80   5.00  5.00  1.20  -1
+       2.50 -5.00  1.20   5.00  5.00  1.20  6
+      -5.00  0.62 -1.80   2.50  5.00 -1.80  -1
+       -5.00  0.62 -1.80   2.50  5.00 -1.80  2
+       -5.00  0.62 -1.80   2.50  5.00 -1.80  3
+endnode
+node trimesh Rectangle62 
+  parent HTD01_I09_01 
+  position 0.0 -0.02 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 1
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 0
+     center -119.5 1.5 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 0.0 0.0 0.0  
+  diffuse 0.0 0.0 0.0  
+  specular 0.0 0.0 0.0  
+  shininess 27.0 
+    bitmap NULL
+    verts 25
+     -0.63 -0.61 0.0
+     0.62 -0.61 0.0
+     0.62 0.64 0.0
+     -0.63 0.64 0.0
+     -1.63 0.0 0.0
+     -1.69 0.12 0.0
+     -1.76 0.0 0.0
+     -2.38 0.0 0.0
+     -2.44 0.12 0.0
+     -2.51 0.0 0.0
+     -3.13 0.0 0.0
+     -3.19 0.12 0.0
+     -3.26 0.0 0.0
+     -3.88 0.0 0.0
+     -3.94 0.12 0.0
+     -4.01 0.0 0.0
+     -4.63 0.0 0.0
+     -4.69 0.12 0.0
+     -4.76 0.0 0.0
+     1.56 0.12 0.0
+     1.49 0.0 0.0
+     1.62 0.0 0.0
+     2.31 0.12 0.0
+     2.24 0.0 0.0
+     2.37 0.0 0.0
+    faces 9
+     0 1 2  1  0 0 0  1
+     3 0 2  1  0 0 0  1
+     4 5 6  1  0 0 0  1
+     7 8 9  1  0 0 0  1
+     10 11 12  1  0 0 0  1
+     13 14 15  1  0 0 0  1
+     16 17 18  1  0 0 0  1
+     19 20 21  1  0 0 0  1
+     22 23 24  1  0 0 0  1
+endnode
+node light HTD01_I09_01ml1 
+  parent HTD01_I09_01 
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+  radius 14.0 
+  multiplier 1.0
+  color 0.0 0.0 0.0  
+  ambientonly 0 
+  nDynamicType 0 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+node light HTD01_I09_01ml2 
+  parent HTD01_I09_01 
+  position -3.158 -1.94004 4.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0  
+  radius 5.0 
+  multiplier 1.0
+  color 0.00392157 0.00392157 0.00392157  
+  ambientonly 0 
+  nDynamicType 0 
+  affectDynamic 1 
+  shadow 0 
+  lightpriority 5 
+  lensflares 0
+  fadingLight 1
+endnode
+node trimesh Plane01 
+  parent HTD01_I09_01 
+  position 0.0 0.0 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 0.894118 0.839216 0.6  
+     danglymesh 0
+     period 1.0
+     tightness 1.0
+     displacement 0.025
+     showdispl true
+     displtype 1
+     Alpha 1.0
+     transparencyhint 0
+     tilefade 0
+     scale 1.0
+     render 1
+     Shadow 0
+     beaming 0
+     inheritcolor 0
+     selfillumcolor 0.0 0.0 0.0 
+     rotatetexture 1
+     center 0.0 0.0 0.0 
+     gizmo SubAnim:Gizmo
+  ambient 1.0 1.0 1.0  
+  diffuse 1.0 1.0 1.0  
+  specular 0.0 0.0 0.0  
+  shininess 11.0 
+    bitmap HTD01_floor1
+    verts 25
+     -5.0 -5.0 0.0
+     -2.5 -5.0 0.0
+     0.0 -5.0 0.0
+     2.5 -5.0 0.0
+     5.0 -5.0 0.0
+     -5.0 -2.5 0.0
+     -2.5 -2.5 0.0
+     0.0 -2.5 0.0
+     2.5 -2.5 0.0
+     5.0 -2.5 0.0
+     -5.0 0.0 0.0
+     -2.5 0.0 0.0
+     0.0 0.0 0.0
+     2.5 0.0 0.0
+     5.0 0.0 0.0
+     -5.0 2.5 0.0
+     -2.5 2.5 0.0
+     0.0 2.5 0.0
+     2.5 2.5 0.0
+     5.0 2.5 0.0
+     -5.0 5.0 0.0
+     -2.5 5.0 0.0
+     0.0 5.0 0.0
+     2.5 5.0 0.0
+     5.0 5.0 0.0
+    faces 32
+     5 0 6  1  5 0 6  1
+     1 6 0  1  1 6 0  1
+     6 1 7  1  6 1 7  1
+     2 7 1  1  2 7 1  1
+     7 2 8  1  7 2 8  1
+     3 8 2  1  3 8 2  1
+     8 3 9  1  8 3 9  1
+     4 9 3  1  4 9 3  1
+     10 5 11  1  10 5 11  1
+     6 11 5  1  6 11 5  1
+     11 6 12  1  11 6 12  1
+     7 12 6  1  7 12 6  1
+     12 7 13  1  12 7 13  1
+     8 13 7  1  8 13 7  1
+     13 8 14  1  13 8 14  1
+     9 14 8  1  9 14 8  1
+     15 10 16  1  15 10 16  1
+     11 16 10  1  11 16 10  1
+     16 11 17  1  16 11 17  1
+     12 17 11  1  12 17 11  1
+     17 12 18  1  17 12 18  1
+     13 18 12  1  13 18 12  1
+     18 13 19  1  18 13 19  1
+     14 19 13  1  14 19 13  1
+     20 15 21  1  20 15 21  1
+     16 21 15  1  16 21 15  1
+     21 16 22  1  21 16 22  1
+     17 22 16  1  17 22 16  1
+     22 17 23  1  22 17 23  1
+     18 23 17  1  18 23 17  1
+     23 18 24  1  23 18 24  1
+     19 24 18  1  19 24 18  1
+    tverts 25
+     -0.5 -0.5 0 
+     -2.38419e-007 -0.5 0 
+     0.5 -0.5 0 
+     1.0 -0.5 0 
+     1.5 -0.5 0 
+     -0.5 2.08616e-007 0 
+     -1.19209e-007 0.0 0 
+     0.5 0.0 0 
+     1.0 -1.19209e-007 0 
+     1.5 -2.38419e-007 0 
+     -0.5 0.5 0 
+     0.0 0.5 0 
+     0.5 0.5 0 
+     1.0 0.5 0 
+     1.5 0.5 0 
+     -0.5 1.0 0 
+     0.0 1.0 0 
+     0.5 1.0 0 
+     1.0 1.0 0 
+     1.5 1.0 0 
+     -0.5 1.5 0 
+     2.08616e-007 1.5 0 
+     0.5 1.5 0 
+     1.0 1.5 0 
+     1.5 1.5 0 
+endnode
+endmodelgeom HTD01_I09_01 
+
+donemodel HTD01_I09_01 
+

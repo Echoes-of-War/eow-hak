@@ -1,0 +1,1075 @@
+#MAXMODEL ASCII
+# model: zcn01_udoor_14
+filedependancy zcn01_udoor_14.max
+newmodel zcn01_udoor_14
+setsupermodel zcn01_udoor_14 null
+classification tile
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+  orientation 0 0 0 0
+  position 0 0 0
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  orientation 0 0 0 0
+  position -0.660000026 0 0
+endnode
+node trimesh box55
+  parent pivot
+  #part-number 3
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 13
+  shadow 0
+  bitmap zkc01_roof09g
+  verts 18
+    -0.660000026 0.0599999987 2.08999991
+    -0.660000026 -0.0599999987 2.08999991
+    0.0599999987 -0.0599999987 2.08999991
+    0.0599999987 0.0599999987 2.08999991
+    0.769999981 -0.0599999987 2.08999991
+    0.769999981 0.0599999987 2.08999991
+    0.769999981 0.0599999987 1
+    0.769999981 -0.0599999987 1
+    -0.660000026 -0.0599999987 1
+    -0.660000026 0.0599999987 1
+    -0.660000026 0.0599999987 0
+    -0.660000026 -0.0599999987 0
+    0.0500000007 -0.0599999987 1
+    0.0599999987 -0.0599999987 0
+    0.769999981 -0.0599999987 0
+    0.769999981 0.0599999987 0
+    0.0599999987 0.0599999987 0
+    0.0500000007 0.0599999987 1
+  tverts 19
+    0 0.0253906008 0
+    0 0 0
+    0.505859017 0 0
+    0.505859017 0.0253906008 0
+    1 0 0
+    1 0.0253906008 0
+    0.0507812984 0.480468988 0
+    0.0507812984 1 0
+    0 0.480468988 0
+    0 1 0
+    1 0.472656012 0
+    0 0.472656012 0
+    1 1 0
+    0.505859017 1 0
+    0.5 0.470703006 0
+    1 0.480468988 0
+    0.494141012 1 0
+    0.494141012 0 0
+    0.0507812984 0 0
+  faces 28
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    2 4 5 1 2 4 5 1
+    5 3 2 1 5 3 2 1
+    6 5 7 2 6 7 8 4
+    4 7 5 2 9 8 7 4
+    8 9 10 2 10 11 1 3
+    10 11 8 2 1 4 10 3
+    8 1 0 2 10 12 9 3
+    9 8 0 2 11 10 9 3
+    2 12 13 4 13 14 2 5
+    13 14 7 4 2 4 15 5
+    7 4 2 4 15 12 13 5
+    13 7 2 4 2 15 13 5
+    3 5 6 4 16 9 8 5
+    6 15 16 4 8 1 17 5
+    16 17 3 4 17 14 16 5
+    6 16 3 4 8 17 16 5
+    15 6 14 2 18 6 1 4
+    7 14 6 2 8 1 6 4
+    11 13 12 4 1 2 14 5
+    12 8 11 4 14 11 1 5
+    8 12 1 4 11 14 9 5
+    2 1 12 4 13 9 14 5
+    9 17 10 4 10 14 4 5
+    16 10 17 4 17 4 14 5
+    3 17 0 4 16 14 12 5
+    9 0 17 4 10 12 14 5
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+  position 0.660000026 0 0
+endnode
+node trimesh box56
+  parent box55
+  #part-number 4
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 15
+  shadow 0
+  bitmap zkc01_horn
+  verts 22
+    -0.0399999991 -0.0500000007 0.0299999993
+    0.0500000007 -0.0500000007 0.0299999993
+    0.0500000007 0.0199999996 0.0299999993
+    -0.0399999991 0.0199999996 0.0299999993
+    0.0500000007 -0.0299999993 0
+    0.0500000007 0.0199999996 0
+    -0.0399999991 0.0199999996 0
+    -0.0399999991 -0.0299999993 0
+    0.0399999991 -0.0500000007 -0.0799999982
+    -0.0299999993 -0.0500000007 -0.0799999982
+    -0.0299999993 -0.0799999982 -0.0700000003
+    0.0399999991 -0.0799999982 -0.0700000003
+    0.0299999993 -0.00999999978 -0.25
+    -0.00999999978 -0.00999999978 -0.25
+    0.0299999993 -0.0399999991 -0.25
+    -0.00999999978 -0.0399999991 -0.25
+    0.0299999993 -0.0299999993 -0.270000011
+    -0.00999999978 -0.0299999993 -0.270000011
+    0.0299999993 -0.0500000007 -0.25999999
+    -0.00999999978 -0.0500000007 -0.25999999
+    0.0299999993 -0.0799999982 -0.289999992
+    -0.00999999978 -0.0799999982 -0.289999992
+  tverts 22
+    0 0.449218988 0
+    1 0.449218988 0
+    1 1 0
+    0 1 0
+    1 0.556640983 0
+    1 1 0
+    0 1 0
+    0 0.556640983 0
+    0.873046994 0.353516012 0
+    0.126953006 0.353516012 0
+    0.126953006 0.0898438022 0
+    0.873046994 0.0898438022 0
+    0.685546994 0.693359017 0
+    0.314453006 0.693359017 0
+    0.685546994 0.505859017 0
+    0.314453006 0.505859017 0
+    0.685546994 0.566406012 0
+    0.314453006 0.566406012 0
+    0.685546994 0.396483988 0
+    0.314453006 0.396483988 0
+    0.685546994 0 0
+    0.314453006 0 0
+  faces 36
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    4 5 2 1 4 2 5 4
+    2 1 4 1 2 1 4 4
+    5 6 3 1 2 3 6 6
+    3 2 5 1 3 2 5 6
+    6 7 0 1 3 7 0 3
+    0 3 6 1 0 3 6 3
+    7 4 8 1 7 4 8 5
+    8 9 7 1 8 9 7 5
+    1 0 10 1 1 0 10 5
+    10 11 1 1 10 11 1 5
+    4 1 11 1 4 1 11 5
+    11 8 4 1 11 8 4 5
+    0 7 9 1 0 7 9 5
+    9 10 0 1 9 10 0 5
+    9 8 12 1 9 8 12 5
+    12 13 9 1 12 13 9 5
+    8 11 14 1 8 11 14 5
+    14 12 8 1 14 12 8 5
+    11 10 15 1 11 10 15 5
+    15 14 11 1 15 14 11 5
+    10 9 13 1 10 9 13 5
+    13 15 10 1 13 15 10 5
+    13 12 16 1 13 12 16 5
+    16 17 13 1 16 17 13 5
+    12 14 18 1 12 14 18 5
+    18 16 12 1 18 16 12 5
+    14 15 19 1 14 15 19 5
+    19 18 14 1 19 18 14 5
+    15 13 17 1 15 13 17 5
+    17 19 15 1 17 19 15 5
+    16 18 20 1 16 18 20 5
+    18 19 21 1 18 19 21 5
+    21 20 18 1 21 20 18 5
+    19 17 21 1 19 17 21 5
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+  position 0.479999989 -0.0799999982 1.15999997
+endnode
+node trimesh box62
+  parent box55
+  #part-number 5
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 15
+  shadow 0
+  bitmap zkc01_horn
+  verts 22
+    0.0500000007 -0.0199999996 0.0399999991
+    -0.0399999991 -0.0199999996 0.0399999991
+    0.0500000007 -0.0900000036 0.0399999991
+    -0.0399999991 -0.0900000036 0.0399999991
+    0.0500000007 -0.0900000036 0
+    0.0500000007 -0.0399999991 0
+    -0.0399999991 -0.0900000036 0
+    -0.0399999991 -0.0399999991 0
+    0.0399999991 -0.0199999996 -0.0700000003
+    -0.0399999991 -0.0199999996 -0.0700000003
+    -0.0399999991 0.00999999978 -0.0700000003
+    0.0399999991 0.00999999978 -0.0700000003
+    0.0199999996 -0.0599999987 -0.239999995
+    -0.00999999978 -0.0599999987 -0.239999995
+    0.0199999996 -0.0299999993 -0.239999995
+    -0.00999999978 -0.0299999993 -0.239999995
+    0.0199999996 -0.0399999991 -0.25999999
+    -0.00999999978 -0.0399999991 -0.25999999
+    0.0199999996 -0.0199999996 -0.25
+    -0.00999999978 -0.0199999996 -0.25
+    0.0199999996 0.00999999978 -0.280000001
+    -0.00999999978 0.00999999978 -0.280000001
+  tverts 22
+    0 1.42969 0
+    1 1.42969 0
+    0 1.97852004 0
+    1 1.97852004 0
+    0 1.53515995 0
+    0 1.97852004 0
+    1 1.97852004 0
+    1 1.53515995 0
+    0.126953006 1.33397996 0
+    0.873046994 1.33397996 0
+    0.873046994 1.07031 0
+    0.126953006 1.07031 0
+    0.314453006 1.67383003 0
+    0.685546994 1.67383003 0
+    0.314453006 1.48438001 0
+    0.685546994 1.48438001 0
+    0.314453006 1.54688001 0
+    0.685546994 1.54688001 0
+    0.314453006 1.375 0
+    0.685546994 1.375 0
+    0.314453006 0.980468988 0
+    0.685546994 0.980468988 0
+  faces 36
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+    4 5 2 1 2 4 5 4
+    0 2 5 1 0 2 4 4
+    6 4 3 1 3 2 6 6
+    2 3 4 1 2 3 5 6
+    7 6 1 1 7 3 1 3
+    3 1 6 1 3 1 6 3
+    5 7 8 1 4 7 8 5
+    9 8 7 1 9 8 7 5
+    1 0 10 1 1 0 10 5
+    11 10 0 1 11 10 0 5
+    0 5 11 1 0 4 11 5
+    8 11 5 1 8 11 4 5
+    7 1 9 1 7 1 9 5
+    10 9 1 1 10 9 1 5
+    8 9 12 1 8 9 12 5
+    13 12 9 1 13 12 9 5
+    11 8 14 1 11 8 14 5
+    12 14 8 1 12 14 8 5
+    10 11 15 1 10 11 15 5
+    14 15 11 1 14 15 11 5
+    9 10 13 1 9 10 13 5
+    15 13 10 1 15 13 10 5
+    12 13 16 1 12 13 16 5
+    17 16 13 1 17 16 13 5
+    14 12 18 1 14 12 18 5
+    16 18 12 1 16 18 12 5
+    15 14 19 1 15 14 19 5
+    18 19 14 1 18 19 14 5
+    13 15 17 1 13 15 17 5
+    19 17 15 1 19 17 15 5
+    18 16 20 1 18 16 20 5
+    19 18 21 1 19 18 21 5
+    20 21 18 1 20 21 18 5
+    17 19 21 1 17 19 21 5
+  scale 1
+  alpha 1
+  setfillumcolor 0 0 0
+  orientation 0 0 0 0
+  position 0.560000002 0.150000006 1.23000002
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0.200000003
+  blastLength 1
+  orientation 1 0 0 -3.14159012
+  xsize 100
+  ysize 99
+  threshold 0
+  combinetime 0
+  colorStart 0.474510014 0.439215988 0.36470601
+  colorEnd 0.819607973 0.79607898 0.709803998
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.0900000036
+  spread 2.96706009
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  position 0 -0.00999999978 0.610000014
+endnode
+node trimesh sam
+  parent zcn01_udoor_14
+  #part-number 7
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 6
+  transparencyhint 1
+  bitmap sam
+  verts 8
+    0 -0.00999999978 0
+    1.32000005 -0.00999999978 0
+    1.32000005 -0.00999999978 1.96000004
+    0 -0.00999999978 1.96000004
+    1.32000005 0.0299999993 0
+    0 0.0299999993 0
+    1.32000005 0.0299999993 1.96000004
+    0 0.0299999993 1.96000004
+  tverts 4
+    0 0 0
+    0.494141012 0 0
+    0.494141012 0.876953006 0
+    0 0.876953006 0
+  faces 4
+    0 1 2 1 0 1 2 18
+    2 3 0 1 2 3 0 18
+    4 5 6 1 1 0 2 18
+    7 6 5 1 3 2 0 18
+  scale 1
+  alpha 0
+  setfillumcolor 0 0 1
+  orientation 0 0 0 0
+  position -0.660000026 -0.00999999978 0
+endnode
+endmodelgeom zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim animloop01 zcn01_udoor_14
+  length 0
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+  birthrate 10
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim animloop01 zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim closed zcn01_udoor_14
+  length 0.0333333015
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  orientationkey 2
+    0 0 0 0 0
+    0.0333333015 0 0 0 0
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim closed zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim closing1 zcn01_udoor_14
+  length 0.666666985
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  orientationkey 7
+    0 0 0 1 -1.33518004
+    0.0333333015 0 0 1 -1.33518004
+    0.166666999 0 0 1 -1.26422
+    0.366667002 0 0 1 -0.967842996
+    0.5 0 0 1 -0.0695198998
+    0.56666702 0 0 0 0
+    0.666666985 0 0 0 0
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim closing1 zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim closing2 zcn01_udoor_14
+  length 0.633333027
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  positionkey 2
+    0 -0.600000024 0 0
+    0.633333027 -0.600000024 0 0
+  orientationkey 6
+    0 0 0 -1 -1.33517003
+    0.0333333015 0 0 -1 -1.33517003
+    0.166666999 0 0 -1 -1.26420999
+    0.366667002 0 0 -1 -0.967830062
+    0.5 0 0 -1 -0.0695101023
+    0.633333027 0 0 0 0
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim closing2 zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim dead zcn01_udoor_14
+  length 0.0333333015
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  positionkey 2
+    0 0.157729998 0.651888013 -1.69986999
+    0.0333333015 0.157729998 0.651888013 -1.69986999
+  orientationkey 2
+    0 0.0518315062 0.988987088 0.138629019 -0.722881079
+    0.0333333015 0.0518316031 0.988987088 0.138629034 -0.722881019
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim dead zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim die zcn01_udoor_14
+  length 0.666666985
+  transtime 0.25
+  animroot zcn01_udoor_14
+  event 0.0333333015 detonate
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  positionkey 5
+    0 -0.600000024 0 0
+    0.100000001 -0.537268996 0 -0.342088997
+    0.133332998 -0.537268996 0 -0.491463989
+    0.366667002 -0.432718992 0 -0.540625989
+    0.666666985 0.157729998 0.651888013 -1.69986999
+  orientationkey 5
+    0 0 0 0 0
+    0.133332998 -0.735087395 -0.0940417573 0.671418428 -0.204282001
+    0.266667008 -0.339266956 0.674877942 0.655314922 -0.134367019
+    0.333332986 -0.48318097 0.785363019 0.386963993 -0.161781013
+    0.666666985 0.0518315062 0.988987088 0.138629019 -0.722881079
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim die zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim opened1 zcn01_udoor_14
+  length 0.0333333015
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  orientationkey 2
+    0 0 0 1 -1.33518004
+    0.0333333015 0 0 1 -1.33518004
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim opened1 zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim opened2 zcn01_udoor_14
+  length 0.0333333015
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  orientationkey 2
+    0 0 0 -1 -1.33517003
+    0.0333333015 0 0 -1 -1.33517003
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim opened2 zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim opening1 zcn01_udoor_14
+  length 1
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  orientationkey 8
+    0 0 0 0 0
+    0.0333333015 0 0 0 0
+    0.333332986 0 0 0 0
+    0.433333009 0 0 1 -0.0978099033
+    0.533333004 0 0 1 -0.132719994
+    0.766667008 0 0 1 -1.05554998
+    0.866666973 0 0 1 -1.26078999
+    1 0 0 1 -1.33518004
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim opening1 zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim opening2 zcn01_udoor_14
+  length 1
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  orientationkey 8
+    0 0 0 0 0
+    0.0333333015 0 0 0 0
+    0.333332986 0 0 0 0
+    0.433333009 0 0 -1 -0.0978000015
+    0.533333004 0 0 -1 -0.132709995
+    0.766667008 0 0 -1 -1.05554998
+    0.866666973 0 0 -1 -1.26076996
+    1 0 0 -1 -1.33517003
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim opening2 zcn01_udoor_14
+
+#MAXANIM ASCII
+newanim tiledefault zcn01_udoor_14
+  length 0
+  transtime 0.25
+  animroot zcn01_udoor_14
+node dummy zcn01_udoor_14
+  parent NULL
+  #part-number 0
+endnode
+node dummy zcn01_udoor_14a
+  parent zcn01_udoor_14
+  #part-number 1
+endnode
+node dummy pivot
+  parent zcn01_udoor_14a
+  #part-number 2
+  position -0.660000026 0 0
+  orientation 0 0 0 0
+endnode
+node dummy box55
+  parent pivot
+  #part-number 3
+endnode
+node dummy box56
+  parent box55
+  #part-number 4
+endnode
+node dummy box62
+  parent box55
+  #part-number 5
+endnode
+node emitter fire!15
+  parent zcn01_udoor_14a
+  #part-number 6
+  birthrate 0
+endnode
+node dummy sam
+  parent zcn01_udoor_14
+  #part-number 7
+endnode
+node dummy zcn01_udoor_14_dwk
+  parent zcn01_udoor_14
+  #part-number -1
+endnode
+node dummy 14_dwk_wg_closed
+  parent zcn01_udoor_14_dwk
+  #part-number 9
+endnode
+node dummy 14_dwk_wg_open2
+  parent zcn01_udoor_14_dwk
+  #part-number 10
+endnode
+node dummy 14_dwk_wg_open1
+  parent zcn01_udoor_14_dwk
+  #part-number 11
+endnode
+doneanim tiledefault zcn01_udoor_14
+
+donemodel zcn01_udoor_14

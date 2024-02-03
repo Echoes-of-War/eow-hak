@@ -1,0 +1,268 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: tga01_A01_04
+filedependancy Unknown
+newmodel tga01_A01_04
+setsupermodel tga01_A01_04 NULL
+classification Tile
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom tga01_A01_04
+node dummy tga01_A01_04
+  parent NULL
+endnode
+node light tga01_A01_04ml1
+  parent tga01_A01_04
+  position 0 0 10.3621
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+    radius 14
+    multiplier 1
+    color 0 0 0
+    ambientOnly 0
+    nDyntgacType 0
+    affectDyntgac 1
+    shadow 0
+    lightpriority 5
+    lensflares 0
+    fadingLight 0
+endnode
+node dummy CM167
+  parent tga01_A01_04
+  position 0 0 -3.4
+  orientation 0 0 0 0
+  wirecolor 0.0273438 0.0273438 0.0273438
+endnode
+node aabb Plane164
+  parent tga01_A01_04
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 0
+  bitmap NULL
+  verts 9
+    -5 -5 0
+    0 -5 0
+    5 -5 0
+    -5 0 0
+    0 0 0
+    5 0 0
+    -5 5 0
+    0 5 0
+    5 5 0
+  faces 8
+    3 0 4  1  0 0 0  16
+    1 4 0  1  0 0 0  16
+    4 1 5  1  0 0 0  16
+    2 5 1  1  0 0 0  16
+    6 3 7  1  0 0 0  16
+    4 7 3  1  0 0 0  16
+    7 4 8  1  0 0 0  16
+    5 8 4  1  0 0 0  16
+  aabb     -5.00 -5.00 0.00   5.00 5.00 0.00   -1
+     -5.00 -5.00 0.00   5.00 5.00 0.00   -1
+     -5.00 -5.00 0.00   0.00 5.00 0.00   -1
+     -5.00 -5.00 0.00   0.00 0.00 0.00   0
+     -5.00 0.00 0.00   0.00 5.00 0.00   4
+     -5.00 -5.00 0.00   5.00 0.00 0.00   -1
+     -5.00 -5.00 0.00   0.00 0.00 0.00   1
+     0.00 -5.00 0.00   5.00 0.00 0.00   3
+     -5.00 -5.00 0.00   5.00 5.00 0.00   -1
+     -5.00 0.00 0.00   5.00 5.00 0.00   -1
+     -5.00 0.00 0.00   0.00 5.00 0.00   5
+     0.00 0.00 0.00   5.00 5.00 0.00   6
+     0.00 -5.00 0.00   5.00 5.00 0.00   -1
+     0.00 -5.00 0.00   5.00 0.00 0.00   2
+     0.00 0.00 0.00   5.00 5.00 0.00   7
+endnode
+node dummy tga01_A01_04a
+  parent tga01_A01_04
+  position 0.0184058 -1.16709 6.47746
+  orientation 0 0 -1 -3.14159
+  wirecolor 0.894531 0.894531 0.894531
+endnode
+node trimesh Sphere01
+  parent tga01_A01_04a
+  position -0.953759 -1.16709 1.59894
+  orientation -0.52701 -0.600942 -0.600941 -2.17155
+  wirecolor 0.722656 0.722656 0.722656
+  ambient 0.588235 0.588235 0.588235
+  diffuse 0.588235 0.588235 0.588235
+  specular 0 0 0
+  shininess 10
+  bitmap ttr01_crystal01
+  verts 16
+    0 0 0.916972
+    0 0.465882 0.541847
+    -0.53122 0.423633 0.541847
+    -0.66242 -0.151193 0.541847
+    -0.294804 -0.28903 0.541847
+    0.294804 -0.572194 0.541847
+    0.66242 -0.151193 0.541847
+    0.531219 0.395902 0.449003
+    0 0.809175 -0.193383
+    -0.66242 0.667515 -0.193382
+    -0.95107 -0.188535 -0.193383
+    -0.367615 -0.709888 -0.193383
+    0.367615 -0.713234 -0.517449
+    0.826021 -0.168957 -0.193383
+    0.532947 0.528262 -0.36092
+    0 0 -0.869056
+  faces 28
+    0 1 2  1  0 15 16  1
+    0 2 3  1  0 16 17  1
+    0 3 4  1  0 17 18  1
+    0 4 5  1  0 18 19  1
+    0 5 6  1  0 19 20  1
+    0 6 7  1  0 20 21  1
+    0 7 1  1  0 21 15  1
+    1 8 9  1  1 22 23  1
+    1 9 2  1  1 23 24  1
+    2 9 10  1  2 25 26  1
+    2 10 3  1  2 26 27  1
+    3 10 11  1  3 28 29  1
+    3 11 4  1  3 29 4  1
+    4 11 12  1  4 29 30  1
+    4 12 5  1  4 30 31  1
+    5 12 13  1  5 32 33  1
+    5 13 6  1  5 33 6  1
+    6 13 14  1  6 33 34  1
+    6 14 7  1  6 34 35  1
+    7 14 8  1  7 36 22  1
+    7 8 1  1  7 22 1  1
+    15 9 8  1  0 9 8  1
+    15 10 9  1  0 10 9  1
+    15 11 10  1  0 11 10  1
+    15 12 11  1  0 12 11  1
+    15 13 12  1  0 13 12  1
+    15 14 13  1  0 14 13  1
+    15 8 14  1  0 8 14  1
+  tverts 37
+    0.5 0.474857 0
+    0.5 0.824733 0
+    0.271256 0.824733 0
+    0.103008 0.824733 0
+    0.323322 0.824733 0
+    0.107981 0.824733 0
+    0.384246 0.824733 0
+    0.181637 0.769091 0
+    0.5 0.98263 0
+    0.896992 0.924397 0
+    1.06998 0.361868 0
+    0.720314 0.0173705 0
+    0.279686 0.0173704 0
+    0.00495872 0.361867 0
+    0.180601 0.791448 0
+    0.5 0.762686 0
+    0.181637 0.728744 0
+    0.103008 0.384247 0
+    0.323322 0.30164 0
+    0.676678 0.107981 0
+    0.896992 0.384246 0
+    0.818363 0.728743 0
+    0.5 0.384104 0
+    0.896992 0.384104 0
+    0.818363 0.824733 0
+    0.0756027 0.384104 0
+    0.638132 0.384104 0
+    0.615753 0.824733 0
+    -0.0699813 0.384104 0
+    0.279686 0.384104 0
+    0.720314 0.189889 0
+    0.676678 0.824733 0
+    0.0173704 0.189889 0
+    0.361867 0.384104 0
+    0.791448 0.283698 0
+    0.728743 0.769091 0
+    0.180601 0.283698 0
+endnode
+node light tga01_A01_04ml2
+  parent tga01_A01_04
+  position 0 0 6.00817
+  orientation 0 0 0 0
+  wirecolor 0.878906 0.878906 0.878906
+    radius 14
+    multiplier 1
+    color 0 0 0
+    ambientOnly 0
+    nDyntgacType 0
+    affectDyntgac 1
+    shadow 0
+    lightpriority 5
+    lensflares 0
+    fadingLight 0
+endnode
+endmodelgeom tga01_A01_04
+
+#MAXANIM ASCII
+newanim default tga01_A01_04
+  length 0
+  transtime 0.5
+  animroot tga01_A01_04
+node dummy tga01_A01_04
+  parent NULL
+endnode
+node light tga01_A01_04ml1
+  parent tga01_A01_04
+endnode
+node dummy CM167
+  parent tga01_A01_04
+endnode
+node trimesh Plane164
+  parent tga01_A01_04
+endnode
+node dummy tga01_A01_04a
+  parent tga01_A01_04
+endnode
+node trimesh Sphere01
+  parent tga01_A01_04a
+endnode
+node light tga01_A01_04ml2
+  parent tga01_A01_04
+endnode
+doneanim default tga01_A01_04
+
+#MAXANIM ASCII
+newanim animloop01 tga01_A01_04
+  length 13.3333
+  transtime 0.5
+  animroot tga01_A01_04
+node dummy tga01_A01_04
+  parent NULL
+endnode
+node light tga01_A01_04ml1
+  parent tga01_A01_04
+endnode
+node dummy CM167
+  parent tga01_A01_04
+endnode
+node trimesh Plane164
+  parent tga01_A01_04
+endnode
+node dummy tga01_A01_04a
+  parent tga01_A01_04
+endnode
+node trimesh Sphere01
+  parent tga01_A01_04a
+    positionkey
+      0  -0.953759 -1.16709 1.59894
+    endlist
+    orientationkey
+      0  0.52701 0.600942 0.600941 2.17155
+      3.33333  -0.0652631 0.0652654 0.995731 1.57508
+      6.66667  -0.62768 -0.550461 0.550463 2.02054
+      10  0.706348 0.706349 0.0462961 3.23412
+      13.3333  0.52701 0.600942 0.600941 2.17155
+    endlist
+endnode
+node light tga01_A01_04ml2
+  parent tga01_A01_04
+endnode
+doneanim animloop01 tga01_A01_04
+donemodel tga01_A01_04
+
+

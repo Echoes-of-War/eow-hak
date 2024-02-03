@@ -1,0 +1,29 @@
+# Exported from NWmax 0.8 b60 at 12/25/2006 5:22:24 AM
+# wok file
+#
+#NWmax WALKMESH  ASCII
+beginwalkmeshgeom tga04_a01_19
+node aabb Plane03_19
+  parent tga04_a01_19
+  position 0.0 0.0 -5.99995
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.878431 0.878431 
+  bitmap NULL
+  verts 5
+    -5.0 -5.0 0.0
+    -5.0 5.0 0.0
+    -5.0 2.47 0.0
+    5.0 -5.0 0.0
+    5.0 5.0 0.0
+  faces 3
+    1 2 4  1  0 0 0  16
+    3 4 0  1  0 0 0  16
+    2 0 4  1  0 0 0  16
+    aabb         -5.0 -5.0 0.0 5.0 5.0 0.0 -1
+        -5.0 -5.0 0.0 5.0 5.0 0.0 -1
+        -5.0 -5.0 0.0 5.0 5.0 0.0 2
+        -5.0 2.47 0.0 5.0 5.0 0.0 0
+        -5.0 -5.0 0.0 5.0 5.0 0.0 1
+endnode
+endwalkmeshgeom tga04_a01_19
+
