@@ -1,0 +1,12 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 stitch_fabr2
+texture1 stitch_fabr1_n
+texture2 null
+texture3 null
+texture4 null
+
+transparency 1
+twosided 1

@@ -1,0 +1,9 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 stitch_algod2
+texture1 stitch_algod_n
+null
+texture3 stitch_algod_r
+texture4 stitch_algod_h

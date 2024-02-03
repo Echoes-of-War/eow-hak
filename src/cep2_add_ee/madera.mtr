@@ -1,0 +1,6 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 madera
+texture1 madera_n

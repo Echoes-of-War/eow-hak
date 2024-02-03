@@ -1,0 +1,8 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 stitch_rueca1
+texture1 stitch_rueca1_n
+texture2 stitch_rueca1_s
+texture3 stitch_rueca1_r

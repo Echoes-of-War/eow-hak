@@ -1,0 +1,7 @@
+// Renderhint
+renderhint NormalAndSpecMapped
+
+// Textures
+texture0 hierro
+texture1 hierro_n
+texture2 hierro_s
